@@ -1,0 +1,55 @@
+# Website Talking Heads - Project Rules
+
+## Project Context
+- Legacy website (20+ years old) recently hacked and restored from mismatched backups
+- Site URL: https://www.websitetalkingheads.com/
+- Contains legacy code, deprecated patterns, and fragments from multiple development generations
+- Need to rebuild with modern practices while maintaining functionality
+
+## Development Principles
+- Comments in English only
+- Prefer functional programming over OOP
+- Use OOP classes only for connectors and interfaces to external systems
+- Write pure functions - only modify return values, never input parameters or global state
+- Make minimal, focused changes
+- Follow DRY, KISS, and YAGNI principles
+- Use strict typing everywhere - function returns, variables, collections
+- Check if logic already exists before writing new code
+- Avoid untyped variables and generic types
+- Never use default parameter values - make all parameters explicit
+- Create proper type definitions for complex data structures
+
+## Error Handling
+- Always raise errors explicitly, never silently ignore them
+- Use specific error types that clearly indicate what went wrong
+- Avoid catch-all exception handlers that hide the root cause
+- Error messages should be clear and actionable
+- NO FALLBACKS: Never mask errors with fallback mechanisms
+- Transparent debugging: Show exactly what went wrong and why
+- Fix root causes, not symptoms
+
+## Code Style
+- Respect existing code style and patterns
+- Suggest only minimal changes related to current dialog
+- Change as few lines as possible while solving the problem
+- Focus only on what user is asking for - no extra improvements
+- Understand existing codebase before suggesting changes
+
+## Site Structure
+Main sections:
+- Home
+- Spokespeople/Actors
+- Order
+- Whiteboard Videos
+- Video Presentations
+- Contact
+- Specials
+
+Services:
+- Website Spokesperson
+- Logo Video
+- Green Screen File
+- Video Presentations
+- Whiteboard Videos
+- Animation Videos
+

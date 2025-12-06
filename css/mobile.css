@@ -1,0 +1,897 @@
+/* ===========================================
+   WEBSITE TALKING HEADS - MOBILE-FIRST CSS
+   Mobile Phone First, Then Tablets
+   =========================================== */
+
+/* ==========================================
+   BASE MOBILE STYLES (320px and up)
+   ========================================== */
+
+/* Improve base touch experience */
+* {
+    -webkit-tap-highlight-color: rgba(0, 115, 255, 0.2);
+    touch-action: manipulation;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================
+   NAVIGATION - MOBILE OPTIMIZED
+   ========================================== */
+
+/* Make navbar sticky on mobile */
+header .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+    padding: 0.5rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Larger hamburger button for better touch target */
+.navbar-toggler {
+    padding: 0.75rem 1rem;
+    font-size: 1.5rem;
+    border: 2px solid rgba(0,115,255,0.5);
+    border-radius: 8px;
+    min-width: 48px;
+    min-height: 48px;
+    transition: all 0.3s ease;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0,115,255,0.3);
+    background: rgba(0,115,255,0.1);
+}
+
+.navbar-toggler-icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+/* Logo sizing for mobile */
+.navbar-brand img {
+    max-height: 50px;
+    width: auto;
+}
+
+/* Mobile menu - Enhanced Bootstrap-compatible dropdown */
+@media (max-width: 991.98px) {
+    /* Full-screen overlay when menu is open */
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
+        padding: 1rem;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+        border-radius: 0 0 20px 20px;
+        max-height: calc(100vh - 70px);
+        overflow-y: auto;
+    }
+
+    /* Full-width navigation items on mobile */
+    .navbar-nav {
+        flex-direction: column !important;
+        align-items: stretch !important;
+        width: 100%;
+        padding: 0.5rem 0;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 6px 0;
+        text-align: center;
+    }
+
+
+    /* Phone header in nav */
+    .phone-header {
+        margin-top: 12px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .phone-header li {
+        list-style: none;
+    }
+
+    .phone-header a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 14px 28px;
+        background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
+        color: #fff !important;
+        border-radius: 50px;
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-decoration: none;
+        box-shadow: 0 4px 15px rgba(40,167,69,0.4);
+    }
+
+    .phone-header a::before {
+        content: "\f095";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-right: 10px;
+    }
+
+    /* Hide phone in navbar-text on small screens */
+    .navbar-text {
+        display: none;
+    }
+}
+
+/* ==========================================
+   HERO / JUMBOTRON SECTION
+   ========================================== */
+
+.jumbotron {
+    padding: 1rem;
+    margin-bottom: 0;
+    background: linear-gradient(180deg, #f0f7ff 0%, #ffffff 100%);
+}
+
+/* Stack video and contact form on mobile */
+@media (max-width: 1199.98px) {
+    .jumbotron .row {
+        flex-direction: column;
+    }
+
+    .jumbotron .col-xl-8,
+    .jumbotron .col-xl-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .jumbotron #video {
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* Contact card improvements */
+.card-contact-lg {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+    border: none;
+}
+
+.card-contact-lg .card-header {
+    padding: 1rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.card-contact-lg .card-body {
+    padding: 1rem;
+}
+
+/* Awards section on mobile */
+#awards {
+    padding: 1rem 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#awards img {
+    max-height: 60px;
+    width: auto;
+}
+
+/* ==========================================
+   CARD LAYOUTS - MOBILE STACKING
+   ========================================== */
+
+/* Force single column on mobile */
+@media (max-width: 767.98px) {
+    .card-deck {
+        flex-direction: column;
+    }
+
+    .card-deck .card {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        margin-bottom: 1.5rem;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .card-spokesperson.card-deck .card {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Improve card styling on mobile */
+.card {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:active {
+    transform: scale(0.99);
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-body p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.card-title {
+    font-size: 1.3rem !important;
+    margin-bottom: 0.75rem;
+}
+
+.card-title a {
+    color: #0073ff;
+    text-decoration: none;
+}
+
+.card-footer {
+    padding: 1rem 1.25rem;
+    background: #f8f9fa;
+    border-top: 1px solid #eee;
+}
+
+.card-footer a {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: #0073ff;
+    color: #fff !important;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.card-footer a:active {
+    background: #0056cc;
+}
+
+/* Chantel iframe container */
+.chantel {
+    width: 100% !important;
+    max-width: 320px;
+    margin: 0 auto;
+    aspect-ratio: 9/16;
+}
+
+.chantel iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* ==========================================
+   TYPOGRAPHY - MOBILE OPTIMIZED
+   ========================================== */
+
+h1 {
+    font-size: 1.75rem !important;
+    line-height: 1.3;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.4rem !important;
+    line-height: 1.3;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1.2rem !important;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+}
+
+h4 {
+    font-size: 1.1rem !important;
+    line-height: 1.3;
+}
+
+/* Mission statement */
+.mission {
+    font-size: 1.1rem !important;
+    line-height: 1.5;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: #f0f7ff;
+    border-radius: 12px;
+    border-left: 4px solid #0073ff;
+}
+
+/* Blockquotes */
+blockquote {
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+    line-height: 1.6;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+blockquote p {
+    margin-bottom: 0.75rem;
+}
+
+/* Phone number styling */
+blockquote a[href^="tel:"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
+    color: #fff !important;
+    border-radius: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 0.5rem;
+}
+
+/* ==========================================
+   SECTIONS & CONTAINERS
+   ========================================== */
+
+section {
+    padding: 1rem;
+}
+
+.container,
+.container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.alert-info {
+    background: linear-gradient(135deg, #e7f3ff 0%, #cce5ff 100%);
+    border: none;
+    border-radius: 0;
+    padding: 1.5rem 1rem;
+    margin: 0;
+}
+
+/* About section */
+#about {
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+#about p {
+    margin-bottom: 1rem;
+    text-indent: 0;
+}
+
+/* Video styles section */
+.alert-info h3 {
+    font-size: 1.3rem !important;
+}
+
+.alert-info a {
+    color: #0056cc;
+    font-weight: 600;
+}
+
+/* ==========================================
+   EMBEDDED VIDEOS - RESPONSIVE
+   ========================================== */
+
+.embed-responsive {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.embed-responsive-16by9 {
+    padding-bottom: 56.25%;
+}
+
+iframe {
+    border-radius: 12px;
+}
+
+/* ==========================================
+   SOCIAL ICONS - TOUCH FRIENDLY
+   ========================================== */
+
+.social-icons {
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 1rem 0;
+}
+
+.social-link,
+.social-link-small {
+    width: 56px;
+    height: 56px;
+    min-width: 48px;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.social-link-small {
+    width: 48px;
+    height: 48px;
+    font-size: 1.3rem;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    margin: 4px;
+}
+
+.social-link:active,
+.social-link-small:active {
+    transform: scale(0.9);
+}
+
+/* ==========================================
+   FOOTER - MOBILE OPTIMIZED
+   ========================================== */
+
+footer.bg-dark {
+    padding: 2rem 1rem;
+}
+
+footer .row {
+    flex-direction: column;
+}
+
+footer .col-lg-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+footer .col-lg-4:last-child {
+    border-bottom: none;
+}
+
+footer .text-light {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+footer .italics {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer a[href^="tel:"] {
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
+    color: #fff !important;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 0.5rem;
+}
+
+/* Breadcrumb on mobile */
+.breadcrumb {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    padding: 0 0.3rem;
+}
+
+footer .notification {
+    padding: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* ==========================================
+   FORMS - TOUCH FRIENDLY
+   ========================================== */
+
+/* Make all form inputs larger and touch-friendly */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+input[type="number"],
+input[type="search"],
+textarea,
+select {
+    font-size: 16px !important; /* Prevents iOS zoom */
+    padding: 14px 16px !important;
+    min-height: 50px;
+    border-radius: 10px !important;
+    border: 2px solid #ddd !important;
+    width: 100% !important;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #0073ff !important;
+    box-shadow: 0 0 0 3px rgba(0,115,255,0.2) !important;
+    outline: none;
+}
+
+/* Form labels */
+label {
+    display: block;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+/* Form tables to stack on mobile */
+@media (max-width: 767.98px) {
+    .my-form table,
+    .my-form tbody,
+    .my-form tr,
+    .my-form td {
+        display: block;
+        width: 100%;
+    }
+
+    .my-form tr {
+        margin-bottom: 1rem;
+    }
+
+    .my-form td {
+        padding: 4px 0;
+    }
+
+    .my-form td:first-child {
+        padding-top: 0;
+    }
+}
+
+/* Submit buttons */
+input[type="submit"],
+button[type="submit"],
+.btn,
+#vtigerFormSubmitBtn {
+    font-size: 1.1rem !important;
+    padding: 16px 32px !important;
+    min-height: 54px;
+    min-width: 200px;
+    border-radius: 30px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="submit"]:active,
+button[type="submit"]:active,
+.btn:active {
+    transform: scale(0.98);
+}
+
+/* My-form styling */
+.my-form {
+    padding: 1.5rem;
+    border-radius: 16px;
+    margin: 1rem 0;
+}
+
+.my-form .row {
+    flex-direction: column;
+}
+
+.my-form .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+/* ==========================================
+   PIPEDRIVE FORM CUSTOMIZATION
+   ========================================== */
+
+.pipedriveWebForms {
+    padding: 0.5rem;
+}
+
+.pipedriveWebForms input,
+.pipedriveWebForms textarea,
+.pipedriveWebForms select {
+    font-size: 16px !important;
+    padding: 14px !important;
+    min-height: 50px;
+    border-radius: 10px !important;
+}
+
+/* ==========================================
+   SPECIALS SECTION
+   ========================================== */
+
+.specials {
+    padding: 1.5rem 1rem;
+}
+
+.specials h2,
+.specials h3 {
+    font-size: 1.3rem !important;
+}
+
+/* ==========================================
+   UTILITY CLASSES FOR MOBILE
+   ========================================== */
+
+/* Hide on mobile */
+.d-mobile-none {
+    display: none !important;
+}
+
+/* Show only on mobile */
+@media (min-width: 768px) {
+    .d-mobile-only {
+        display: none !important;
+    }
+}
+
+/* Touch-friendly spacing */
+.touch-spacing {
+    padding: 16px;
+    margin: 8px 0;
+}
+
+/* Full-width mobile buttons */
+.btn-mobile-full {
+    width: 100%;
+    display: block;
+}
+
+/* Smooth scroll for anchor links */
+html {
+    scroll-padding-top: 80px;
+}
+
+
+/* ==========================================
+   TABLET STYLES (768px and up)
+   ========================================== */
+
+@media (min-width: 768px) {
+    body {
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    h2 {
+        font-size: 1.6rem !important;
+    }
+
+    h3 {
+        font-size: 1.4rem !important;
+    }
+
+    .jumbotron {
+        padding: 2rem;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+
+    /* Two column cards on tablet */
+    .card-deck {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card-deck .card {
+        flex: 0 0 calc(50% - 1rem) !important;
+        max-width: calc(50% - 1rem) !important;
+        margin: 0.5rem !important;
+    }
+
+    /* Footer columns on tablet */
+    footer .row {
+        flex-direction: row;
+    }
+
+    footer .col-lg-4 {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+        border-bottom: none;
+        border-right: 1px solid rgba(255,255,255,0.1);
+    }
+
+    footer .col-lg-4:last-child {
+        border-right: none;
+    }
+
+    /* Form columns on tablet */
+    .my-form .row {
+        flex-direction: row;
+    }
+
+    .my-form .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 0.5rem;
+    }
+
+    .mission {
+        font-size: 1.3rem !important;
+        padding: 1.5rem;
+    }
+
+    /* Social icons */
+    .social-link,
+    .social-link-small {
+        width: 60px;
+        height: 60px;
+        font-size: 1.8rem;
+    }
+}
+
+/* ==========================================
+   LARGER TABLET / SMALL LAPTOP (992px and up)
+   ========================================== */
+
+@media (min-width: 992px) {
+    /* Navigation shows normally */
+    .navbar-collapse {
+        position: static;
+        transform: none;
+        background: transparent;
+        padding: 0;
+    }
+
+    .navbar-images .img-nav {
+        display: block !important;
+    }
+
+    .navbar-nav {
+        flex-direction: row !important;
+    }
+
+    .navbar-images .nav-item a {
+        display: block;
+        padding: 0;
+        background: transparent;
+        box-shadow: none;
+        color: inherit !important;
+        min-height: auto;
+    }
+
+    /* Keep header captions compact on desktop */
+    .navbar-images .caption {
+        font-size: 0.7rem;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+    }
+
+    /* Three column cards */
+    .card-deck .card {
+        flex: 1 0 0 !important;
+        max-width: none !important;
+        margin: 0 0.5rem !important;
+    }
+
+    h1 {
+        font-size: 2.5rem !important;
+    }
+
+    h2 {
+        font-size: 2rem !important;
+    }
+
+    .mission {
+        font-size: 1.5rem !important;
+    }
+}
+
+/* ==========================================
+   ANIMATIONS & TRANSITIONS
+   ========================================== */
+
+/* Subtle entrance animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card,
+section > h1,
+section > h2 {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* ==========================================
+   LOADING STATE IMPROVEMENTS
+   ========================================== */
+
+#loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loading div {
+    position: static;
+    transform: none;
+}
+
+/* ==========================================
+   PRINT STYLES
+   ========================================== */
+
+@media print {
+    .navbar,
+    footer,
+    #loading,
+    .social-icons {
+        display: none !important;
+    }
+
+    .card {
+        break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+}
