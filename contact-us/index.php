@@ -16,7 +16,7 @@
   header( "X-Frame-Options: DENY" );
   header( "Content-Security-Policy: frame-ancestors 'none'", false );
 ?>
-<link rel="stylesheet" href="/css/mobile.css">
+<script src="/js/contact-debug.js"></script>
 </head>
 
 <body>

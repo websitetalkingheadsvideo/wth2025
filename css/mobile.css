@@ -799,13 +799,15 @@ html {
         box-shadow: none;
         color: inherit !important;
         min-height: auto;
+        font-size: 0.8rem !important;
+        line-height: 1.05 !important;
     }
 
     /* Keep header captions compact on desktop */
     .navbar-images .caption {
-        font-size: 0.7rem;
-        line-height: 1.1;
-        letter-spacing: 0.02em;
+        font-size: 0.6rem !important;
+        line-height: 1.05 !important;
+        letter-spacing: 0.02em !important;
     }
 
     /* Three column cards */
