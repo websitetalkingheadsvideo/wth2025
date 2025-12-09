@@ -1,0 +1,44 @@
+---
+description: Canonical header and footer files for Website Talking Heads site structure
+globs: "**/*.php"
+alwaysApply: true
+---
+
+- **Exclusions**
+  - Files in the `whiteboard/` directory are EXCLUDED from this rule
+  - Pages in `whiteboard/` may use different header/footer files as needed
+  - Do not enforce canonical header/footer on files matching `whiteboard/**/*.php`
+
+- **Canonical Header File**
+  - The canonical header file is `includes/header25.php`
+  - All pages MUST use `header25.php` for the site header
+  - Do NOT use `header2.php`, `header19.php`, `header_b4.php`, or any other header files
+  - Reference: [header25.php](mdc:includes/header25.php)
+
+- **Canonical Footer File**
+  - The canonical footer file is `includes/footer25.php`
+  - All pages MUST use `footer25.php` for the site footer
+  - Do NOT use `footer.php`, `footer2.php`, `footer_b4.php`, or any other footer files
+  - Reference: [footer25.php](mdc:includes/footer25.php)
+
+- **Usage Pattern**
+  - Include header: `<?php include('includes/header25.php'); ?>` (adjust path for subdirectories)
+  - Include footer: `<?php include('includes/footer25.php'); ?>` (adjust path for subdirectories)
+  - Path examples:
+    - Root level: `includes/header25.php`
+    - One level deep: `../includes/header25.php`
+    - Two levels deep: `../../includes/header25.php`
+
+- **Migration**
+  - When updating existing pages, replace any references to:
+    - `header2.php` → `header25.php`
+    - `header19.php` → `header25.php`
+    - `header_b4.php` → `header25.php`
+    - `footer.php` → `footer25.php`
+    - `footer2.php` → `footer25.php`
+    - `footer_b4.php` → `footer25.php`
+
+- **Enforcement**
+  - All new pages MUST use the canonical header and footer files
+  - When fixing broken includes, always use the canonical files
+  - Do not create new header or footer variations without explicit approval

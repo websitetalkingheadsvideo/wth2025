@@ -1,0 +1,9 @@
+---
+description: Never create directories without explicit user instruction
+globs: "**/*"
+alwaysApply: true
+---
+
+- Do not create new directories unless the user explicitly commands it in writing.
+- No temporary or “quarantine” folders without prior approval.
+- If directory creation seems necessary, ask and wait for explicit approval before proceeding.

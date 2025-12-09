@@ -1,6 +1,20 @@
 # Version History
 
-## Current Version: 0.2.6
+## Current Version: 0.2.7
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.7
+- Updated cursor command workflow (next.md)
+- MCP server configuration setup
+- Cursor rules: Added wth_structure.mdc and do_not_create_folders.mdc
+- Taskmaster project initialization
+- Documentation updates
+
+---
+
+## Version 0.2.6
 
 **Date:** January 15, 2025  
 **Type:** Patch Update
