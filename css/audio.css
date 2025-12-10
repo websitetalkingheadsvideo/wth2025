@@ -1,0 +1,1 @@
+@charset "utf-8";#playlist{list-style:none;font-size:24px}#playlist li a{color:#000;text-decoration:none;line-height:36px;min-width:85px}#playlist .current-song a{color:orange}#playlist a:hover{color:#1981FF}.fa{margin:20px;cursor:pointer;color:#1981FF}#audioPlayer{display:none}

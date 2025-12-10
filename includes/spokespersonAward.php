@@ -42,12 +42,12 @@
 </div>
 <div class="row">
   <div class="col-4 offset-2 m-auto wow fadeInUp">
-    <a href="https://www.websitetalkingheads.com/awards/" data-toggle="tooltip" title="#1 in Video Production"><img src="https://www.websitetalkingheads.com/images/video-spokesperson-seal.png" alt="Video Spokesperson Seal" class="img-fluid mx-auto d-block"/></a>
+    <a href="https://www.websitetalkingheads.com/awards/" data-bs-toggle="tooltip" title="#1 in Video Production"><img src="https://www.websitetalkingheads.com/images/video-spokesperson-seal.png" alt="Video Spokesperson Seal" class="img-fluid mx-auto d-block"/></a>
   </div>
   <div class="col-4 m-auto wow fadeInUp">
-    <a href="https://www.websitetalkingheads.com/awards/" data-toggle="tooltip" title="#1 in Video Production"><img src="https://www.websitetalkingheads.com/images/video-spokesperson-badge.png" alt="CrowdReviews.com Video Spokesperson Award" class="img-fluid mx-auto d-block"/></a>
+    <a href="https://www.websitetalkingheads.com/awards/" data-bs-toggle="tooltip" title="#1 in Video Production"><img src="https://www.websitetalkingheads.com/images/video-spokesperson-badge.png" alt="CrowdReviews.com Video Spokesperson Award" class="img-fluid mx-auto d-block"/></a>
   </div>
   <div class="col-4 m-auto wow fadeInUp">
-    <a href="https://www.websitetalkingheads.com/awards/" data-toggle="tooltip" title="#1 in Video Production"><img src="https://www.websitetalkingheads.com/images/video-spokesperson-seal.png" alt="Best in Search Video Virtual Spokesperson" class="img-fluid mx-auto d-block"/></a>
+    <a href="https://www.websitetalkingheads.com/awards/" data-bs-toggle="tooltip" title="#1 in Video Production"><img src="https://www.websitetalkingheads.com/images/video-spokesperson-seal.png" alt="Best in Search Video Virtual Spokesperson" class="img-fluid mx-auto d-block"/></a>
   </div>
 </div>

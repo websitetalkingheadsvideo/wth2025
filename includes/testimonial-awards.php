@@ -2,10 +2,10 @@
 	<div class="row">
 		<div class="col-md-2">
 			<div class="award">
-				<a href="https://www.topseos.com/rankings-of-best-video-production-companies" data-toggle="tooltip" title="Best in Video Production"> <img class="img img-responsive seal" src="https://www.websitetalkingheads.com/images/video-production-seal.png"  alt="Best in Video Production" title="#1 Video Production"/></a>
+				<a href="https://www.topseos.com/rankings-of-best-video-production-companies" data-bs-toggle="tooltip" title="Best in Video Production"> <img class="img img-fluid seal" src="https://www.websitetalkingheads.com/images/video-production-seal.png"  alt="Best in Video Production" title="#1 Video Production"/></a>
 			</div>
 			<div class="award">
-				<a href="#" data-toggle="tooltip" title="Best in Video SEO"> <img class="img img-responsive seal" src="https://www.websitetalkingheads.com/images/video-seo-seal.png"  alt="Best in Video SEO" title="Best in Video SEO"/></a>
+				<a href="#" data-bs-toggle="tooltip" title="Best in Video SEO"> <img class="img img-fluid seal" src="https://www.websitetalkingheads.com/images/video-seo-seal.png"  alt="Best in Video SEO" title="Best in Video SEO"/></a>
 			</div>
 		</div>
 		<div class="col-md-8">
@@ -18,10 +18,10 @@
 		</div>
 		<div class="col-md-2">
 			<div class="award">
-				<a href="https://www.topseos.com/rankings-of-best-explainer-video-agencies" data-toggle="tooltip" title="Best Explainer Video Production"><img class="img img-responsive seal" src="https://www.websitetalkingheads.com/images/explainer-video-seal.png"  alt="Best Explainer Video" title="Best Explainer Video Production" /></a>
+				<a href="https://www.topseos.com/rankings-of-best-explainer-video-agencies" data-bs-toggle="tooltip" title="Best Explainer Video Production"><img class="img img-fluid seal" src="https://www.websitetalkingheads.com/images/explainer-video-seal.png"  alt="Best Explainer Video" title="Best Explainer Video Production" /></a>
 			</div>
 			<div class="award">
-				<a href="#" data-toggle="tooltip" title="Best in Explainer Video"><img class="img img-responsive seal" src="https://www.websitetalkingheads.com/images/explainer-video-banner.png"  alt="Best in Explainer Video" title="Best in Explainer Video" /></a>
+				<a href="#" data-bs-toggle="tooltip" title="Best in Explainer Video"><img class="img img-fluid seal" src="https://www.websitetalkingheads.com/images/explainer-video-banner.png"  alt="Best in Explainer Video" title="Best in Explainer Video" /></a>
 			</div>
 		</div>
 	</div>

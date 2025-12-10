@@ -1,6 +1,5 @@
-<!-- Bootstrap, Font Awesome and Custom CSS-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<!-- Bootstrap 5.3.8 - Updated from Bootstrap 3.3.4 (CDN) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
 <link href="https://www.websitetalkingheads.com/css/styles2019.css" rel="stylesheet" type="text/css"/>
 <link href="https://www.websitetalkingheads.com/css/fluid.css" rel="stylesheet" type="text/css"/>
 <link href="https://www.websitetalkingheads.com/css/font-awesome.css" rel="stylesheet" type="text/css">

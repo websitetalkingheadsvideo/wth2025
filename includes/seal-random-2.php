@@ -8,10 +8,10 @@ if ( $result->num_rows > 0 ) {
         $name = $row[ "name" ];
         $alt = $row[ "alt" ];
         echo( '     <div class="col-sm-5 col-sm-offset-1">' );
-        echo( '     <a href="#" data-toggle="tooltip" title="' . $alt . '"><h4 class="pageinfo">' . $name . '</h4');
+        echo( '     <a href="#" data-bs-toggle="tooltip" title="' . $alt . '"><h4 class="pageinfo">' . $name . '</h4');
         echo PHP_EOL;
-        echo('<a href="#" data-toggle="tooltip" title="' . $alt . '">');
-        echo( '<a href="#" data-toggle="tooltip" title="' . $alt . '"><img class="best img img-responsive" src="images/' . $name . '.png" alt="' . $alt . '"  /></a>');
+        echo('<a href="#" data-bs-toggle="tooltip" title="' . $alt . '">');
+        echo( '<a href="#" data-bs-toggle="tooltip" title="' . $alt . '"><img class="best img img-fluid" src="images/' . $name . '.png" alt="' . $alt . '"  /></a>');
         echo PHP_EOL;
         echo( '     </div>' );
         echo PHP_EOL;

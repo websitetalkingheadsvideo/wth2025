@@ -1,0 +1,15 @@
+/**
+ * Whiteboard Base Styles
+ * 
+ * Whiteboard-specific base styles, isolated from main site.
+ * Uses namespacing or body class scoping to prevent conflicts.
+ * 
+ * Load order: After main site CSS, before whiteboard components
+ */
+
+/* ============================================
+   Whiteboard Base Styles
+   ============================================ */
+
+/* Scoped to whiteboard pages only */
+

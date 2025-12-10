@@ -1,0 +1,33 @@
+/**
+ * Layout Styles
+ * 
+ * Grid overrides, global layout helpers, container styles, and page structure.
+ * This file handles the overall page layout and structure.
+ * 
+ * Load order: 2 (after base.css)
+ */
+
+/* ============================================
+   Grid Overrides
+   ============================================ */
+
+/* Bootstrap grid customizations if needed */
+
+/* ============================================
+   Container Styles
+   ============================================ */
+
+/* Container customizations */
+
+/* ============================================
+   Page Wrapper Styles
+   ============================================ */
+
+/* Page-level wrapper styles */
+
+/* ============================================
+   Section Spacing
+   ============================================ */
+
+/* Section-level spacing utilities */
+

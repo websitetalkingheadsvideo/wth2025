@@ -1,0 +1,138 @@
+/**
+ * Footer Component Styles
+ * 
+ * Footer layout, social icons, breadcrumbs, and footer-specific styles.
+ * 
+ * Load order: 3 (after layout.css)
+ * 
+ * Migrated from: css/wth.css, css/mobile.css, includes/footer25.php (inline style)
+ */
+
+/* ============================================
+   Footer Layout
+   ============================================ */
+
+footer {
+    /* Footer uses Bootstrap .bg-dark class */
+}
+
+/* Privacy Policy link (extracted from inline style in footer25.php) */
+footer .text-light.text-center a {
+    font-size: 0.75rem;
+}
+
+/* ============================================
+   Social Icons
+   ============================================ */
+
+/* Social icon base styles (from wth.css) */
+.social-behance,
+.social-facebook,
+.social-instagram,
+.social-linkedin,
+.social-pinterest,
+.social-tumbler,
+.social-twitter,
+.social-youtube {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+}
+
+.social-behance:before,
+.social-facebook:before,
+.social-instagram:before,
+.social-linkedin:before,
+.social-pinterest:before,
+.social-tumbler:before,
+.social-twitter:before,
+.social-youtube:before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.social-facebook:before {
+    content: "\f39e";
+}
+
+.social-twitter:before {
+    content: "\f099";
+}
+
+.social-instagram:before {
+    content: "\f16d";
+}
+
+.social-youtube:before {
+    content: "\f167";
+}
+
+.social-linkedin:before {
+    content: "\f0e1";
+}
+
+.social-pinterest:before {
+    content: "\f231";
+}
+
+.social-tumbler:before {
+    content: "\f173";
+}
+
+.social-behance:before {
+    content: "\f1b4";
+}
+
+.social-icons {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.social-link {
+    border-radius: 50%;
+    border: thin solid #19477f;
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    margin: 0 0.25rem;
+    padding: 0.25rem;
+    color: #19477f;
+    background: #e5f0ff;
+    font-size: 3.5rem;
+}
+
+.social-link a {
+    color: #00a3ff;
+}
+
+.social-link:hover {
+    color: #e5f0ff;
+    background: #19477f;
+}
+
+/* ============================================
+   Breadcrumb Styles
+   ============================================ */
+
+/* Breadcrumbs use Bootstrap classes - only custom overrides here */
+.breadcrumb.bg-transparent {
+    background: transparent;
+}
+
+/* ============================================
+   Copyright Styles
+   ============================================ */
+
+.notification {
+    /* Copyright notification styles */
+}
+
+footer a:hover {
+    color: #e5f0ff;
+}
+

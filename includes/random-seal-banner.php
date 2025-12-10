@@ -9,7 +9,7 @@ if ( $result->num_rows > 0 ) {
         $image = $row[ "image" ];
         echo( '<div id="seal">
 		<a href="/awards">
-			 <img href="#" data-toggle="tooltip" title="' . $alt . '" class="best img img-responsive" src="images/' . $image . '-small.png" alt="' . $alt . '"  />
+			 <img href="#" data-bs-toggle="tooltip" title="' . $alt . '" class="best img img-fluid" src="images/' . $image . '-small.png" alt="' . $alt . '"  />
 			 </a>
 			 </div>' );
         echo PHP_EOL;
@@ -27,7 +27,7 @@ if ( $result->num_rows > 0 ) {
         $image = $row[ "image" ];
         echo( '     <div id="banner">
 		<a href="/awards">
-		<img href="#" data-toggle="tooltip" title="' . $alt . '" class="best img img-responsive banner" src="images/' . $image . '-small.png" alt="' . $alt . '"/>
+		<img href="#" data-bs-toggle="tooltip" title="' . $alt . '" class="best img img-fluid banner" src="images/' . $image . '-small.png" alt="' . $alt . '"/>
 			 </a>
 		</div>' );
     }
@@ -44,7 +44,7 @@ if ( $result->num_rows > 0 ) {
         $image = $row[ "image" ];
         echo( '     <div id="visibility">
 		<a href="/awards">
-		<img href="#" data-toggle="tooltip" title="' . $alt . '" class="best img img-responsive banner" src="images/' . $image . '.png" alt="' . $alt . '"/>
+		<img href="#" data-bs-toggle="tooltip" title="' . $alt . '" class="best img img-fluid banner" src="images/' . $image . '.png" alt="' . $alt . '"/>
 			 </a>
 		</div>' );
     }

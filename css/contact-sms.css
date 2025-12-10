@@ -1,0 +1,22 @@
+@charset "utf-8";
+#consent {
+  width: 100%;
+  font-size: 50%;
+  line-height: 1.1;
+}
+#consent.first {
+  box-sizing: border-box;
+  clear: both
+}
+#__vtigerWebForm_33 {
+  width: 100%;
+  font-size: .8rem
+}
+input {
+  width: 100%
+}
+#__vtigerWebForm_33 input,#__vtigerWebForm_33 label {
+  margin-bottom: 0;
+  line-height: 1.1
+}
+.contact-row{width: 100%}

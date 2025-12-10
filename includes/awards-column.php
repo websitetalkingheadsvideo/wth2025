@@ -8,7 +8,7 @@ if ( $result->num_rows > 0 ) {
         $name = $row[ "name" ];
         $alt = $row[ "alt" ];
 		$image = $row[ "image"];
-        echo( '<a href="#" data-toggle="tooltip" title="' . $alt . '"><img class="best img img-fluid" src="https://www.websitetalkingheads.com/images/' . $image . '.png" alt="' . $alt . '"/>' );
+        echo( '<a href="#" data-bs-toggle="tooltip" title="' . $alt . '"><img class="best img img-fluid" src="https://www.websitetalkingheads.com/images/' . $image . '.png" alt="' . $alt . '"/>' );
         echo PHP_EOL;
         echo( '</a>' );
         echo PHP_EOL;
@@ -25,7 +25,7 @@ if ( $result->num_rows > 0 ) {
         $name = $row[ "name" ];
         $alt = $row[ "alt" ];
 		$image = $row[ "image"];
-        echo( '<a href="#" data-toggle="tooltip" title="' . $alt . '"><img class="best img img-fluid" src="https://www.websitetalkingheads.com/images/' . $image . '.png" alt="' . $alt . '"/>' );
+        echo( '<a href="#" data-bs-toggle="tooltip" title="' . $alt . '"><img class="best img img-fluid" src="https://www.websitetalkingheads.com/images/' . $image . '.png" alt="' . $alt . '"/>' );
         echo PHP_EOL;
         echo( '</a>' );
         echo PHP_EOL;

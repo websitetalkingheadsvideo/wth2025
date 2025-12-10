@@ -1,7 +1,7 @@
 <?php $page = basename( $_SERVER[ 'PHP_SELF' ] ); /* Returns The Current PHP File Name */ $pagename = strtok( $page, "." ); if ( $pagename != "index" ) { 	$pagename = str_replace( "-", " ", $pagename ); } else { 	$geturl = $_SERVER[ 'HTTP_HOST' ] . $_SERVER[ 'PHP_SELF' ]; /* get url */ 	$baseurl = trim( $geturl, "/index.php" ); 	$myurl = substr( $baseurl, 28 ); 	$pagename = $myurl; } $pagename = ucfirst( $pagename ); if ( $pagename != "" ) {} else { 	$pagename = "Home"; } $pagetitle = trim( $page, "/" ); /* get page title */ $tags = get_meta_tags( $pagetitle ); /* get tags for info */ ?>
 <header class="mx-auto">
 	<nav title="Website Talking Heads® Navigation" class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="https://www.websitetalkingheads.com/"><img class="navbar-brand img img-fluid" src="https://www.websitetalkingheads.com/images/Talking_Heads_Banner_Logo.png" alt="Website Talking Heads"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 		<div class="collapse navbar-collapse justify-content-center" id="navbarText">
 			<ul class="navbar-nav main-nav">
 				<li class="nav-item" id="menuHome"><a href="/index.php">Home</a></li>

@@ -19,7 +19,7 @@ $tags = get_meta_tags( $pagetitle ); /* get tags for info */
 <header class="container-fluid center-block">
     <section id="header_top">
         <a href="https://www.websitetalkingheads.com/">
-            <img class="img img-responsive" src="/images/Talking_Heads_Banner_Logo.png"  alt="Website Talking Heads"/>
+            <img class="img img-fluid" src="/images/Talking_Heads_Banner_Logo.png"  alt="Website Talking Heads"/>
         </a>
         <h3><a class="phone-header" href="tel:801-748-2281" title="Give us a call." >801-748-2281</a></h3>
     </section>

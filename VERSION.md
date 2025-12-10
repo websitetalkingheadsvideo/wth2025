@@ -1,6 +1,15 @@
 # Version History
 
-## Current Version: 0.2.7
+## Current Version: 0.2.8
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.8
+
+---
+
+## Version 0.2.7
 
 **Date:** January 15, 2025  
 **Type:** Patch Update

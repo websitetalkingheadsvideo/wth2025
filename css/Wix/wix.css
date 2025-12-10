@@ -1,0 +1,74 @@
+@charset "utf-8";/* CSSTidy 1.5.2: Thu, 07 May 2015 22:22:55 +0000 */.pricelist{padding:5px 0 20px 90px}.priceblock{float:left;background-image:url(https://www.websitetalkingheads.com/images/blankbubble.png);width:238px;height:120px;background-repeat:no-repeat;margin:10px 0 20px 10px}.length{color:#fff;font-weight:700;font-size:160%;padding-top:5px;text-align:center;text-shadow:1px 1px 0 rgba(0,0,0,0.8)}.cost{text-shadow:1px 1px #000;color:orange;font-weight:bolder;font-size:290%;text-align:center;padding:0;text-shadow:1px 1px 0 rgba(0,0,0,0.8)}.costSmall{text-shadow:1px 1px #000;color:orange;font-weight:bolder;font-size:200%;text-align:center;padding-top:5px;text-shadow:1px 1px 1px rgba(0,0,0,0.8)}.navigation-header{max-width:1025px}.navigation-bar li a:link,.navigation-bar li a:visited{color:#FFF;font-size:16px}.nav-wix{margin-left:4px!important;margin-right:4px!important}.navigation-bar li a:hover{opacity:.9}.navigation-header{min-height:80px}
+.navigation-bar{margin-bottom:5px;width:430px;height:34px}
+.wix-app-market{margin-top:20px;margin-bottom:20px}.spokesperson-display{list-style:none;float:left;display:inline-block;padding:0;}.spokesperson-row{max-width:860px;min-height:500px;padding:0px;margin-left:auto;margin-right:auto}
+.white{color:white!important;text-shadow:none}
+.med-blue{#0073FF}
+.down{margin-top:10px}
+h1, h2, h3, h4, h5, h6 {text-shadow:none!important}
+.package-column , .package-details { -webkit-transition: all 300ms ease-in-out; -moz-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out;}
+.package-column {
+	border: 2px solid #00a3ff;
+	background: #F7F7F7;
+	border-radius: 10px;
+	padding-bottom: 15px;
+}
+
+.package-column:hover { background: #0073ff; }
+.package-column:hover > .package-price  { background:rgba(71, 72, 76, 0.2); }
+.package-column:hover > .package-detail ul li { border-color: rgba(255,255,255,0.3); }
+.package-column:hover > .package-price .price,
+.package-column:hover > .package-price .period,
+.package-column:hover > .package-title,
+.package-column:hover > .package-detail a,
+.package-column:hover > .package-detail ul li { color: #fff; }
+
+.package-column.featured { background: #0073ff; }
+.package-column.featured > .package-price  { background:rgba(71, 72, 76, 0.2); }
+.package-column.featured > .package-price .price,
+.package-column.featured > .package-price .period,
+.package-column.featured > .package-title,
+.package-column.featured > .package-detail ul li { color: #fff; border-color: rgba(255,255,255,0.3);  }
+.package-column.featured > .package-detail .btn.btn-secondary, .package-column:hover > .package-detail .btn.btn-secondary  { color: #fff ; border-color:#fff !important; }
+
+.package-detail .btn.btn-secondary:hover { color: #0073ff !important; background: #fff !important; border-color:#fff !important; }
+.package-demo {padding-top:20px;}
+.package-demo img, .my-box, .paragraph-box{-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.72);box-shadow: 0px 1px 3px rgba(0,0,0,0.72);}
+.package-demo aside{font-size:190%}
+h3.package-title{
+	padding: 0px;
+	margin: 0px;
+}
+h3.package-title a{
+	color: #000000;}
+.package-symbol{
+	color: #77D2F1;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.73);
+	font-family: "museo-sans-condensed";
+	line-height:180px;
+	font-weight: 100;
+	font-size: 50px;
+	vertical-align:top;
+}
+.package-number{
+	font-size: 180px;
+	vertical-align:bottom;
+}
+.package-detail p{font-size: 20px;height: 210px;}
+.short{height: 100px!important;}
+.package-column .package-title { color: #47484c; font-size: 25px; padding: 20px 0 18px; font-weight: bold; text-transform: uppercase; }
+.package-column .package-price { background:rgba(171, 172, 179, 0.1); padding: 15px; }
+.package-column .package-price .price { color: #0073ff; font-size: 110px; font-weight: 300; line-height: 110px; position: relative; }
+.package-column .package-price .currency { font-size: 47px; line-height: 47px; font-weight: 300; position: relative; top:-40px; }
+.package-column .package-price .period { font-size: 15px; color: #0073ff; text-transform: uppercase; }
+.package-column .package-detail { padding: 0px; }
+.package-column .package-detail ul {
+	margin-bottom: 30px;
+	float: left;
+	width: 30%;
+	text-align: left;
+	margin-right: 2%;
+}
+.script-box{max-width:400px}
+.scriptReport{padding:1%;border:2px solid #1981FF;border-radius:10px;margin-top:5px;margin-bottom:5px;width:90%}
+.checkbox a{text-shadow:rgba(0,0,0,0.79) 0px 1px 1px}
+.checkbox a:hover{text-decoration:underline!important}
