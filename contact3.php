@@ -23,7 +23,7 @@
 <link href="css/fluid.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<?php include ('includes/header.php'); ?>
+<?php include ('includes/header25.php'); ?>
 <section class="container">
 <div class="row center-block">
 <div class="contactus col-md-6">
@@ -43,7 +43,7 @@
 </div>
 </section>
 <?php include ('https://www.websitetalkingheads.com/includes/CallForQuote.php'); ?>
-<?php include ('includes/footer.php'); ?>
+<?php include ('includes/footer25.php'); ?>
     <script src="https://www.whiteboard.video/player/talkingheads/player.js"></script>
 </body>
 </html>

@@ -133,7 +133,7 @@ https://websitetalkingheads.com/css/style.css" rel="stylesheet" type="text/css" 
 </div>
 <div id="c"></div>
 
-<?php include ('footer_b4.php'); ?>   
+<?php include ('footer25.php'); ?>   
 </div>
 
 <?php include ('chatform.php'); ?>  

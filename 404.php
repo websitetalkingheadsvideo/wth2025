@@ -21,7 +21,7 @@
 
 <body>
 	<section class="container">
-		<?php include ('includes/header.php'); ?>
+		<?php include ('includes/header25.php'); ?>
 
 
 		<div class="errortext">
@@ -35,6 +35,6 @@
 		</div>
 
 	</section>
-	<?php include ('includes/footer.php'); ?>
+	<?php include ('includes/footer25.php'); ?>
 </body>
 </html>

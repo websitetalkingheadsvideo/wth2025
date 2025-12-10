@@ -15,7 +15,7 @@
 </head>
 
 <body>
-<?php include ('includes/header_b4.php'); ?>
+<?php include ('includes/header25.php'); ?>
 <section class="jumbotron">
   <div class="row my-1 vertical-align" id="ht">
     <div class="col-xl-8 col-lg-8">
@@ -152,7 +152,7 @@
   <?php include("includes/social-icons.php"); ?>
 </section>
 <?php include ('includes/spokesperson-specials.php'); ?>
-<?php include ('includes/footer_b4.php'); ?>
+<?php include ('includes/footer25.php'); ?>
 <script src="talkingheads/website-spokesperson.js" async></script> 
 <script src="js/evenHeight.js"></script> 
 <script>

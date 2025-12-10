@@ -46,6 +46,6 @@
 </section>
 <hr>
 <?php include ('../includes/CallForQuote.php'); ?>
-<?php include ('../includes/footer_b4.php'); ?>
+<?php include ('../includes/footer25.php'); ?>
 </body>
 </html>

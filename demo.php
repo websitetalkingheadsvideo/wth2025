@@ -11,7 +11,7 @@
 <?php include("includes/css-b4.php"); ?>
 </head>
 <body style="overflow-x: hidden">
-<?php include("includes/header_dark.php"); ?>
+<?php include("includes/header25.php"); ?>
 <section class="container-fluid">
     <div class="row">
         <div class="col-lg-4">
@@ -108,7 +108,7 @@ l-30 6 40 21 c61 32 128 105 164 178 29 59 32 73 30 148 -1 45 -4 87 -8 92 -3
 </svg>
 
 </section>
-<?php include("includes/footer_b4.php"); ?>
+<?php include("includes/footer25.php"); ?>
 <script>
 	var a = true;
   $("#start").click(function(){

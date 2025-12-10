@@ -19,7 +19,7 @@ header( "Content-Security-Policy: frame-ancestors 'none'", false );
 </head>
 
 <body>
-<?php include ('includes/header19.php'); ?>
+<?php include ('includes/header25.php'); ?>
 <section class="alert alert-primary">
   <div class="container-fluid">
     <h1>Contact Information</h1>
@@ -46,7 +46,7 @@ header( "Content-Security-Policy: frame-ancestors 'none'", false );
 </section>
 <hr>
 <?php include ('includes/CallForQuote.php'); ?>
-<?php include ('includes/footer.php'); ?>
+<?php include ('includes/footer25.php'); ?>
 
 	  <script type="text/javascript" async>!function(e,a){var d=a.head||a.getElementsByTagName("head")[0],b=a.createElement("script");b.async=true,b.setAttribute("type","text/javascript"),b.setAttribute("src","https://app.weconnect.chat/chat/webchat.WeConnect.js"),d.appendChild(b);b.onload=function(){WeConnect.render(null,{mode:"widget",botId:"MTU2OA=="})}}(window,document)</script>
 </body>

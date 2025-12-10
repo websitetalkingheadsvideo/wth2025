@@ -15,7 +15,7 @@
 </head>
 
 <body>
-<?php include ('includes/header19.php'); ?>
+<?php include ('includes/header25.php'); ?>
 <section class="jumbotron">
   <div class="row" id="ht">
     <div class="col-xl-8 col-lg-8" id="video">
@@ -151,7 +151,7 @@
   <?php include("includes/social-icons.php"); ?>
 </section>
 <?php include ('includes/spokesperson-specials.php'); ?>
-<?php include ('includes/footer_b4.php'); ?>
+<?php include ('includes/footer25.php'); ?>
 <?php include ('includes/schedule-call.php'); ?>
 </body>
 </html>

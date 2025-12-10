@@ -35,7 +35,7 @@
 	<![endif]-->
 </head>
 <body>
-<?php include ('includes/header.php'); ?>
+<?php include ('includes/header25.php'); ?>
 <section class="page-header">
   <div class="contactus">
     <h1>Website Spokesperson Examples</h1>
@@ -62,7 +62,7 @@
   <h3><a href="talking-heads-player/installation-instructions.php">Installation</a></h3>
   <blockquote>We have created the Talking Heads Player with easy installation in mind.  It usually only takes a few minutes to install and if you need assistance we are happy to help.  The <a href="talking-heads-player/installation-instructions.php">Installation Instructions</a> are <a href="talking-heads-player/installation-instructions.php">here</a>. Or you can contact <a href="mailto:someone@example.com?Subject=Support%20Request">support</a>.</blockquote>
 </section>
-<?php include ('includes/footer.php'); ?>
+<?php include ('includes/footer25.php'); ?>
 <?php include ('includes/chatform.php'); ?>
 </section>
 

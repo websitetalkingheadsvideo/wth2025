@@ -18,7 +18,7 @@
 <?php include("includes/css-b4.php"); ?>
 </head>
 <body>
-<?php include ('includes/header19.php'); ?>
+<?php include ('includes/header25.php'); ?>
 <section class="container-fluid">
   <h1>The Talking Heads<sup class="tm-small">&#174;</sup> Exclusive Player </h1>
   <h2>Best Custom Features on the Market</h2>
@@ -200,6 +200,6 @@
   </div>
   </div>
 </section>
-<?php include ('includes/footer_b4.php'); ?>
+<?php include ('includes/footer25.php'); ?>
 </body>
 </html>

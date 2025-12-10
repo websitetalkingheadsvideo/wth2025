@@ -19,7 +19,7 @@
 </head>
 
 <body>
-<?php include ('includes/header19.php'); ?>
+<?php include ('includes/header25.php'); ?>
 <section class="container">
   <h1>Video Order Form</h1>
 </section>
@@ -173,7 +173,7 @@
   <aside class="text-center w-50 mx-auto">*Most Browsers now block autoplay with sound.</aside>
 </section>
 <?php include("includes/call-contact.php"); ?>
-<?php include("includes/footer_b4.php"); ?>
+<?php include("includes/footer25.php"); ?>
 <script type="text/javascript" src="orderform/js/video-type.js"></script> 
 <script type="text/javascript" src="orderform/js/basic-video-validate.js"></script> 
 <!--	<script src="talkingheads/exit-intent.js"></script>--> 

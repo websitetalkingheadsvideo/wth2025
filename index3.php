@@ -15,7 +15,7 @@
 </head>
 
 <body>
-<?php include ('includes/header.php'); ?>
+<?php include ('includes/header25.php'); ?>
 <section class="jumbotron">
     <div class="row my-1 vertical-align" id="ht">
         <div class="col-lg-5 col-lg-offset-1 col-md-6">
@@ -216,7 +216,7 @@
 <section class="alert alert-info mt-1">
     <div class="center-block"> <a href="https://www.websitetalkingheads.com/support/"><img class="img img-responsive img-support img-circle" src="images/Support.png" alt="Contact Support"/></a> </div>
 </section>
-<?php include ('includes/footer.php'); ?>
+<?php include ('includes/footer25.php'); ?>
 <?php include ('includes/bottom.php'); ?>
 <script>
 		$( window ).load( function () {

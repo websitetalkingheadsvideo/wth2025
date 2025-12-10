@@ -16,7 +16,7 @@
 </head>
 
 <body>
-<?php include ('includes/header19.php'); ?>
+<?php include ('includes/header25.php'); ?>
 <section class="alert bg-gradient-dark">
   <?php
   // Loading the XML file
@@ -72,6 +72,6 @@
     <?php $number = 3; include("awards/awards-cards.php"); ?>
   </div>
 </section>
-<?php include ('includes/footer_b4.php'); ?>
+<?php include ('includes/footer25.php'); ?>
 </body>
 </html>

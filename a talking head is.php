@@ -15,7 +15,7 @@
 </head>
 
 <body>
-<?php include ('includes/header.php'); ?>
+<?php include ('includes/header25.php'); ?>
 <section class="container">
   <div class="row mt-1" id="ht">
     <div class="spokesperson col-lg-4">
@@ -205,7 +205,7 @@
 <section class="alert alert-info mt-1">
   <div class="center-block"> <a href="https://www.websitetalkingheads.com/support/"><img class="img img-responsive img-support img-circle" src="images/Support.png" alt="Contact Support"/></a> </div>
 </section>
-<?php include ('includes/footer.php'); ?>
+<?php include ('includes/footer25.php'); ?>
 <script src="talkingheads/website-spokesperson.js"w></script>
 <?php include ('includes/bottom.php'); ?>
     <script src="js/A Talking Head Is.js"></script>

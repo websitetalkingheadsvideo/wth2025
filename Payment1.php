@@ -15,7 +15,7 @@
 </head>
 
 <body>
-<?php include ('includes/header19.php'); ?>
+<?php include ('includes/header25.php'); ?>
 <section class="container mb-3">
   <h1>Payment</h1>
   <div style="display: grid;place-items: center;">
@@ -25,7 +25,7 @@
     </form>
   </div>
 </section>
-<?php include ('includes/footer_b4.php'); ?>
+<?php include ('includes/footer25.php'); ?>
 <?php include ('includes/schedule-call.php'); ?>
 </body>
 </html>

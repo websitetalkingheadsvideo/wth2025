@@ -17,7 +17,7 @@
 <?php include("includes/css-b4.php"); ?>
 </head>
 <body>
-<?php include ('includes/header19.php'); ?>
+<?php include ('includes/header25.php'); ?>
 <section class="container-fluid bg-info">
   <h1>Customizing Your Own Video Spokesperson</h1>
   <article class="customizing short-paragraph">
@@ -302,6 +302,6 @@
     <h4 class="font-weight-light display-4 wow flipInX"><a class="text-white" href="tel://801-748-2281" title="Give us a call.">1-801-748-2281</a></h4>
   </div>
 </section>
-<?php include ('includes/footer_b4.php'); ?>
+<?php include ('includes/footer25.php'); ?>
 </body>
 </html>

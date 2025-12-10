@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<?php include ('includes/header_b4.php'); ?>
+	<?php include ('includes/header25.php'); ?>
 	<section class="container">
 			<h1>Custom Videos</h1>
 			<h2>Three Types of Custom Videos</h2>
@@ -41,6 +41,6 @@
 			</div>
 		</div>
 	</section>
-	<?php include ('includes/footer_b4.php'); ?>
+	<?php include ('includes/footer25.php'); ?>
 </body>
 </html>

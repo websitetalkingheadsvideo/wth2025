@@ -15,7 +15,7 @@
 </head>
 
 <body>
-	<?php include ('includes/header_b4.php'); ?>
+	<?php include ('includes/header25.php'); ?>
 	<section class="jumbotron">
 		<div class="container">
 			<div class="row mt-1" id="ht">
@@ -231,7 +231,7 @@
 		</div>
 
 	</section>
-	<?php include ('includes/footer_b4.php'); ?>
+	<?php include ('includes/footer25.php'); ?>
 	<script src="talkingheads/website-spokesperson.js" w></script>
 <!-----------------------------Java Script----------------------------->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>

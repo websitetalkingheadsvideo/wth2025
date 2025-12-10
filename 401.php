@@ -21,7 +21,7 @@
 </head>
 <body>
 <section class="container">
-    <?php include ('includes/header.php'); ?>
+    <?php include ('includes/header25.php'); ?>
     <div class="errortext">
         <p>&nbsp;</p>
         <p>&nbsp;</p>
@@ -31,7 +31,7 @@
             Please contact the <a href="mailto:support@websitetalkingheads.com">webmaster</a> so we can correct the error. </p>
     </div>
 </section>
-<?php include ('includes/footer.php'); ?>
+<?php include ('includes/footer25.php'); ?>
 <?php include ('includes/chatform.php'); ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>

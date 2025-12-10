@@ -22,7 +22,7 @@
 <meta name="description" content="Pricing for your Online video spokesperson. ">
 </head>
 <body>
-<?php include ('includes/header_b4.php'); ?>
+<?php include ('includes/header25.php'); ?>
 <section class="jumbotron">
   <div class="container">
     <h1>Pricing</h1>
@@ -36,6 +36,6 @@
 </section>
 <hr>
 <?php include ('includes/CallForQuote.php'); ?>
-<?php include ('includes/footer.php'); ?>
+<?php include ('includes/footer25.php'); ?>
 </body>
 </html>

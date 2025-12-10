@@ -22,7 +22,7 @@
 </head>
 <body>
 <section class="container">
-    <?php include ('includes/header.php'); ?>
+    <?php include ('includes/header25.php'); ?>
     <div class="errortext">
         <br><br>
         <h1>403 Error</h1>
@@ -31,7 +31,7 @@
             Please contact the <a href="mailto:support@websitetalkingheads.com">webmaster</a> so we can correct the error. </p>
     </div>
 </section>
-<?php include ('includes/footer.php'); ?>
+<?php include ('includes/footer25.php'); ?>
 <?php include ('includes/chatform.php'); ?>
 </body>
 </html>

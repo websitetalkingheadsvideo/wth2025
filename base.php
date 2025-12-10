@@ -57,7 +57,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquam interdum enim ut congue. Vivamus erat velit, convallis nec suscipit at, egestas nec nunc. Phasellus in faucibus nunc. Curabitur luctus suscipit faucibus. Phasellus risus risus, bibendum vitae commodo at, gravida in lorem. Nam euismod, turpis non viverra eleifend, leo lorem tempor elit, sit amet hendrerit justo purus at magna. In hac habitasse platea dictumst. Integer sodales pretium libero sed mattis. Aenean suscipit neque ac purus tincidunt iaculis.<br/><br/> Pellentesque ultricies tellus eu orci tempor aliquam vel posuere orci. Nulla in sapien ut tellus malesuada vulputate. Nunc sit amet enim felis, sit amet semper sapien. Vestibulum commodo, nisi vitae faucibus ullamcorper, libero est varius lorem, vel euismod ipsum odio sed elit. Sed risus enim, viverra sit amet pharetra molestie, scelerisque nec tortor.</p>
         <a href="#"><img src="letmeinnow.png" style="width:568px; height:190px" border="0" style="border:0px; margin:0px auto;" /></a>
     </div>
-    <?php include ('../includes/header.php'); ?>
+    <?php include ('includes/header25.php'); ?>
     <section class="page-header">
         <h1>Website Spokesperson Pricing</h1>
         <blockquote class="text-center">NO HIDDEN FEES, NO ANNUAL FEES, NO HOSTING FEES. This is it!</blockquote>
@@ -132,7 +132,7 @@
     </section>
     <section class="container">
     </section>
-    <?php include ('../includes/footer.php'); ?>
+    <?php include ('includes/footer25.php'); ?>
     <script src="wthvideo/wthvideo.js"></script>
         <script type="text/javascript">
 	$(document).ready(function() {

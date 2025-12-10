@@ -158,7 +158,7 @@ We create <a href="styles/app-walkthrough" title="App Walktrhoughs">App and Webs
   <?php include("includes/social-icons.php"); ?>
 </section>
 <?php include ('includes/spokesperson-specials.php'); ?>
-<?php include ('includes/footer_b4.php'); ?>
+<?php include ('includes/footer25.php'); ?>
 <?php include ('includes/schedule-call.php'); ?>
 </body>
 </html>

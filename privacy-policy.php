@@ -15,7 +15,7 @@
 </head>
 
 <body>
-<?php include ('includes/header_b4.php'); ?>
+<?php include ('includes/header25.php'); ?>
 <section class="container">
   <h1>Privacy Policy for WebsiteTalkingHeads.com</h1>
   <h2>Effective Date: January, 2024</h2>
@@ -58,6 +58,6 @@
   <h3 class="text-center wow bounceInUp">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
   <?php include("includes/social-icons.php"); ?>
 </section>
-<?php include ('includes/footer_b4.php'); ?>
+<?php include ('includes/footer25.php'); ?>
 </body>
 </html>

@@ -16,6 +16,8 @@
     .h-min{min-height:900px}
 </style>
 </head>
+<body>
+<?php include ('includes/header25.php'); ?>
 <section class="container-fluid">
   <div class="row h-min">
     <div class="col-md-10">
