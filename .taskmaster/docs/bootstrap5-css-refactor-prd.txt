@@ -1,0 +1,137 @@
+# Bootstrap 5 Upgrade & CSS Refactor PRD
+
+## Project Overview
+Upgrade websitetalkingheads.com from Bootstrap 4.1.3 to Bootstrap 5.3.8 (latest stable) and refactor CSS architecture to be Bootstrap-first, organized, and maintainable while maintaining visual parity.
+
+## Current State Analysis
+
+### Bootstrap References
+- **Primary CSS Loader**: `includes/css-b4.php` - loads Bootstrap 4.1.3 from local file `css/bootstrap 4/bootstrap.css`
+- **Footer JS**: `includes/footer25.php` and `includes/footer_b4.php` - load Bootstrap 4.1.3 JS from CDN
+- **Whiteboard Section**: Multiple files load Bootstrap 4.1.3 directly via CDN links
+- **Legacy Sections**: Some areas still use Bootstrap 3.3.4 (Wix, video_scribe, etc.)
+- **jQuery Dependency**: Bootstrap 4 JS requires jQuery 3.2.1 and Popper.js 1.12.9
+
+### CSS File Structure
+- Main CSS files: `css/wth.css`, `css/header.css`, `css/mobile.css`, `css/animate.css`
+- Bootstrap 4 local file: `css/bootstrap 4/bootstrap.css`
+- Whiteboard CSS: `whiteboard/css/whiteboard.css`, `whiteboard/css/video.css`, `whiteboard/css/style.css`
+- Many legacy/duplicate CSS files in `css/` directory
+- Inline `<style>` blocks found in multiple PHP files
+
+### Bootstrap 4-Specific Patterns Found
+- `.form-group`, `.form-row` classes
+- `.input-group-addon`, `.input-group-btn` patterns
+- `.badge-*` color variants
+- `.card-block` (changed to `.card-body` in BS5)
+- jQuery-dependent Bootstrap JS initialization
+- `data-toggle` attributes (changed to `data-bs-toggle` in BS5)
+
+### Files Using css-b4.php
+- `orderform/index.php`, `orderform/thank-you.php`
+- `spokespeople/index.php`
+- `contact-us/index.php`
+- `videopresentations/specialty.php`, `videopresentations/090822.php`
+- `video-styles/index.php`, `video-styles/whiteboard/index.php`
+- `terms.php`
+- `_/index.php`, `_/terms.php`, `_/jsguide.php`
+
+## Objectives
+
+### 1. Bootstrap 5 Upgrade
+- Upgrade from Bootstrap 4.1.3 to Bootstrap 5.3.8
+- Update `includes/css-b4.php` to load Bootstrap 5 (rename to `includes/css-bootstrap.php` or keep name with updated content)
+- Update all Bootstrap 4 JS references to Bootstrap 5 vanilla JS
+- Remove jQuery dependency for Bootstrap components (keep jQuery if used elsewhere)
+- Update all Bootstrap 4-specific markup to Bootstrap 5 patterns
+- Update whiteboard section to Bootstrap 5
+
+### 2. CSS Architecture Refactor
+- Organize CSS into structured layers:
+  - `css/base.css` - resets, root variables, typography, colors
+  - `css/layout.css` - grid overrides, global layout helpers
+  - `css/components/` - reusable components (buttons, cards, modals, headers, footers)
+  - `css/pages/` - page-specific styles (minimal, only when necessary)
+  - `css/utilities.css` - small utility classes complementing Bootstrap
+- Remove all inline `<style>` blocks and move to external files
+- Eliminate duplicate/redundant CSS rules
+- Remove dead CSS (unused selectors)
+- Replace custom CSS with Bootstrap utilities where possible
+
+### 3. Whiteboard Section Isolation
+- Create separate CSS system: `css/whiteboard/base.css`, `css/whiteboard/components.css`
+- Ensure whiteboard styles don't affect main site and vice versa
+- Use namespaced classes (e.g., `.wb-*` prefix) or body class scoping
+- Upgrade whiteboard to Bootstrap 5 while maintaining its unique design
+
+### 4. Bootstrap-First Approach
+- Prefer Bootstrap utilities over custom CSS
+- Use Bootstrap spacing (`m-*`, `p-*`), flex (`d-flex`, `justify-content-*`), typography, color utilities
+- Use Bootstrap grid system instead of custom layouts
+- Keep custom CSS minimal and focused on site-specific branding
+
+### 5. Visual Parity
+- Maintain current visual appearance and behavior
+- Compensate for Bootstrap 5 default changes (spacing, typography) via custom CSS if needed
+- Document any deliberate visual differences in `docs/bootstrap5-migration-notes.md`
+
+## Technical Requirements
+
+### Bootstrap 5 Migration Checklist
+- [ ] Update `includes/css-b4.php` to load Bootstrap 5.3.8 CSS (CDN or local)
+- [ ] Update footer includes to load Bootstrap 5.3.8 JS (vanilla, no jQuery)
+- [ ] Replace `.form-group` with `.mb-3` or appropriate Bootstrap 5 form structure
+- [ ] Replace `.form-row` with `.row` and `.g-*` utilities
+- [ ] Replace `.input-group-addon` with `.input-group-text`
+- [ ] Replace `.input-group-btn` with direct button in `.input-group`
+- [ ] Replace `.card-block` with `.card-body`
+- [ ] Update `.badge-*` to Bootstrap 5 badge variants
+- [ ] Replace `data-toggle` with `data-bs-toggle`
+- [ ] Replace `data-target` with `data-bs-target`
+- [ ] Update JavaScript: `$().collapse()` to `new bootstrap.Collapse()`
+- [ ] Update JavaScript: `$().modal()` to `new bootstrap.Modal()`
+- [ ] Update JavaScript: `$().tooltip()` to `new bootstrap.Tooltip()`
+- [ ] Update whiteboard section Bootstrap references
+
+### CSS Organization Tasks
+- [ ] Audit all CSS files and categorize by purpose
+- [ ] Create new CSS file structure (`css/base.css`, `css/layout.css`, `css/components/`, etc.)
+- [ ] Move styles from existing files into new structure
+- [ ] Extract inline styles to external files
+- [ ] Remove duplicate CSS rules
+- [ ] Identify and remove dead CSS (unused selectors)
+- [ ] Replace custom utility classes with Bootstrap utilities in markup
+- [ ] Create whiteboard CSS structure (`css/whiteboard/`)
+- [ ] Update all PHP files to link new CSS structure
+- [ ] Remove old/legacy CSS files after migration
+
+### Testing & Documentation
+- [ ] Visual regression testing on all major pages
+- [ ] Test responsive breakpoints
+- [ ] Test interactive components (modals, dropdowns, tooltips)
+- [ ] Test whiteboard section independently
+- [ ] Create `docs/bootstrap5-migration-notes.md` with changes and rationale
+- [ ] Create `docs/css-architecture.md` documenting new CSS structure
+
+## Success Criteria
+1. Site loads Bootstrap 5.3.8 successfully
+2. All pages maintain visual parity with current version
+3. No inline styles remain in HTML/PHP files
+4. CSS is organized in clear, maintainable structure
+5. Whiteboard section is isolated and functional
+6. Total custom CSS is reduced by leveraging Bootstrap utilities
+7. All Bootstrap 4-specific markup is updated to Bootstrap 5
+8. Documentation is complete and accurate
+
+## Constraints
+- Must maintain visual appearance (no breaking visual changes)
+- Must not break existing functionality
+- Whiteboard section must remain visually distinct
+- Legacy sections (Wix, video_scribe) can remain on Bootstrap 3 for now (out of scope)
+
+## Out of Scope
+- Upgrading legacy Bootstrap 3 sections (Wix, video_scribe, etc.)
+- Major design changes or rebranding
+- JavaScript refactoring beyond Bootstrap component updates
+- Performance optimization beyond CSS organization
+

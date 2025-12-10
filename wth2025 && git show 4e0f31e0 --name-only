@@ -1,0 +1,187 @@
+[1mdiff --git a/.cursor/ACTIVATE_MCPS.md b/.cursor/ACTIVATE_MCPS.md[m
+[1mnew file mode 100644[m
+[1mindex 00000000..db6632c1[m
+[1m--- /dev/null[m
+[1m+++ b/.cursor/ACTIVATE_MCPS.md[m
+[36m@@ -0,0 +1,44 @@[m
+[32m+[m[32m# Activating MCP Servers in Cursor[m
+[32m+[m
+[32m+[m[32mYour MCP configuration is in `.cursor/mcp.json` with the following servers:[m
+[32m+[m
+[32m+[m[32m## Configured MCP Servers[m
+[32m+[m
+[32m+[m[32m1. **task-master-ai** - Task management and project planning[m
+[32m+[m[32m2. **context7** - Upstash Context7 for enhanced context[m
+[32m+[m[32m3. **github** - GitHub Copilot integration[m
+[32m+[m
+[32m+[m[32m## Activation Steps[m
+[32m+[m
+[32m+[m[32m1. **Restart Cursor IDE**[m
+[32m+[m[32m   - Close and reopen Cursor to load the MCP configuration[m
+[32m+[m
+[32m+[m[32m2. **Check MCP Status**[m
+[32m+[m[32m   - Open Cursor Settings (Ctrl+, or Cmd+,)[m
+[32m+[m[32m   - Navigate to "Features" > "Model Context Protocol"[m
+[32m+[m[32m   - Verify the servers are listed and active[m
+[32m+[m
+[32m+[m[32m3. **Verify Environment Variables**[m
+[32m+[m[32m   The following API keys are referenced (set as environment variables):[m
+[32m+[m[32m   - `ANTHROPIC_API_KEY`[m
+[32m+[m[32m   - `PERPLEXITY_API_KEY`[m
+[32m+[m[32m   - `OPENAI_API_KEY`[m
+[32m+[m[32m   - `GOOGLE_API_KEY`[m
+[32m+[m[32m   - `XAI_API_KEY`[m
+[32m+[m[32m   - `OPENROUTER_API_KEY`[m
+[32m+[m[32m   - `MISTRAL_API_KEY`[m
+[32m+[m[32m   - `AZURE_OPENAI_API_KEY`[m
+[32m+[m[32m   - `OLLAMA_API_KEY`[m
+[32m+[m[32m   - `CONTEXT7_API_KEY`[m
+[32m+[m
+[32m+[m[32m4. **Test MCP Resources**[m
+[32m+[m[32m   - After restart, you should see MCP resources available[m
+[32m+[m[32m   - Try asking me to list available resources or use task-master commands[m
+[32m+[m
+[32m+[m[32m## Troubleshooting[m
+[32m+[m
+[32m+[m[32m- If MCPs don't appear, check Cursor's output panel for MCP-related errors[m
+[32m+[m[32m- Ensure all required environment variables are set[m
+[32m+[m[32m- Verify npx is available in your PATH[m
+[32m+[m
+[32m+[m
+[1mdiff --git a/.cursor/commands/next.md b/.cursor/commands/next.md[m
+[1mindex 84c9d1fa..5d5e49a8 100644[m
+[1m--- a/.cursor/commands/next.md[m
+[1m+++ b/.cursor/commands/next.md[m
+[36m@@ -1,3 +1,3 @@[m
+ increment version[m
+[31m-Use the @report.mdc method to summarize what we worked on in this chat?[m
+ Stage then Commit the appropriate files to GitHub, and push to the current main branch.[m
+[32m+[m[32mProvide me a summary of what we have worked on since the last push.[m
+[1mdiff --git a/.cursor/mcp.json b/.cursor/mcp.json[m
+[1mnew file mode 100644[m
+[1mindex 00000000..a58b6705[m
+[1m--- /dev/null[m
+[1m+++ b/.cursor/mcp.json[m
+[36m@@ -0,0 +1,31 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m  "mcpServers": {[m
+[32m+[m[32m    "task-master-ai": {[m
+[32m+[m[32m      "command": "npx -y --package=task-master-ai task-master-ai",[m
+[32m+[m[32m      "env": {[m
+[32m+[m[32m        "ANTHROPIC_API_KEY": "${env:ANTHROPIC_API_KEY}",[m
+[32m+[m[32m        "PERPLEXITY_API_KEY": "${env:PERPLEXITY_API_KEY}",[m
+[32m+[m[32m        "OPENAI_API_KEY": "${env:OPENAI_API_KEY}",[m
+[32m+[m[32m        "GOOGLE_API_KEY": "${env:GOOGLE_API_KEY}",[m
+[32m+[m[32m        "MISTRAL_API_KEY": "${env:MISTRAL_API_KEY}",[m
+[32m+[m[32m        "GROQ_API_KEY": "${env:GROQ_API_KEY}",[m
+[32m+[m[32m        "OPENROUTER_API_KEY": "${env:OPENROUTER_API_KEY}",[m
+[32m+[m[32m        "XAI_API_KEY": "${env:XAI_API_KEY}",[m
+[32m+[m[32m        "AZURE_OPENAI_API_KEY": "${env:AZURE_OPENAI_API_KEY}",[m
+[32m+[m[32m        "OLLAMA_API_KEY": "${env:OLLAMA_API_KEY}"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "context7": {[m
+[32m+[m[32m      "url": "https://mcp.context7.com/mcp",[m
+[32m+[m[32m      "headers": {[m
+[32m+[m[32m        "CONTEXT7_API_KEY": "${env:CONTEXT7_API_KEY}"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "github": {[m
+[32m+[m[32m      "url": "https://api.githubcopilot.com/mcp/",[m
+[32m+[m[32m      "headers": {[m
+[32m+[m[32m        "Authorization": "${env:GITHUB_PERSONAL_ACCESS_TOKEN}"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    }[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+[1mdiff --git a/.cursor/rules/do_not_create_folders.mdc b/.cursor/rules/do_not_create_folders.mdc[m
+[1mnew file mode 100644[m
+[1mindex 00000000..e004ed8b[m
+[1m--- /dev/null[m
+[1m+++ b/.cursor/rules/do_not_create_folders.mdc[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32m---[m
+[32m+[m[32mdescription: Never create directories without explicit user instruction[m
+[32m+[m[32mglobs: "**/*"[m
+[32m+[m[32malwaysApply: true[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m- Do not create new directories unless the user explicitly commands it in writing.[m
+[32m+[m[32m- No temporary or “quarantine” folders without prior approval.[m
+[32m+[m[32m- If directory creation seems necessary, ask and wait for explicit approval before proceeding.[m
+[1mdiff --git a/.cursor/rules/wth_structure.mdc b/.cursor/rules/wth_structure.mdc[m
+[1mnew file mode 100644[m
+[1mindex 00000000..97c50f40[m
+[1m--- /dev/null[m
+[1m+++ b/.cursor/rules/wth_structure.mdc[m
+[36m@@ -0,0 +1,44 @@[m
+[32m+[m[32m---[m
+[32m+[m[32mdescription: Canonical header and footer files for Website Talking Heads site structure[m
+[32m+[m[32mglobs: "**/*.php"[m
+[32m+[m[32malwaysApply: true[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m- **Exclusions**[m
+[32m+[m[32m  - Files in the `whiteboard/` directory are EXCLUDED from this rule[m
+[32m+[m[32m  - Pages in `whiteboard/` may use different header/footer files as needed[m
+[32m+[m[32m  - Do not enforce canonical header/footer on files matching `whiteboard/**/*.php`[m
+[32m+[m
+[32m+[m[32m- **Canonical Header File**[m
+[32m+[m[32m  - The canonical header file is `includes/header25.php`[m
+[32m+[m[32m  - All pages MUST use `header25.php` for the site header[m
+[32m+[m[32m  - Do NOT use `header2.php`, `header19.php`, `header_b4.php`, or any other header files[m
+[32m+[m[32m  - Reference: [header25.php](mdc:includes/header25.php)[m
+[32m+[m
+[32m+[m[32m- **Canonical Footer File**[m
+[32m+[m[32m  - The canonical footer file is `includes/footer25.php`[m
+[32m+[m[32m  - All pages MUST use `footer25.php` for the site footer[m
+[32m+[m[32m  - Do NOT use `footer.php`, `footer2.php`, `footer_b4.php`, or any other footer files[m
+[32m+[m[32m  - Reference: [footer25.php](mdc:includes/footer25.php)[m
+[32m+[m
+[32m+[m[32m- **Usage Pattern**[m
+[32m+[m[32m  - Include header: `<?php include('includes/header25.php'); ?>` (adjust path for subdirectories)[m
+[32m+[m[32m  - Include footer: `<?php include('includes/footer25.php'); ?>` (adjust path for subdirectories)[m
+[32m+[m[32m  - Path examples:[m
+[32m+[m[32m    - Root level: `includes/header25.php`[m
+[32m+[m[32m    - One level deep: `../includes/header25.php`[m
+[32m+[m[32m    - Two levels deep: `../../includes/header25.php`[m
+[32m+[m
+[32m+[m[32m- **Migration**[m
+[32m+[m[32m  - When updating existing pages, replace any references to:[m
+[32m+[m[32m    - `header2.php` → `header25.php`[m
+[32m+[m[32m    - `header19.php` → `header25.php`[m
+[32m+[m[32m    - `header_b4.php` → `header25.php`[m
+[32m+[m[32m    - `footer.php` → `footer25.php`[m
+[32m+[m[32m    - `footer2.php` → `footer25.php`[m
+[32m+[m[32m    - `footer_b4.php` → `footer25.php`[m
+[32m+[m
+[32m+[m[32m- **Enforcement**[m
+[32m+[m[32m  - All new pages MUST use the canonical header and footer files[m
+[32m+[m[32m  - When fixing broken includes, always use the canonical files[m
+[32m+[m[32m  - Do not create new header or footer variations without explicit approval[m
+[1mdiff --git a/VERSION.md b/VERSION.md[m
+[1mindex 195dfec5..db7f60a9 100644[m
+[1m--- a/VERSION.md[m
+[1m+++ b/VERSION.md[m
+[36m@@ -1,6 +1,20 @@[m
+ # Version History[m
+ [m
+[31m-## Current Version: 0.2.6[m
+[32m+[m[32m## Current Version: 0.2.7[m
+[32m+[m
+[32m+[m[32m**Date:** January 15, 2025[m[41m  [m
+[32m+[m[32m**Type:** Patch Update[m
+[32m+[m
+[32m+[m[32m### Changes in 0.2.7[m
+[32m+[m[32m- Updated cursor command workflow (next.md)[m
+[32m+[m[32m- MCP server configuration setup[m
+[32m+[m[32m- Cursor rules: Added wth_structure.mdc and do_not_create_folders.mdc[m
+[32m+[m[32m- Taskmaster project initialization[m
+[32m+[m[32m- Documentation updates[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## Version 0.2.6[m
+ [m
+ **Date:** January 15, 2025  [m
+ **Type:** Patch Update[m
