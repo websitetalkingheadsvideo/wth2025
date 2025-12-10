@@ -1,0 +1,14 @@
+User-Agent: *
+Allow: /https://www.websitetalkingheads.com/
+Disallow: /ivideo
+Disallow: /music
+Disallow: /submission
+Disallow: /create-canvas
+Disallow: /createfilesandcode-amber
+Disallow: /resellers
+Disallow: /resellerdemos
+Disallow: /store
+Disallow: /filesandcode
+Disallow: /generator
+Disallow: /videopresentations/ivideo
+Sitemap: https://www.websitetalkingheads.com/sitemap.xml

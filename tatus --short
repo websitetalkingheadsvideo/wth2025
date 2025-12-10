@@ -1,0 +1,110 @@
+ .cursor/commands/next.md                           |   84 [32m+[m[31m-[m
+ .gitignore                                         |  191 [32m+[m[31m-[m
+ .htaccess-old.htm                                  |  134 [32m+[m
+ .user.ini                                          |    1 [32m+[m
+ 401.php                                            |   39 [32m+[m
+ 403.php                                            |   39 [32m+[m
+ 404.php                                            |   40 [32m+[m
+ 404error.php                                       |   37 [32m+[m
+ 500.php                                            |   45 [32m+[m
+ FullScreen/build/build.sh                          |   41 [32m+[m
+ Payment1.php                                       |   31 [32m+[m
+ VERSION.md                                         |   26 [32m+[m[31m-[m
+ Video Marketing.html                               |   46 [32m+[m
+ a talking head is.php                              |  225 [32m+[m
+ base.php                                           |  164 [32m+[m
+ card-test.php                                      |   46 [32m+[m
+ columns-features.css                               |    1 [32m+[m
+ contact.php                                        |   53 [32m+[m
+ contact3.php                                       |   49 [32m+[m
+ css/Wix/wix.css                                    |   74 [32m+[m
+ css/animate.css                                    |    1 [32m+[m
+ css/audio.css                                      |    1 [32m+[m
+ css/base.css                                       |   92 [32m+[m
+ css/bootstrap 4/bootstrap.css                      |    6 [32m+[m
+ css/bootstrap 4/webfonts/fa-brands-400.eot         |  Bin [31m0[m -> [32m129648[m bytes
+ css/bootstrap 4/webfonts/fa-brands-400.svg         | 3452 [32m+++++++[m
+ css/bootstrap 4/webfonts/fa-brands-400.ttf         |  Bin [31m0[m -> [32m129344[m bytes
+ css/bootstrap 4/webfonts/fa-brands-400.woff        |  Bin [31m0[m -> [32m87544[m bytes
+ css/bootstrap 4/webfonts/fa-brands-400.woff2       |  Bin [31m0[m -> [32m74652[m bytes
+ css/bootstrap 4/webfonts/fa-light-300.eot          |  Bin [31m0[m -> [32m400852[m bytes
+ css/bootstrap 4/webfonts/fa-light-300.svg          | 9901 [32m++++++++++++++++++++[m
+ css/bootstrap 4/webfonts/fa-light-300.ttf          |  Bin [31m0[m -> [32m400572[m bytes
+ css/bootstrap 4/webfonts/fa-light-300.woff         |  Bin [31m0[m -> [32m207152[m bytes
+ css/bootstrap 4/webfonts/fa-light-300.woff2        |  Bin [31m0[m -> [32m157008[m bytes
+ css/bootstrap 4/webfonts/fa-regular-400.eot        |  Bin [31m0[m -> [32m369624[m bytes
+ css/bootstrap 4/webfonts/fa-regular-400.svg        | 9103 [32m++++++++++++++++++[m
+ css/bootstrap 4/webfonts/fa-regular-400.ttf        |  Bin [31m0[m -> [32m369332[m bytes
+ css/bootstrap 4/webfonts/fa-regular-400.woff       |  Bin [31m0[m -> [32m191324[m bytes
+ css/bootstrap 4/webfonts/fa-regular-400.woff2      |  Bin [31m0[m -> [32m145136[m bytes
+ css/bootstrap 4/webfonts/fa-solid-900.eot          |  Bin [31m0[m -> [32m313880[m bytes
+ css/bootstrap 4/webfonts/fa-solid-900.svg          | 7709 [32m+++++++++++++++[m
+ css/bootstrap 4/webfonts/fa-solid-900.ttf          |  Bin [31m0[m -> [32m313600[m bytes
+ css/bootstrap 4/webfonts/fa-solid-900.woff         |  Bin [31m0[m -> [32m155944[m bytes
+ css/bootstrap 4/webfonts/fa-solid-900.woff2        |  Bin [31m0[m -> [32m117364[m bytes
+ css/bootstrap-theme.css                            |  476 [32m+[m
+ css/bootstrap-theme.min.css                        |    5 [32m+[m
+ css/bootstrap.css                                  | 6566 [32m+++++++++++++[m
+ css/bootstrap.min.css                              |    5 [32m+[m
+ css/carousel.css                                   |    1 [32m+[m
+ css/carousel.scss                                  |  213 [32m+[m
+ css/cleaned/examples-cleaned.css                   |   72 [32m+[m
+ css/cleaned/fluid-cleaned.css                      |    1 [32m+[m
+ css/cleaned/pricing-cleaned.css                    |    4 [32m+[m
+ css/cleaned/products-cleaned.css                   |  272 [32m+[m
+ css/cleaned/style-cleaned.css                      |   12 [32m+[m
+ css/columns-vp.css                                 |    1 [32m+[m
+ css/components/buttons.css                         |   23 [32m+[m
+ css/components/cards.css                           |   21 [32m+[m
+ css/components/footer.css                          |  138 [32m+[m
+ css/components/forms.css                           |   25 [32m+[m
+ css/components/header.css                          |  187 [32m+[m
+ css/components/modals.css                          |   21 [32m+[m
+ css/components/navigation.css                      |   21 [32m+[m
+ css/contact-red.css                                |    1 [32m+[m
+ css/contact-sms.css                                |   22 [32m+[m
+ css/contact.css                                    |    1 [32m+[m
+ css/create-files.css                               |    1 [32m+[m
+ css/demo-red.css                                   |    1 [32m+[m
+ css/demo.css                                       |    1 [32m+[m
+ css/digitaljuice.css                               |    1 [32m+[m
+ css/download.css                                   |    1 [32m+[m
+ css/examples-old.css                               |  171 [32m+[m
+ css/examples.css                                   |    1 [32m+[m
+ css/feed.css                                       |    1 [32m+[m
+ css/fluid.css                                      |    1 [32m+[m
+ css/font-awesome.css                               |    1 [32m+[m
+ css/footer_b4.php                                  |   26 [32m+[m
+ css/header-unified.css                             |  153 [32m+[m
+ css/header.css                                     |   64 [32m+[m
+ css/header_b4.php                                  |   96 [32m+[m
+ css/home-working.css                               |    1 [32m+[m
+ css/jumperform.css                                 |    1 [32m+[m
+ css/layout.css                                     |   33 [32m+[m
+ css/music.css                                      |    1 [32m+[m
+ css/nav.css                                        |    1 [32m+[m
+ css/normalize.css                                  |    2 [32m+[m
+ css/orderform.css                                  |   89 [32m+[m
+ css/orderformMain.css                              |    1 [32m+[m
+ css/pricing.css                                    |    1 [32m+[m
+ css/product-pricing.css                            |    1 [32m+[m
+ css/products.css                                   |    1 [32m+[m
+ css/smallContactForm.css                           |    1 [32m+[m
+ css/smallInvContactForm.css                        |    1 [32m+[m
+ css/style-old.css                                  |   12 [32m+[m
+ css/style.css                                      |    1 [32m+[m
+ css/styles2019.css                                 |    1 [32m+[m
+ css/talkingheadsplayer.css                         |   21 [32m+[m
+ css/utilities.css                                  |   16 [32m+[m
+ css/video.css                                      |    1 [32m+[m
+ css/videobackground.css                            |    1 [32m+[m
+ css/videoplayer.css                                |    1 [32m+[m
+ css/vp.css                                         |    1 [32m+[m
+ css/webfonts/fa-brands-400.eot                     |  Bin [31m0[m -> [32m129648[m bytes
+ css/webfonts/fa-brands-400.svg                     | 3452 [32m+++++++[m
+ css/webfonts/fa-brands-400.ttf                     |  Bin [31m0[m -> [32m129344[m bytes
+ css/webfonts/fa-brands-400.woff                    |  Bin [31m0[m -> [32m87544[m bytes
+ css/webfonts/fa-brands-400.woff2                   |  Bin [31m0[m -> [32m74652[m bytes
+ css/webfonts/fa-light-300.eot                      |  Bin [31m0[m -> [32m400852[m bytes
+ css/webfonts/fa-light-300.svg                      | 9901 [32m++++++++++++++++++++[m
+ css/webfonts/fa-light-300.ttf                     

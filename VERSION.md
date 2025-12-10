@@ -1,11 +1,58 @@
 # Version History
 
-## Current Version: 0.2.8
+## Current Version: 0.2.11
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.11
+- Major CSS cleanup: Removed 50+ unused legacy CSS files
+- Deleted deprecated Bootstrap files and unused component styles
+- Removed old JavaScript validation files from includes/
+- Cleaned up Flash source files (.fla) from whiteboard directory
+- Updated CSS components: header.css, contact.css, mobile.css improvements
+- Added new documentation and planning files
+- Multiple new directories and files added for site sections
+
+---
+
+## Version 0.2.10
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.10
+- Major cleanup: Removed 60+ unused legacy files from includes/ directory
+- Deleted deprecated header/footer variations (header2.php, header22215.php, header42415.php, etc.)
+- Removed old actor includes, testimonial variations, and unused form components
+- Cleaned up plans/links directory with old crawl scripts and JSON reports
+- Updated multiple pages to use canonical header25.php/footer25.php
+- CSS updates: mobile.css and footer.css improvements
+- Added new documentation: HEADER25_COMPLIANCE_REPORT.md and UNUSED_FILES_AUDIT_REPORT_FINAL.md
+
+---
+
+## Version 0.2.9
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.9
+- Fixed excessive padding under embedded videos (Vimeo and all video embeds)
+- Moved Vimeo script tag outside embed-responsive container to prevent spacing issues
+- Updated CSS to remove whitespace padding from all video containers using line-height:0
+- Applied fix to jumbotron video and all card videos across the page
+
+---
+
+## Version 0.2.8
 
 **Date:** January 15, 2025  
 **Type:** Patch Update
 
 ### Changes in 0.2.8
+- Enhanced Git sync workflow command (next.md)
+- Updated .gitignore with comprehensive ignore patterns
 
 ---
 
