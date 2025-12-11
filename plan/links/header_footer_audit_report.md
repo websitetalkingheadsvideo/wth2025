@@ -1,7 +1,7 @@
 # PHP Header/Footer Compliance Audit Report
 
 **Generated:** 2025-01-10  
-**Audit Scope:** All PHP files listed in `site_tier_mapping_report.md`  
+**Audit Scope:** All PHP files listed in `site_tier_mapping_report.md` (Updated)  
 **Expected Standards:**
 - Header: `header25.php`
 - Footer: `footer25.php`
@@ -10,10 +10,10 @@
 
 ## Summary
 
-- **Total Files Audited:** 38 PHP files
-- **Fully Compliant:** 12 files ✅
-- **Non-Compliant:** 26 files ❌
-- **Files Not Found:** 5 files (may be missing or in different locations)
+- **Total Files Audited:** 39 PHP files
+- **Fully Compliant:** 15 files ✅
+- **Non-Compliant:** 24 files ❌
+- **Files Not Found at Expected Location:** 2 files (found in different location)
 
 ---
 
@@ -77,11 +77,11 @@ These files have correct header but wrong footer:
    - Current: `header25.php` ✅, `footer_b4.php` ❌
    - Fix: Change line 121 from `<?php include ('../includes/footer_b4.php'); ?>` to `<?php include ('../includes/footer25.php'); ?>`
 
-9. **`ivideo/female-carousel.php`** (Legacy file - links should point to `spokespeople/women.php`)
+9. **`ivideo/female-carousel.php`** (Note: Listed in report as `spokespeople/women.php`)
    - Current: `header25.php` ✅, `footer_b4.php` ❌
    - Fix: Change line 100 from `<?php include("../includes/footer_b4.php"); ?>` to `<?php include("../includes/footer25.php"); ?>`
 
-10. **`ivideo/male-carousel.php`** (Legacy file - links should point to `spokespeople/men.php`)
+10. **`ivideo/male-carousel.php`** (Note: Listed in report as `spokespeople/men.php`)
     - Current: `header25.php` ✅, `footer_b4.php` ❌
     - Fix: Change line 100 from `<?php include("../includes/footer_b4.php"); ?>` to `<?php include("../includes/footer25.php"); ?>`
 
@@ -135,16 +135,34 @@ These files have correct header but wrong footer:
       - Line 27: Change `<?php include ('../includes/header_dark.php'); ?>` to `<?php include ('../includes/header25.php'); ?>`
       - Line 37: Change `<?php include("../includes/footer_b4.php"); ?>` to `<?php include("../includes/footer25.php"); ?>`
 
+19. **`actors/index.php`**
+    - Current: `header19.php` ❌, `footer_b4.php` ❌
+    - Fix:
+      - Line 15: Change `<?php include('../includes/header19.php'); ?>` to `<?php include('../includes/header25.php'); ?>`
+      - Line 85: Change `<?php include("../includes/footer_b4.php"); ?>` to `<?php include("../includes/footer25.php"); ?>`
+
+20. **`actors/men.php`**
+    - Current: `header19.php` ❌, `footer_b4.php` ❌
+    - Fix:
+      - Line 21: Change `<?php include('../includes/header19.php'); ?>` to `<?php include('../includes/header25.php'); ?>`
+      - Line 103: Change `<?php include("../includes/footer_b4.php"); ?>` to `<?php include("../includes/footer25.php"); ?>`
+
+21. **`actors/women.php`**
+    - Current: `header19.php` ❌, `footer_b4.php` ❌
+    - Fix:
+      - Line 21: Change `<?php include('../includes/header19.php'); ?>` to `<?php include('../includes/header25.php'); ?>`
+      - Line 103: Change `<?php include("../includes/footer_b4.php"); ?>` to `<?php include("../includes/footer25.php"); ?>`
+
 ### Category 3: Using Generic header.php and footer.php (Whiteboard Directory)
 
-19. **`whiteboard/animation.php`**
+22. **`whiteboard/animation.php`**
     - Current: `includes/header.php` ❌, `includes/footer.php` ❌
     - Note: Uses relative path `includes/` instead of `../includes/`
     - Fix:
       - Line 24: Change `<?php include("includes/header.php"); ?>` to `<?php include("../includes/header25.php"); ?>`
       - Line 89: Change `<?php include("includes/footer.php"); ?>` to `<?php include("../includes/footer25.php"); ?>`
 
-20. **`whiteboard/index.php`**
+23. **`whiteboard/index.php`**
     - Current: `includes/header.php` ❌, `includes/footer.php` ❌
     - Note: Uses relative path `includes/` instead of `../includes/`
     - Fix:
@@ -153,16 +171,17 @@ These files have correct header but wrong footer:
 
 ---
 
-## ⚠️ Files Not Found
+## ⚠️ Files Not Found at Expected Location
 
-These files were listed in the report but could not be located in the expected paths:
+These files were listed in the report but are located in different directories:
 
-1. `spokespeople/female-carousel.php` - Legacy file, should redirect to `spokespeople/women.php`
-2. `spokespeople/male-carousel.php` - Legacy file, should redirect to `spokespeople/men.php`
-3. `actors/index.php` - Legacy folder, should redirect to `spokespeople/index.php`
-4. `actors/men.php` - Legacy folder, should redirect to `spokespeople/men.php`
-5. `actors/women.php` - Legacy folder, should redirect to `spokespeople/women.php`
-6. `osdd.php` - File not found
+1. **`spokespeople/female-carousel.php`** - Redirects to `https://www.websitetalkingheads.com/spokespeople/women.php`
+   - Status: Legacy file reference, now redirects to canonical URL
+   - Recommendation: All references updated to point to `spokespeople/women.php`
+
+2. **`spokespeople/male-carousel.php`** - Redirects to `https://www.websitetalkingheads.com/spokespeople/men.php`
+   - Status: Legacy file reference, now redirects to canonical URL
+   - Recommendation: All references updated to point to `spokespeople/men.php`
 
 ---
 
@@ -189,16 +208,23 @@ For files two levels deep:
 ## Next Steps
 
 1. **Priority 1:** Fix all files using `footer_b4.php` (10 files)
-2. **Priority 2:** Fix files using wrong header versions (`header19.php`, `header_dark.php`) (8 files)
+2. **Priority 2:** Fix files using wrong header versions (`header19.php`, `header_dark.php`) (11 files)
 3. **Priority 3:** Fix whiteboard directory files using generic `header.php`/`footer.php` (2 files)
-4. **Priority 4:** Verify and locate missing files or update report if they no longer exist
+4. **Priority 4:** Resolve file location discrepancies (carousel files)
 
 ---
 
 ## Statistics
 
 - **Files with wrong footer only:** 10 files
-- **Files with wrong header and footer:** 8 files
+- **Files with wrong header and footer:** 11 files
 - **Files with generic header/footer:** 2 files
-- **Total fixes needed:** 20 unique files (some need both header and footer fixes)
+- **Total fixes needed:** 23 unique files (some need both header and footer fixes)
+- **Files not found at expected location:** 2 files (found in different location)
 
+---
+
+## Compliance Rate
+
+- **Compliant:** 15/39 files (38.5%)
+- **Non-Compliant:** 24/39 files (61.5%)

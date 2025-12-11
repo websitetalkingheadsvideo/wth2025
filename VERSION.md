@@ -1,6 +1,17 @@
 # Version History
 
-## Current Version: 0.2.13
+## Current Version: 0.2.14
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.14
+- Cleaned up legacy ivideo carousel files (removed 6 deprecated files)
+- Updated documentation: header_footer_audit_report.md and site_tier_mapping_report.md
+
+---
+
+## Version 0.2.13
 
 **Date:** January 15, 2025  
 **Type:** Patch Update
