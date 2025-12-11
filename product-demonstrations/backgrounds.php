@@ -17,9 +17,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="../css/products.css" rel="stylesheet" type="text/css"/>
 <link href="../css/orderform.css" rel="stylesheet" type="text/css"/>
-<link href="backgrounds.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" type="text/css" href="../lightbox/js/lightbox/themes/default/jquery.lightbox.css"/>
-<link href="backgrounds.css" rel="stylesheet" type="text/css"/>
 <?php include("../includes/css-b4.php"); ?>
 </head>
 

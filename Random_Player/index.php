@@ -15,7 +15,35 @@
 	<meta name="verify-v1" content="YNESpqoAwK51PmBV7/PFKLG0agx7AQPKhXXcYAXGGF8="/>
 	<meta name="norton-safeweb-site-verification" content="iinbv24r-1ix20hgj5l94wz2rnn3aiwi0336hwysvvpiskquy6ijsh9wy12f3znbed-hz1ay8ppzhgqap-sicqtw6ui29d0wrfcpenudh1ml9xwjbej7u25xy9pnm6yr"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<?php include("../includes/google-top.php"); ?>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<link href="https://www.websitetalkingheads.com/css/style.css" rel="stylesheet" type="text/css">
+	<link href="https://www.websitetalkingheads.com/css/fluid.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<!--Tracking --------------------------------------------------->
+	<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"11004581"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script> 
+	<!-- Global site tag (gtag.js) - Google Ads: 1058129782 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1058129782"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push( arguments );
+		}
+		gtag( 'js', new Date() );
+		gtag( 'config', 'AW-1058129782' );
+		var _gaq = _gaq || [];
+		_gaq.push( [ '_setAccount', 'UA-3598588-2' ] );
+		_gaq.push( [ '_trackPageview' ] );
+		( function () {
+			var ga = document.createElement( 'script' );
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ( 'https:' == document.location.protocol ? 'https://ssl' : 'https://www' ) + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName( 'script' )[ 0 ];
+			s.parentNode.insertBefore( ga, s );
+		} )();
+	</script>
 </head>
 
 <body>

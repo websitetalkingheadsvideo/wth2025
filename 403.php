@@ -35,5 +35,3 @@
 <?php include ('includes/chatform.php'); ?>
 </body>
 </html>
-</body>
-</html>

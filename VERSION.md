@@ -1,6 +1,19 @@
 # Version History
 
-## Current Version: 0.2.17
+## Current Version: 0.2.18
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.18
+- Updated 403.php error page
+- Enhanced Random_Player/index.php functionality
+- Cleaned up product-demonstrations/backgrounds.php
+- Added planning documentation (Pages_to_Fix.md, console-error-fixes-testing-prompt.md)
+
+---
+
+## Version 0.2.17
 
 **Date:** January 15, 2025  
 **Type:** Patch Update
