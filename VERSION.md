@@ -1,6 +1,22 @@
 # Version History
 
-## Current Version: 0.2.15
+## Current Version: 0.2.16
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.16
+- Updated MCP server configuration (.cursor/mcp.json)
+- Enhanced .gitignore with additional ignore patterns
+- Updated whiteboard pages (animation.php, index.php) to use canonical header/footer
+- Cleaned up Random_Player/index.php
+- Added .env.example and Taskmaster templates
+- Added console error audit documentation
+- Added support/index.php
+
+---
+
+## Version 0.2.15
 
 **Date:** January 15, 2025  
 **Type:** Patch Update
