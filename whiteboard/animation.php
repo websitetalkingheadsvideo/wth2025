@@ -21,7 +21,7 @@
 <?php include ('../includes/googleanalytics.php'); ?>
 </head>
 <body>
-<?php include("includes/header.php"); ?>
+<?php include("../includes/header25.php"); ?>
 <section class="jumbotron-fluid bg-image">
   <h1 class="banner-text">Hand Drawing Videos, Whiteboard Animation Videos, Sketch, and Doodle Videos.</h1>
   <div class="mt-2">
@@ -86,7 +86,7 @@
 <section class="container p-2 text-dark stroke">
   <?php include( "includes/testimonial-awards.php"); ?>
 </section>
-<?php include("includes/footer.php"); ?>
+<?php include("../includes/footer25.php"); ?>
 <?php include("includes/modal-no-form.php"); ?>
 <script src="https://player.vimeo.com/api/player.js"></script> 
 <script src="../js/iVideo.js"></script> 

@@ -20,7 +20,7 @@
 </head>
 
 <body>
-<?php include ('../includes/header19.php'); ?>
+<?php include ('../includes/header25.php'); ?>
 <section class="container">
   <h1>Welcome to the MVP 2</h1>
   <div class="row">
@@ -47,7 +47,7 @@
   </div>
 </section>
 <?php include("../includes/call-contact.php"); ?>
-<?php include("../includes/footer_b4.php"); ?>
+<?php include("../includes/footer25.php"); ?>
 <script type="text/javascript" src="wthvideo/wthvideo.js"></script>
 </body>
 </html>

@@ -18,7 +18,7 @@
 </head>
 
 <body>
-<?php include("../includes/header_dark.php"); ?>
+<?php include("../includes/header25.php"); ?>
 <section class="jumbotron">
   <div class="w-50 mx-auto">
     <h2 class="text-center">The Talking Heads<sup class="tm-small">&#174;</sup> Website Spokesperson Software</h2>
@@ -146,6 +146,6 @@
 </section>
 
 <?php include("../includes/call-contact.php"); ?>
-<?php include("../includes/footer_b4.php"); ?>
+<?php include("../includes/footer25.php"); ?>
 </body>
 </html>

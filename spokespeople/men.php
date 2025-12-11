@@ -100,7 +100,7 @@
   </div>
 </section>
 
-<?php include("../includes/footer_b4.php"); ?>
+<?php include("../includes/footer25.php"); ?>
 <?php include("includes/modal.php"); ?>
 <!-- Vimeo Player API script - loaded for potential future use with Vimeo Player API features -->
 <script src="https://player.vimeo.com/api/player.js"></script>

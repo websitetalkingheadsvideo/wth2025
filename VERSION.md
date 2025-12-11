@@ -1,6 +1,18 @@
 # Version History
 
-## Current Version: 0.2.14
+## Current Version: 0.2.15
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.15
+- Updated 23 PHP files to use canonical header25.php/footer25.php
+- Documentation updates: header_footer_audit_report.md and site_tier_mapping_report.md
+- Added header/footer compliance check script
+
+---
+
+## Version 0.2.14
 
 **Date:** January 15, 2025  
 **Type:** Patch Update

@@ -18,7 +18,7 @@
 
 <body class="actors-page">
 <div class="actors-sticky-header">
-  <?php include('../includes/header19.php'); ?>
+  <?php include('../includes/header25.php'); ?>
 
   <section class="actors-header">
     <h1>Talking Heads<sup>&reg;</sup> Spokespeople</h1>
@@ -100,7 +100,7 @@
   </div>
 </section>
 
-<?php include("../includes/footer_b4.php"); ?>
+<?php include("../includes/footer25.php"); ?>
 <?php include("includes/modal.php"); ?>
 <script src="https://player.vimeo.com/api/player.js"></script>
 <script src="js/spokesperson-grid.js?v=20251205m3"></script>

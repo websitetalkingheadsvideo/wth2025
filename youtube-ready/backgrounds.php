@@ -24,7 +24,7 @@
 </head>
 
 <body>
-<?php include ('../includes/header_dark.php'); ?>
+<?php include ('../includes/header25.php'); ?>
 <section class="page-header">
   <h1>Backgrounds</h1>
 </section>
@@ -34,7 +34,7 @@
   </div>
   <h2><a href="index.php">Return to Basic Video Page</a></h2>
 </section>
-<?php include("../includes/footer_b4.php"); ?>
+<?php include("../includes/footer25.php"); ?>
 <script type="text/javascript" src="../orderform/js/basic-video-validate.js"></script> 
 <script type="text/javascript" src="../lightbox/js/jquery.min.js"></script> 
 <script type="text/javascript" src="../lightbox/js/lightbox/jquery.lightbox.min.js"></script> 

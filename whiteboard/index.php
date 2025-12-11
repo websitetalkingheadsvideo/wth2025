@@ -21,7 +21,7 @@
 <?php include ('../includes/googleanalytics.php'); ?>
 </head>
 <body>
-<?php include("includes/header.php"); ?>
+<?php include("../includes/header25.php"); ?>
 <section class="jumbotron-fluid bg-image">
   <h1 class="banner-text">Cool Explainer Videos, Whiteboard Sketch Videos, Drawing Animation too!</h1>
   <div class="mt-2">
@@ -97,7 +97,7 @@
 <section class="alert content">
   <?php $style = "presentation"; include("../styles/includes/random-content.php"); ?>
 </section>
-<?php include("includes/footer.php"); ?>
+<?php include("../includes/footer25.php"); ?>
 <?php include("includes/modal-no-form.php"); ?>
 <script src="https://player.vimeo.com/api/player.js"></script>
 <script src="../js/iVideo.js"></script> 

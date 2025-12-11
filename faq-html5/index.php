@@ -18,7 +18,7 @@
 </head>
 
 <body>
-<?php include("../includes/header_dark.php"); ?>
+<?php include("../includes/header25.php"); ?>
 <section class="container text-small">
   <div class="faqContainer">
     <div class="container">
@@ -71,7 +71,7 @@
   </div>
 </section>
 <?php include("../includes/call-contact.php"); ?>
-<?php include("../includes/footer_b4.php"); ?>
+<?php include("../includes/footer25.php"); ?>
 <script src="js/changeVideo.js"></script>
 </body>
 </html>

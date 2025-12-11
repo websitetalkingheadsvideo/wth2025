@@ -81,7 +81,7 @@
 <?php include ("../includes/CallForQuote.php");?>
 <?php include ("../includes/order-now.php");?>
 <?php include("../includes/call-contact.php"); ?>
-<?php include("../includes/footer_b4.php"); ?>
+<?php include("../includes/footer25.php"); ?>
 <script src="../lightbox/js/jquery.min.js"></script> 
 <script src="../lightbox/js/lightbox/jquery.lightbox.min_v2.js"></script> 
 <!-- // <script src="src/jquery.lightbox.js"></script>   --> 

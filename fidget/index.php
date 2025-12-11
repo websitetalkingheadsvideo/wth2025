@@ -18,7 +18,7 @@
 </head>
 
 <body>
-<?php include ('../includes/header19.php'); ?>
+<?php include ('../includes/header25.php'); ?>
 <section class="container-fluid" style="height:  395px">
   <h1>Talking Heads<sup>®</sup></h1>
   <h2>Fidget Player</h2>
@@ -34,7 +34,7 @@
   </div>
 </section>
 <?php include("../includes/call-contact.php"); ?>
-<?php include("../includes/footer_b4.php"); ?>
+<?php include("../includes/footer25.php"); ?>
 <script type="text/javascript" src="wthvideo/wthvideo.js"></script>
 </body>
 </html>

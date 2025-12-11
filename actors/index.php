@@ -12,7 +12,7 @@
 </head>
 
 <body class="actors-page">
-<?php include('../includes/header19.php'); ?>
+<?php include('../includes/header25.php'); ?>
 <nav class="navbar actors-nav">
   <div class="navbar-nav container justify-content-center">
     <ul class="nav justify-content-center">
@@ -82,7 +82,7 @@
   </div>
 </section>
 
-<?php include("../includes/footer_b4.php"); ?>
+<?php include("../includes/footer25.php"); ?>
 <script src="https://player.vimeo.com/api/player.js"></script>
 <script src="js/nav.js"></script>
 </body>

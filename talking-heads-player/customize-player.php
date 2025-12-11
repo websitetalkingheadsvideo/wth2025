@@ -139,6 +139,6 @@
     </div>
   </div>
 </section>
-<?php include ('../includes/footer_b4.php'); ?>
+<?php include ('../includes/footer25.php'); ?>
 </body>
 </html>
