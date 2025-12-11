@@ -43,15 +43,15 @@
 </div>
 <div class="row">
   <div class="col-2 offset-2 m-auto wow fadeInUp">
-    <a href="https://www.websitetalkingheads.com/awards/" data-bs-toggle="tooltip" title="#1 in Video Production"><img src="https://www.websitetalkingheads.com/images/video-production-badge.png" alt="CrowdReviews.com Video Production Award" class="img-fluid m-auto"/></a>
+    <a href="https://www.websitetalkingheads.com/awards/" data-toggle="tooltip" title="#1 in Video Production"><img src="https://www.websitetalkingheads.com/images/video-production-badge.png" alt="CrowdReviews.com Video Production Award" class="img-fluid m-auto"/></a>
   </div>
   <div class="col-2 m-auto wow fadeInUp">
-    <a href="https://www.websitetalkingheads.com/awards/" data-bs-toggle="tooltip" title="#1 in Video Production"><img src="https://www.websitetalkingheads.com/images/video-production-seal.png" alt="Best in Search Video Production Award" class="img-fluid m-auto"/></a>
+    <a href="https://www.websitetalkingheads.com/awards/" data-toggle="tooltip" title="#1 in Video Production"><img src="https://www.websitetalkingheads.com/images/video-production-seal.png" alt="Best in Search Video Production Award" class="img-fluid m-auto"/></a>
   </div>
   <div class="col-2 m-auto wow fadeInUp">
-    <a href="https://www.websitetalkingheads.com/awards/" data-bs-toggle="tooltip" title="#1 in Video Production"><img src="https://www.websitetalkingheads.com/images/video-production-banner.png" alt="Best in Search Video Produciton Award" class="img-fluid m-auto"/></a>
+    <a href="https://www.websitetalkingheads.com/awards/" data-toggle="tooltip" title="#1 in Video Production"><img src="https://www.websitetalkingheads.com/images/video-production-banner.png" alt="Best in Search Video Produciton Award" class="img-fluid m-auto"/></a>
   </div>
   <div class="col-2 m-auto wow fadeInUp">
-    <a href="https://www.websitetalkingheads.com/awards/" data-bs-toggle="tooltip" title="#1 in Video Production"><img src="https://www.websitetalkingheads.com/images/Visibility-Video%20Production.png" alt="Visibility Video Production Award" class="img-fluid m-auto" title="q"/></a>
+    <a href="https://www.websitetalkingheads.com/awards/" data-toggle="tooltip" title="#1 in Video Production"><img src="https://www.websitetalkingheads.com/images/Visibility-Video%20Production.png" alt="Visibility Video Production Award" class="img-fluid m-auto" title="q"/></a>
   </div>
 </div>

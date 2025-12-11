@@ -138,11 +138,11 @@
       <div class="accordion" id="pricingFAQ">
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+            <button class="accordion-button" type="button" data-toggle="collapse" data-target="#faq1">
               What's included in the base price?
             </button>
           </h2>
-          <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#pricingFAQ">
+          <div id="faq1" class="accordion-collapse collapse show" data-parent="#pricingFAQ">
             <div class="accordion-body">
               All packages include professional actor selection, script review, video production, and standard delivery formats. Additional services may incur extra charges.
             </div>
@@ -150,11 +150,11 @@
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+            <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#faq2">
               How long does production take?
             </button>
           </h2>
-          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#pricingFAQ">
+          <div id="faq2" class="accordion-collapse collapse" data-parent="#pricingFAQ">
             <div class="accordion-body">
               Standard production time is 5-7 business days. Rush delivery options are available for Enterprise packages.
             </div>
@@ -162,11 +162,11 @@
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+            <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#faq3">
               Do you offer volume discounts?
             </button>
           </h2>
-          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#pricingFAQ">
+          <div id="faq3" class="accordion-collapse collapse" data-parent="#pricingFAQ">
             <div class="accordion-body">
               Yes, we offer volume discounts for multiple videos. Contact us for custom pricing on bulk orders.
             </div>

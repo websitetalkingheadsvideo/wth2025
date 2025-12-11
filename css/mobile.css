@@ -814,11 +814,7 @@ html {
 
     /* Keep header captions compact on desktop */
     .navbar-images .caption {
-<<<<<<< HEAD
-        font-size: 0.50rem !important;
-=======
-        font-size: 0.5rem !important;
->>>>>>> 0ebe7d82 (chore: major CSS cleanup and file organization - bump to v0.2.11)
+        font-size: 0.85rem !important;
         line-height: 1.05 !important;
         letter-spacing: 0.02em !important;
     }

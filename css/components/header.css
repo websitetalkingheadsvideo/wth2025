@@ -32,12 +32,41 @@ header .navbar {
     margin: 0;
     padding: 0;
     width: 100%;
+    overflow: visible;
 }
 
 .navbar-images .nav-item {
     display: inline-block;
     margin: 0 4px;
     position: relative;
+    flex-shrink: 0;
+}
+
+/* Ensure menu items stay visible at all widths */
+@media (max-width: 1400px) {
+    .navbar-images .nav-item {
+        margin: 0 3px;
+    }
+    
+    .navbar-images .img-nav {
+        max-width: 70px;
+        min-width: 65px;
+    }
+}
+
+@media (max-width: 1220px) {
+    .navbar-images .nav-item {
+        margin: 0 2px;
+    }
+    
+    .navbar-images .img-nav {
+        max-width: 65px;
+        min-width: 60px;
+    }
+    
+    .navbar-images .caption {
+        font-size: 0.8rem;
+    }
 }
 
 .navbar-images .nav-item a {
@@ -52,17 +81,54 @@ header .navbar {
 
 /* Header Logo Responsive Image */
 .navbar-brand img {
-    max-width: 500px !important;
-    width: 500px !important;
-    height: auto !important;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    max-width: 500px;
 }
 
-/* Logo sizing for mobile */
+/* Logo sizing for responsive breakpoints */
+@media (max-width: 1400px) {
+    .navbar-brand img {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar-brand img {
+        max-width: 350px;
+    }
+}
+
 @media (max-width: 991.98px) {
     .navbar-brand img {
-        max-height: 100px !important;
-        width: auto !important;
+        max-width: 250px;
+        max-height: 100px;
     }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        max-width: 150px;
+    }
+}
+
+/* Caption overlay inside circular menu buttons */
+.navbar-images .caption {
+    color: #000;
+    font-size: 0.9rem;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    font-weight: 700;
 }
 
 /* ============================================
@@ -127,6 +193,14 @@ header .navbar {
 .phone-header {
     font-size: 2.5vw;
     margin-bottom: 0;
+    font-weight: 700;
+    color: blue;
+}
+
+.phone-header a {
+    color: #549BFF !important;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 @media (max-width: 991.98px) {
@@ -185,4 +259,3 @@ header .navbar {
     border: 1px solid rgb(231, 231, 231);
     border-radius: 6px;
 }
-
