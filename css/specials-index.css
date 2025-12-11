@@ -1,0 +1,37 @@
+/* specials/index.php - Specials Index Page Styles
+ * Extracted <style> block from specials/index.php
+ */
+
+/* Remove wrapper constraints on specials page */
+body.specials {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body.specials > header {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+body.specials > section {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* Remove any container constraints that might be wrapping content */
+body.specials .container,
+body.specials .container-fluid {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.specials-card {
+    min-width: 18rem;
+}
+

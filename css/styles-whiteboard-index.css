@@ -1,0 +1,13 @@
+/* styles/whiteboard/index.php - Whiteboard Styles Index Page Styles
+ * Extracted inline styles from styles/whiteboard/index.php
+ */
+
+/* Header video container minimum height - uses common pattern */
+.whiteboard-styles-header .container-fluid {
+    min-height: 24rem;
+}
+
+.whiteboard-styles-header .row {
+    min-height: 24rem;
+}
+

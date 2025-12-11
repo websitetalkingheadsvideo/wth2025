@@ -1,0 +1,366 @@
+@charset "utf-8";
+
+/* Form container styling - enhanced Bootstrap integration */
+.my-form {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: 2px solid #0173fe;
+  border-radius: 10px;
+  background: #87e0fd;
+  background: -moz-radial-gradient(center, ellipse cover, #87e0fd 0, #77d2f1 100%);
+  background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0, #87e0fd), color-stop(100%, #77d2f1));
+  background: -webkit-radial-gradient(center, ellipse cover, #87e0fd 0, #77d2f1 100%);
+  background: -o-radial-gradient(center, ellipse cover, #87e0fd 0, #77d2f1 100%);
+  background: -ms-radial-gradient(center, ellipse cover, #87e0fd 0, #77d2f1 100%);
+  background: radial-gradient(ellipse at center, #87e0fd 0, #77d2f1 100%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling - preserve original layout */
+.my-form table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.my-form table td {
+  padding: 0.5rem;
+  vertical-align: top;
+}
+
+.my-form table td:first-child {
+  width: 40%;
+  padding-right: 1rem;
+}
+
+.my-form table label {
+  font-weight: 500;
+  color: #333;
+  vertical-align: text-top;
+}
+
+/* Bootstrap form control enhancements */
+.my-form .form-control,
+.my-form .form-select {
+  border-radius: 0.375rem;
+  border: 1px solid #ced4da;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
+  vertical-align: text-top;
+}
+
+.my-form .form-control:focus,
+.my-form .form-select:focus {
+  border-color: #0173fe;
+  box-shadow: 0 0 0 0.2rem rgba(1, 115, 254, 0.25);
+}
+
+.my-form .form-label {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* Required field indicator */
+.my-form .text-danger {
+  color: #dc3545 !important;
+}
+
+/* Script textarea - larger height */
+#script {
+  min-height: 400px;
+  resize: vertical;
+}
+
+/* Word count display */
+#result {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+#wordCount {
+  font-weight: 600;
+  color: #0173fe;
+}
+
+/* Hidden fields */
+.hide {
+  display: none;
+}
+
+/* Video type and length styling */
+.type,
+.seconds,
+.time,
+.price {
+  font-weight: bolder;
+}
+
+.seconds,
+.type {
+  margin: 5px 0;
+}
+
+.seconds {
+  color: #77d2f1;
+}
+
+.type {
+  color: #000;
+}
+
+.time {
+  color: #fff;
+  font-size: 24px;
+}
+
+.price {
+  color: orange;
+  font-size: 36px;
+}
+
+/* Tooltip enhancements */
+.tooltip {
+  font-size: 1rem;
+}
+
+.tooltip .tooltip-inner {
+  background-color: #000;
+  color: #fff;
+  min-width: 200px;
+  max-width: 500px;
+}
+
+/* Button styling - Bootstrap enhanced */
+.my-form .btn-primary {
+  background-color: #0173fe;
+  border-color: #0173fe;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  transition: all 0.3s ease;
+}
+
+.my-form .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.my-form .btn-primary:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Call button styling (if used elsewhere) */
+.call-button,
+.call-button-link {
+  color: #e5f0ff;
+}
+
+.call-button {
+  width: 100%;
+  border-color: transparent;
+  border-radius: 28px;
+  text-align: center;
+  background-color: #003a6b !important;
+  background: linear-gradient(#0073d1, #003a6b);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;
+  transition: all 0.3s ease;
+}
+
+.call-button:hover {
+  background: #1d2b61;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.26);
+  color: #fff;
+}
+
+.call-button-container {
+  margin: 0 auto 1rem;
+  max-width: 750px;
+}
+
+.call-button-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Form validation feedback */
+.my-form .is-invalid {
+  border-color: #dc3545;
+}
+
+.my-form .invalid-feedback {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  color: #dc3545;
+}
+
+.my-form .is-valid {
+  border-color: #198754;
+}
+
+/* reCAPTCHA container */
+.my-form .g-recaptcha {
+  margin: 1.5rem 0;
+}
+
+/* intl-tel-input phone field styling */
+.my-form .iti {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.my-form .iti__flag-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 0.375rem 0 0 0.375rem;
+}
+
+.my-form .iti__selected-flag {
+  padding: 0 8px 0 12px;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border-radius: 0.375rem 0 0 0.375rem;
+}
+
+.my-form .iti__selected-flag:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Ensure phone input has proper padding to avoid overlap */
+.my-form input[data-type="phone"],
+.my-form #phone {
+  padding-left: 60px !important;
+  width: 100% !important;
+  position: relative;
+}
+
+/* Adjust for separate dial code mode */
+.my-form .iti--separate-dial-code .iti__selected-flag {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.my-form .iti--separate-dial-code input[data-type="phone"],
+.my-form .iti--separate-dial-code #phone {
+  padding-left: 80px !important;
+}
+
+.my-form .iti__arrow {
+  margin-left: 6px;
+  width: 0;
+  height: 0;
+  border-left: 4.5px solid transparent;
+  border-right: 4.5px solid transparent;
+  border-top: 4.5px solid #555;
+}
+
+.my-form .iti__country-list {
+  z-index: 1000;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* Ensure form control wrapper doesn't interfere */
+.my-form .mb-3 {
+  position: relative;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .my-form {
+    padding: 1.5rem;
+  }
+  
+  .my-form .btn-primary {
+    width: 100%;
+  }
+}
+
+/* Utility classes */
+.w-50 {
+  width: 50%;
+}
+
+.w-150 {
+  width: 150px;
+}
+
+.w-180 {
+  width: 180px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-small {
+  font-size: 0.875rem;
+}
+
+.ninety {
+  width: 90%;
+}
+
+.ninety-six {
+  width: 96%;
+}
+
+.checkbox {
+  width: 10% !important;
+}
+
+.checkDIV {
+  text-align: left;
+  width: auto !important;
+}
+
+.pipedriveWebForms {
+  margin: 0 auto;
+}
+
+.form-version {
+  background: orange;
+}
+
+/* Bootstrap alert enhancements */
+.alert {
+  border-radius: 0.5rem;
+}
+
+.alert-success {
+  background-color: #d1e7dd;
+  border-color: #badbcc;
+  color: #0f5132;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+  color: #842029;
+}
+
+.alert ul {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+/* Loading spinner */
+.spinner-border-sm {
+  width: 1rem;
+  height: 1rem;
+  border-width: 0.15em;
+}

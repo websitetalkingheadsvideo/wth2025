@@ -1,0 +1,13 @@
+/* videopresentations/index.php - Video Presentations Index Page Styles
+ * Extracted inline styles from videopresentations/index.php
+ */
+
+/* Header video container minimum height */
+.videopresentations-header .container-fluid {
+    min-height: 24rem;
+}
+
+.videopresentations-header .row {
+    min-height: 24rem;
+}
+

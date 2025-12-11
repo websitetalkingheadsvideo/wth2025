@@ -11,9 +11,9 @@ Generated: 2025-01-10
 ---
 
 ## Tier 2 (Links from Tier 1)
-- https://www.websitetalkingheads.com/spokespeople/female-carousel.php (1) - Redirects to women.php
+- https://www.websitetalkingheads.com/spokespeople/female-carousel.php (1) - Actual page (displays spokeswomen carousel)
 - https://www.websitetalkingheads.com/spokespeople/women.php (2)
-- https://www.websitetalkingheads.com/spokespeople/male-carousel.php (1) - Redirects to men.php
+- https://www.websitetalkingheads.com/spokespeople/male-carousel.php (1) - Actual page (displays spokesmen carousel)
 - https://www.websitetalkingheads.com/spokespeople/men.php (2)
 - https://www.websitetalkingheads.com/orderform/ (1)
 - https://www.websitetalkingheads.com/whiteboard/ (1)

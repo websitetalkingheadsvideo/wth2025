@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.websitetalkingheads.com/videopresentations/sitemap.xml

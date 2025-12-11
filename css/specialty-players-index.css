@@ -1,0 +1,9 @@
+/* specialty-players/index.php - Specialty Players Index Page Styles
+ * Extracted inline styles from specialty-players/index.php
+ */
+
+/* Card max-width constraint for specialty player cards */
+.specialty-players-card {
+    max-width: 300px;
+}
+

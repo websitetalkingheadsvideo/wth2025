@@ -1,0 +1,13 @@
+/* choosing_a_video_spokesperson/index.php - Choosing a Video Spokesperson Index Page Styles
+ * Extracted inline styles from choosing_a_video_spokesperson/index.php
+ */
+
+/* Header video container minimum height - uses common pattern */
+.choosing-spokesperson-header .container-fluid {
+    min-height: 24rem;
+}
+
+.choosing-spokesperson-header .row {
+    min-height: 24rem;
+}
+

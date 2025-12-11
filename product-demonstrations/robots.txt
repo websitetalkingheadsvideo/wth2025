@@ -1,0 +1,8 @@
+User-agent  : Googlebot
+Disallow    : /nogooglebot/
+
+User-agent  : *
+Allow       : /
+
+Sitemap     :https://www.websitetalkingheads.com/product-demonstrations//sitemap.xml
+Sitemap     :https://www.websitetalkingheads.com/product-demonstrations//en-en/sitemap.xml

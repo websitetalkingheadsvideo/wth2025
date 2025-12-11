@@ -1,0 +1,13 @@
+/* videopresentations/viral-commercial.php - Viral Commercial Page Styles
+ * Extracted inline styles from videopresentations/viral-commercial.php
+ */
+
+/* Header video container minimum height - uses common pattern */
+.viral-commercial-header .container-fluid {
+    min-height: 24rem;
+}
+
+.viral-commercial-header .row {
+    min-height: 24rem;
+}
+

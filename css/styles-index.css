@@ -1,0 +1,11 @@
+/* styles/index.php - Styles Index Page Styles
+ * Extracted inline styles from styles/index.php
+ */
+
+/* Jumbotron padding override */
+.styles-jumbotron {
+    padding: .5rem 1rem;
+}
+
+/* Note: Vimeo iframe inline style is third-party and documented as exception */
+

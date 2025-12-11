@@ -1,6 +1,7 @@
 # Version History
 
 ## Current Version: 0.2.11
+<<<<<<< HEAD
 
 **Date:** January 15, 2025  
 **Type:** Patch Update
@@ -17,11 +18,24 @@
 ---
 
 ## Version 0.2.10
+=======
+>>>>>>> 0ebe7d82 (chore: major CSS cleanup and file organization - bump to v0.2.11)
 
 **Date:** January 15, 2025  
 **Type:** Patch Update
 
-### Changes in 0.2.10
+### Changes in 0.2.11
+- Major CSS cleanup: Removed 50+ unused legacy CSS files
+- Deleted deprecated Bootstrap files and unused component styles
+- Removed old JavaScript validation files from includes/
+- Cleaned up Flash source files (.fla) from whiteboard directory
+- Updated CSS components: header.css, contact.css, mobile.css improvements
+- Added new documentation and planning files
+- Multiple new directories and files added for site sections
+
+---
+
+## Version 0.2.10
 - Major cleanup: Removed 60+ unused legacy files from includes/ directory
 - Deleted deprecated header/footer variations (header2.php, header22215.php, header42415.php, etc.)
 - Removed old actor includes, testimonial variations, and unused form components

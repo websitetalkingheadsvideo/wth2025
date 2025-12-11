@@ -16,6 +16,7 @@ include( "includes/css-b4.php" );
 header( "X-Frame-Options: DENY" );
 header( "Content-Security-Policy: frame-ancestors 'none'", false );
 ?>
+<link href="https://www.websitetalkingheads.com/css/contact.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>

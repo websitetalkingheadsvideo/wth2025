@@ -1,0 +1,119 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<data>
+	<example>
+		<image>cafemaster.png</image>
+		<name>'Cafemaster'</name>
+		<target>http://cafemaster.com.au/</target>
+	</example>
+	<example>
+		<image>wefoundyourmoney.png</image>
+		<name>'Found Your Money'</name>
+		<target>http://www.wefoundyourmoney.com/</target>
+	</example>
+	<example>
+		<image>eggsclusivepartners.png</image>
+		<name>'Eggsclusive Partners'</name>
+		<target>http://www.eggsclusivepartners.com/</target>
+	</example>
+	<example>
+		<image>divecenter.png</image>
+		<name>'Dive Center'</name>
+		<target>http://divecenter.com/</target>
+	</example>
+	<example>
+		<image>usainsurance.png</image>
+		<name>'USA Insurance'</name>
+		<target>http://usainsurance.com/</target>
+	</example>
+	<example>
+		<image>handcockreality.png</image>
+		<name>'Hancock Realty'</name>
+		<target>http://hancockrealtygroup.com/</target>
+	</example>
+	<example>
+		<image>nia.png</image>
+		<name>'Niacare'</name>
+		<target>http://www.nia-care.com/</target>
+	</example>
+	<example>
+		<image>CarryTelecom.png</image>
+		<name>'Carry Telecom'</name>
+		<target>http://www.carrytel.ca/why-us.aspx</target>
+	</example>
+	<example>
+		<image>daytoon.png</image>
+		<name>'DAYTOON'</name>
+		<target>http://daytoon.com/</target>
+	</example>
+	<example>
+		<image>medicreations.png</image>
+		<name>'Medicreations'</name>
+		<target>http://www.medicreations.com/</target>
+	</example>
+	<example>
+		<image>billboardconnection.png</image>
+		<name>'Billboard Connection'</name>
+		<target>http://www.billboardconnection.com/</target>
+	</example>
+	<example>
+		<image>Chautauquapt.png</image>
+		<name>'Chautauqua'</name>
+		<target>http://www.chautauquapt.com/</target>
+	</example>
+	<example>
+		<image>reputationlobby.png</image>
+		<name>'Reputation Lobby'</name>
+		<target>http://www.reputationlobby.com/</target>
+	</example>
+	<example>
+		<image>UtahCreditApproval.png</image>
+		<name>'Utah Credit Approval'</name>
+		<target>http://www.utahcreditapproval.com/</target>
+	</example>
+	<example>
+		<image>ryanssearch.png</image>
+		<name>'Ryan Search'</name>
+		<target>http://ryanssearch.com/</target>
+	</example>
+	<example>
+		<image>SRPF.png</image>
+		<name>'SRPF'</name>
+		<target>http://www.srpf.org/</target>
+	</example>
+	<example>
+		<image>T-Max.png</image>
+		<name>'T-Max'</name>
+		<target>https://tmaxdialer.com/</target>
+	</example>
+	<example>
+		<image>OASystems.png</image>
+		<name>'OA Systems'</name>
+		<target>http://www.oasite.com/billing-software.asp</target>
+	</example>
+
+	<example>
+		<image>FirstChoiceBailBonds.png</image>
+		<name>'1st Choice Bail Bonds'</name>
+		<target>http://www.1stchoicebail.com/resources/video-library/</target>
+	</example>
+	<example>
+		<image>Lampbright.png</image>
+		<name>'Lampbright Pest Control'</name>
+		<target>http://www.lambrightpestcontrol.net/</target>
+	</example>
+	<example>
+		<image>WalthamAutoGallery.png</image>
+		<name>'Waltham Auto Gallery'</name>
+		<target>http://walthamautogallery.com/</target>
+	</example>
+	<example>
+		<image>RhetsWordGame.png</image>
+		<name>'Rhetts Word Game'</name>
+		<target>http://www.topwordgame.com/</target>
+	</example>
+	<example>
+		<image>electricitypricing.png</image>
+		<name>'Electricity Pricing'</name>
+		<target>http://electricitypricing.com/</target>
+	</example>
+</data>

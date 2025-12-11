@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>website talking heads - video presentations</title>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+	<meta name="keywords" content="online spokesperson, video spokesperson, website talking heads, transparent video, virtual spokesperson, spokesperson, video presenter, website presenter, website spokesperson, video salesperson">
+	<meta name="description" content="online video spokesperson.  for only $199, add a virtual spokesperson to your website.  an online presenter can increase traffic conversion rates on your website.  integrate flash video and objects to create dynamic streaming video and easily add it your existing website.">
+	<meta name="robots" content="index, follow">
+	<!-- (robot commands: all, none, index, no index, follow, no follow) -->
+	<meta name="revisit-after" content="30 days">
+	<meta name="distribution" content="global">
+	<meta name="rating" content="general">
+	<meta name="content-language" content="english">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap, Font Awesome and Custom CSS-->
+	<script src="https://kit.fontawesome.com/7571fb7d5c.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<link href="https://www.websitetalkingheads.com/css/style.css" rel="stylesheet" type="text/css"/>
+	<link href="https://www.websitetalkingheads.com/css/fluid.css" rel="stylesheet" type="text/css"/>
+	<!-- JQuerry and Bootstrap JS-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<!--Bing Tracking --------------------------------------------------->
+	<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"11004581"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+	<!-- Global site tag (gtag.js) - Google Ads: 1058129782 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1058129782"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push( arguments );
+	};
+	gtag( 'js', new Date() );
+
+	gtag( 'config', 'AW-1058129782' );
+
+	var _gaq = _gaq || [];
+	_gaq.push( [ '_setAccount', 'UA-3598588-2' ] );
+	_gaq.push( [ '_trackPageview' ] );
+
+	( function () {
+		var ga = document.createElement( 'script' );
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ( 'https:' == document.location.protocol ? 'https://ssl' : 'https://www' ) + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName( 'script' )[ 0 ];
+		s.parentNode.insertBefore( ga, s );
+	} )();
+	</script>
+	</head>
+	<body>
+<section id="Talking-Heads-Header">
+      <header class="center-block">
+    <section id="header_top"> <a href="/index.php"><img class="img img-responsive" src="/images/Talking_Heads_Banner_Logo.png"  alt="Website Talking Heads"/></a>
+          <h3><a class="phone-header" href="tel://801-748-2281" title="Give us a call." >801-748-2281</a></h3>
+        </section>
+    <nav class="row center-block" id="Talking-Heads-Navigation">
+          <ul class="center-block">
+        <li class="center-block"><a href="/index.php" id="menuHome">
+          <h2>Home</h2>
+          </a> </li>
+        <li class="center-block"><a href="/spokespeople/female-carousel.php" id="menuActors">
+          <h2>Actors</h2>
+          </a> </li>
+        <li class="center-block"><a href="/examples/" id="menuExamples">
+          <h2>Examples</h2>
+          </a> </li>
+        <li class="center-block"><a href="/pricing/" id="menuPrices">
+          <h2>Prices</h2>
+          </a> </li>
+        <li class="center-block"><a href="/orderform/" id="menuOrder">
+          <h2>Order</h2>
+          </a> </li>
+        <li class="center-block"><a href="/whiteboard/" id="whiteboard">
+          <h2> <span class="wb">White<br/>
+            Board</span> </h2>
+          </a> </li>
+        <li class="center-block"><a href="/videopresentations/" id="menuVideos">
+          <h2>Videos</h2>
+          </a> </li>
+        <li class="center-block"><a href="/contact.php" id="menuContact">
+          <h2>Contact</h2>
+          </a> </li>
+        <li class="center-block"><a href="/specials/" id="menuSpecials">
+          <h2>Specials</h2>
+          </a> </li>
+      </ul>
+        </nav>
+  </header>
+      <div class="c line"></div>
+    </section>
+<section class="jumbotron">
+      <div class="container">
+    <h1 class="text-center text-capitalize">Video Presentations</h1>
+    <div class="row">
+          <div class="col-lg-6">
+        <p>Do you need a video presentation, sales video, kickstarter video, video sales letter, or website video?
+              Our Custom Presentation will look great on your website. Our custom presentations convey a  clear message to your target audience. Engage your website visitors and increase your brand's awareness with a custom video presentation.</p>
+        <p>Our Custom video Presentations include; Video Spokesperson, Professional Editing, Motion Graphics, Compositing, Images, Effects, and Sound 
+              We put it together and give you a Full HD 1920X1080 video in MP4 format for you to post on YouTube, Facebook. Twitter, or Instagram...any social media platform. </p>
+      </div>
+          <div class="col-lg-6"> 
+        <!-- 16:9 aspect ratio -->
+        <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" type="text/html" src="https://www.youtube.com/embed/mIob9BQ14F0?showinfo=0&modestbranding=1&autoplay=1&loop=1&rel=0" frameborder="0" allow="autoplay" ></iframe>
+            </div>
+      </div>
+        </div>
+  </div>
+    </section>
+<footer>
+      <h2><a href="https://www.websitetalkingheads.com/contact.php">© Copyright 2007-<?php echo date("Y")?> WebsiteTalkingHeads.com. All Rights Reserved.</a></h2>
+    </footer>
+</body>
+</html>

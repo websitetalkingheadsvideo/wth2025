@@ -34,8 +34,9 @@
 
 /* Header Logo Responsive Image */
 .navbar-brand img {
-    max-width: 250px;
-    height: auto;
+    max-width: 500px !important;
+    width: 500px !important;
+    height: auto !important;
 }
 
 /* Navbar Images - Horizontal Layout */

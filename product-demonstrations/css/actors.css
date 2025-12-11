@@ -1,0 +1,7 @@
+@charset "utf-8";
+.pageinfo{text-align: center}
+.thumb-wrapper{position:absolute;top:45%;bottom:auto;left:50%;margin-left:-16px;display:inline-block;width:32px;height:32px}
+.thumb-wrapper:before{content:"\f01d";font-family:FontAwesome;font-style:normal;font-weight:400;font-size:32px;position:absolute;color:#0073FF;left:0;top:0;bottom:auto;right:auto}
+.actor{cursor: pointer}
+.actor:hover > .thumb-wrapper:before{color:#fff}
+.highlight{margin: 0 auto}

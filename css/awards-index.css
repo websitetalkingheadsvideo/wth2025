@@ -1,0 +1,8 @@
+/* awards/index.php - Awards Index Page Styles
+ * Extracted <style> block from awards/index.php
+ */
+
+.card-award img {
+    max-width: 210px;
+}
+

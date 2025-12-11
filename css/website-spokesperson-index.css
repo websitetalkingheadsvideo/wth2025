@@ -1,0 +1,13 @@
+/* website-spokesperson/index.php - Website Spokesperson Index Page Styles
+ * Extracted inline styles from website-spokesperson/index.php
+ */
+
+/* Header video container minimum height */
+.website-spokesperson-header .container-fluid {
+    min-height: 24rem;
+}
+
+.website-spokesperson-header .row {
+    min-height: 24rem;
+}
+

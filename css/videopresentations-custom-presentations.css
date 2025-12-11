@@ -1,0 +1,13 @@
+/* videopresentations/custom-presentations.php - Custom Presentations Page Styles
+ * Extracted inline styles from videopresentations/custom-presentations.php
+ */
+
+/* Header video container minimum height */
+.custom-presentations-header .container-fluid {
+    min-height: 24rem;
+}
+
+.custom-presentations-header .row {
+    min-height: 24rem;
+}
+

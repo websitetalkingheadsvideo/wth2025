@@ -52,15 +52,16 @@ header .navbar {
 
 /* Header Logo Responsive Image */
 .navbar-brand img {
-    max-width: 250px;
-    height: auto;
+    max-width: 500px !important;
+    width: 500px !important;
+    height: auto !important;
 }
 
 /* Logo sizing for mobile */
 @media (max-width: 991.98px) {
     .navbar-brand img {
-        max-height: 50px;
-        width: auto;
+        max-height: 100px !important;
+        width: auto !important;
     }
 }
 
