@@ -1,25 +1,23 @@
 # Version History
 
-## Current Version: 0.2.11
-<<<<<<< HEAD
+## Current Version: 0.2.12
 
 **Date:** January 15, 2025  
 **Type:** Patch Update
 
-### Changes in 0.2.11
-- Major CSS cleanup: Removed 50+ unused legacy CSS files
-- Deleted deprecated Bootstrap files and unused component styles
-- Removed old JavaScript validation files from includes/
-- Cleaned up Flash source files (.fla) from whiteboard directory
-- Updated CSS components: header.css, contact.css, mobile.css improvements
-- Added new documentation and planning files
-- Multiple new directories and files added for site sections
+### Changes in 0.2.12
+- Resolved merge conflict in VERSION.md
+- Major cleanup: Removed deprecated header files (header.php, header19.php, header_b4.php, header_dark.php)
+- Deleted old index variations (index-81619.php, index-b4.php, index3.php)
+- Removed legacy plan documentation files
+- Cleaned up specials directory (removed NewYear.php, index-yearend.php, yearend.php, index.php.old)
+- Updated multiple pages to use canonical header25.php
+- CSS updates: Added specials-index.css improvements
+- Documentation updates: UNUSED_CSS_JS_REPORT.md and swf_flv_removal_summary.md
 
 ---
 
-## Version 0.2.10
-=======
->>>>>>> 0ebe7d82 (chore: major CSS cleanup and file organization - bump to v0.2.11)
+## Version 0.2.11
 
 **Date:** January 15, 2025  
 **Type:** Patch Update

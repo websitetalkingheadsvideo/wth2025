@@ -120,7 +120,7 @@
           </ul>
         </div>
         <div class="card-footer">
-          <div class="more-link"><a href="../../spokespeople/male-carousel.php" title="Our Spokespeople">See Our Spokespeople</a> 
+          <div class="more-link"><a href="../../spokespeople/men.php" title="Our Spokespeople">See Our Spokespeople</a> 
           </div>
         </div>
       </div>

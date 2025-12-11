@@ -138,7 +138,7 @@
         </div>
         <div class="col-lg-6">
           <div class="wow fadeInUp">
-            <a href="../spokespeople/female-carousel.php"><img src="../ivideo/videos/Spokespeople.jpg" alt="Website Spokesperson" width="1920" height="1080"  class="img-fluid shake" title="Website Spokespeople"/>
+            <a href="../spokespeople/women.php"><img src="../ivideo/videos/Spokespeople.jpg" alt="Website Spokesperson" width="1920" height="1080"  class="img-fluid shake" title="Website Spokespeople"/>
             <div class="more">
               <div class="more-title">
                 Click for Examples
@@ -147,7 +147,7 @@
             </a>
           </div>
           <div class="text-center wow fadeIn">
-            <h3><a href="../spokespeople/female-carousel.php" title="Website Spokespeople">Website Spokesperson</a></h3>
+            <h3><a href="../spokespeople/women.php" title="Website Spokespeople">Website Spokesperson</a></h3>
             <p class="text-white">Give your website a professional face to welcome visitors and grab their attention.  Or use green screen footage for your own projects.</p>
           </div>
         </div>

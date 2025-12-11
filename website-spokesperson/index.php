@@ -81,7 +81,7 @@ if (
           <p class="card-text">We are here to serve your video spokesperson needs. The exceptional quality of our videos is matched by our spokespeople's talent and our production staff's dedication to ensuring your satisfaction.</p>
           <p class="card-text">As the online face of your business, a video spokesperson can deliver the exact message you want your visitors to hear. Our web spokesperson actors will impress your customers and increase your bottom line</p>
         </div>
-        <div class="card-footer text-muted bg-gradient-mine text-right"> <a href="https://www.websitetalkingheads.com/spokespeople/female-carousel.php" title="More Spokespeople" >Female Spokespeople</a> </div>
+        <div class="card-footer text-muted bg-gradient-mine text-right"> <a href="https://www.websitetalkingheads.com/spokespeople/women.php" title="More Spokespeople" >Female Spokespeople</a> </div>
       </div>
       <div class="card">
         <h3 class="card-header bg-gradient-mine text-center text-white">Video Solutions</h3>
@@ -92,7 +92,7 @@ if (
           <p class="card-text">There are other companies you can choose who charge higher prices and require complex setup solutions for their website spokesperson videos. We focus on providing a low cost solution!</p>
           <p class="card-text">As the online face of your business, a video spokesperson can deliver the exact message you want your visitors to hear. Our web spokesperson actors will impress your customers and increase your bottom line</p>
         </div>
-        <div class="card-footer text-muted bg-gradient-mine text-right"> <a href="https://www.websitetalkingheads.com/spokespeople/male-carousel.php" title="More Spokespeople" >Male Spokespeople</a> </div>
+        <div class="card-footer text-muted bg-gradient-mine text-right"> <a href="https://www.websitetalkingheads.com/spokespeople/men.php" title="More Spokespeople" >Male Spokespeople</a> </div>
       </div>
       <div class="card">
         <h3 class="card-header bg-gradient-mine text-center text-white">Website Presenter</h3>

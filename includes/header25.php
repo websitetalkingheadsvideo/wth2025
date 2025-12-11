@@ -5,7 +5,7 @@
     <div class="collapse navbar-collapse justify-content-center" id="navbarText">
       <ul class="navbar-nav navbar-images">
         <li class="nav-item" id="menuHome" title="Website Talking Heads®"><a href="/index.php"><img src="https://www.websitetalkingheads.com/images/menu-button.png" alt="Home" class="img-fluid img-nav"><span class="caption">Home</span></a></li>
-        <li class="nav-item" id="menuActors" title="Our Spokespeople"><a href="/spokespeople/female-carousel.php"><img src="https://www.websitetalkingheads.com/images/menu-button.png" alt="Spokespeople" class="img-fluid img-nav"><span class="caption">Actors</span></a></li>
+        <li class="nav-item" id="menuActors" title="Our Spokespeople"><a href="/spokespeople/women.php"><img src="https://www.websitetalkingheads.com/images/menu-button.png" alt="Spokespeople" class="img-fluid img-nav"><span class="caption">Actors</span></a></li>
         <li class="nav-item" id="menuOrder" title="Order a Video"><a href="/orderform/"><img src="https://www.websitetalkingheads.com/images/menu-button.png" alt="Order" class="img-fluid img-nav"><span class="caption">Order</span></a></li>
         <li class="nav-item" id="menuWhiteboard" title="Whiteboard Videos"><a href="/whiteboard/"><img src="https://www.websitetalkingheads.com/images/menu-button-purple.png" alt="Whiteboard Videos" class="img-fluid img-nav"><span class="caption">White<br>
           Board</span></a></li>

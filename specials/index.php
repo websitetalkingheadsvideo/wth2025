@@ -37,7 +37,7 @@ $newdate = "THESE OFFERS EXPIRE Friday, " . $newdateBase;
   <div class="row">
     <div class="col-lg-5">
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="https://www.websitetalkingheads.com/ivideo/talking-heads-player.php?video=<?=$male?>&autostart=mute&controls=true&actor=true&color=256ABF" allow="autoplay; fullscreen; picture-in-picture"></iframe>
+        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=<?=$male?>&autostart=no&controls=mouse&actor=true" allow="autoplay; fullscreen; picture-in-picture"></iframe>
       </div>
       <h3 id="male">
         <?=$male?>
@@ -59,7 +59,7 @@ $newdate = "THESE OFFERS EXPIRE Friday, " . $newdateBase;
     </div>
     <div class="col-lg-5">
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="https://www.websitetalkingheads.com/ivideo/talking-heads-player.php?video=<?=$female?>&autostart=mute&controls=true&actor=true&color=256ABF" allow="autoplay; fullscreen; picture-in-picture"></iframe>
+        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=<?=$female?>&autostart=no&controls=mouse&actor=true" allow="autoplay; fullscreen; picture-in-picture"></iframe>
       </div>
       <h3 id="female">
         <?=$female?>
@@ -128,7 +128,7 @@ $newdate = "THESE OFFERS EXPIRE Friday, " . $newdateBase;
       </dl>
       <p class="card-text">A website spokesperson is a digital representation of your brand.  They speak for or represent a company, organization, or institution. They are often used in advertising and other public relations. They can be used for a variety of purposes, the most common being to create a sense of trust and credibility for your company.</p>
       <div class="card-footer text-muted bg-gradient-mine text-right">
-        <a href="https://www.websitetalkingheads.com/spokespeople/female-carousel.php" title="More Spokespeople" >More Spokespeople</a>
+        <a href="https://www.websitetalkingheads.com/spokespeople/women.php" title="More Spokespeople" >More Spokespeople</a>
       </div>
     </div>
   </div>

@@ -100,7 +100,7 @@
       <div class="col-md-6">
         <h3 class="text-center">Website Spokesperson</h3>
         <p class="summary">Keep these things in mind when you're looking for the best <strong>website spokesperson</strong> to get for your website. Choose well as they will be your brand spokesperson for anyone who visits your page. The <em>professional spokespeople</em> from Talking Heads® are the best in the buisness today!</p>
-        <p class="summary">Take a look at our <a href="https://www.websitetalkingheads.com/spokespeople/female-carousel.php">Video Spokespeople</a> and <a href="https://www.websitetalkingheads.com/website-spokesperson/index.php">watch some examples</a> </p>
+        <p class="summary">Take a look at our <a href="https://www.websitetalkingheads.com/spokespeople/women.php">Video Spokespeople</a> and <a href="https://www.websitetalkingheads.com/website-spokesperson/index.php">watch some examples</a> </p>
         <p class="summary text-uppercase">good luck!</p>
       </div>
       <div class="col-md-6">

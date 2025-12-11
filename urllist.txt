@@ -1,6 +1,6 @@
 https://www.websitetalkingheads.com/
 https://www.websitetalkingheads.com/index.php
-https://www.websitetalkingheads.com/spokespeople/female-carousel.php
+https://www.websitetalkingheads.com/spokespeople/women.php
 https://www.websitetalkingheads.com/orderform/
 https://www.websitetalkingheads.com/whiteboard/
 https://www.websitetalkingheads.com/videopresentations/
@@ -28,7 +28,7 @@ https://www.websitetalkingheads.com/styles/index.php
 https://www.websitetalkingheads.com/order.php
 https://www.websitetalkingheads.com/sitemap.php
 https://www.websitetalkingheads.com/privacy-policy.php
-https://www.websitetalkingheads.com/spokespeople/male-carousel.php
+https://www.websitetalkingheads.com/spokespeople/men.php
 https://www.websitetalkingheads.com/articles/pros_vs_cons/
 https://www.websitetalkingheads.com/support/
 https://www.websitetalkingheads.com/whiteboard/animation.php

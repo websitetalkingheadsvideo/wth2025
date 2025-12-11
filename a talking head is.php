@@ -120,7 +120,7 @@
     <div class="h-s Video-Spokesperson">
       <h4>Video Spokesperson</h4>
       <p>No matter what term you wish to use: Video Spokesperson, Virtual Spokesperson, Website Spokesperson, Web Spokesperson, Spokes-model, Walk On Actor, Virtual Actor, Person on website, Online Spokesperson– we welcome you to <strong>Website Talking Heads</strong><sup>&#174;</sup>. We would be happy to talk with you about your ideas of using a video spokesperson.</p>
-      <p>All of our Video Spokespeople are professional <a href="https://websitetalkingheads.com/spokespeople/male-carousel.php">actors</a> and <a href="https://websitetalkingheads.com/spokespeople/female-carousel.php">actresses</a>. View them <a href="https://websitetalkingheads.com/spokespeople/female-carousel.php">here</a>.</p>
+      <p>All of our Video Spokespeople are professional <a href="https://websitetalkingheads.com/spokespeople/men.php">actors</a> and <a href="https://websitetalkingheads.com/spokespeople/women.php">actresses</a>. View them <a href="https://websitetalkingheads.com/spokespeople/women.php">here</a>.</p>
       <p>Add a Spokesperson to your website to welcome visitors and direct them to key areas.</p>
     </div>
   </div>
