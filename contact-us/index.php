@@ -39,7 +39,7 @@
         </p>
       </div>
       <div class="col-6 mt-4">
-		  <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/6WfFZtxIYlaDFR4wTsVVlsIHtzxSXXyZyYRL3Dszh0VTEFZRPJOThyDuWpXMrwOaYP"></div>
+		  <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/6WfFZtxIYlaDFR4wTsVVlsIHtzxSXXyZyYRL3Dszh0VTEFZRPJOThyDuWpXMrwOaYP"><script src="https://webforms.pipedrive.com/f/loader"></script></div>
       </div>
     </div>
   </div>

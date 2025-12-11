@@ -33,7 +33,7 @@ if (!headers_sent()) {
                "https://cdn.was-1.pipedriveassets.com; " .
                "style-src 'self' 'unsafe-inline' " .
                "https://cdn.jsdelivr.net https://cdnjs.cloudflare.com " .
-               "https://use.typekit.net; " .
+               "https://use.typekit.net https://p.typekit.net; " .
                "frame-src 'self' " .
                "https://www.google.com https://webforms.pipedrive.com " .
                "https://player.vimeo.com; " .
@@ -41,9 +41,10 @@ if (!headers_sent()) {
                "connect-src 'self' " .
                "https://www.google.com https://www.google-analytics.com " .
                "https://www.gstatic.com https://webforms.pipedrive.com " .
-               "https://cdn.was-1.pipedriveassets.com; " .
+               "https://cdn.was-1.pipedriveassets.com " .
+               "https://use.typekit.net https://p.typekit.net; " .
                "img-src 'self' data: https:; " .
-               "font-src 'self' data: https://use.typekit.net https://cdnjs.cloudflare.com;";
+               "font-src 'self' data: https://use.typekit.net https://p.typekit.net https://cdnjs.cloudflare.com;";
         
         header("Content-Security-Policy: " . $csp, false);
     }
