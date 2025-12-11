@@ -80,7 +80,6 @@
 <script>
  $(document.getElementById('oil').contentWindow.document).ready(function() {
 	 var oil = $('#oil').contents().find('head');
-	 console.log( oil );
       $('oil').contents().find('head').append('<link rel="stylesheet" href="../custom.css" type="text/css" />');
  });
 	</script>

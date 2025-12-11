@@ -17,7 +17,6 @@
   </div>
 </div>
 <script>
-    console.log( "running" );
 	var holder = $("#talking-heads-video");
 	var video = holder[0];
 	var iframe = video;
@@ -47,7 +46,6 @@ $('.modal').on('shown.bs.modal', function () {
 		name = $(this).attr("data-video");
 		vimeo = $(this).attr("data-vimeo");
 		srcVideo = "https://player.vimeo.com/video/" + vimeo + "&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479";
-		console.log("video:" + srcVideo);
 		if (!$(this).attr("alt")) {
 			alt = "";
 		} else {
@@ -58,9 +56,7 @@ $('.modal').on('shown.bs.modal', function () {
 	$(".poster").click(function () {
 		name = $(this).attr("data-video");
 		vimeo = $(this).attr("data-vimeo");
-		console.log("vimeo:" + vimeo);
 		srcVideo = "https://player.vimeo.com/video/" + vimeo + "&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=1&amp;player_id=0&amp;app_id=58479";
-		console.log("video:" + srcVideo);
 		if (!$(this).attr("alt")) {
 			alt = "";
 		} else {
@@ -70,10 +66,8 @@ $('.modal').on('shown.bs.modal', function () {
 	});
 
 	function showVideo() {
-		console.log("click");
 		$('#videoModalLabel').text(name + alt);
         $('#mainModal').modal('show');
 		video.src = srcVideo;
-		console.log(srcVideo);
 	}
 </script>

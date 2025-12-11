@@ -1,6 +1,22 @@
 # Version History
 
-## Current Version: 0.2.16
+## Current Version: 0.2.17
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.17
+- Added CSP header support for reCAPTCHA pages (includes/csp-recaptcha.php)
+- Added header-links.js for navigation functionality
+- Updated multiple wthvideo.js files across player directories
+- Updated exit-intent popup scripts across specialty players
+- Enhanced console error audit documentation
+- Updated footer25.php with additional functionality
+- Multiple page updates: actors, contact, order, and specialty players
+
+---
+
+## Version 0.2.16
 
 **Date:** January 15, 2025  
 **Type:** Patch Update

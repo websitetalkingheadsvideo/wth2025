@@ -71,4 +71,18 @@
 <script src="https://www.websitetalkingheads.com/js/site.js"></script> 
 <!-- Clixtell Tracking Code --> 
 <script src="https://www.websitetalkingheads.com/js/tracking.js"></script>
+<!-- Pipedrive Web Forms - Load once globally to prevent duplicate initialization -->
+<script>
+(function() {
+  'use strict';
+  // Only load Pipedrive loader if forms exist and haven't been initialized
+  if (document.querySelector('.pipedriveWebForms') && !window.pipedriveLoaderLoaded) {
+    window.pipedriveLoaderLoaded = true;
+    var script = document.createElement('script');
+    script.src = 'https://webforms.pipedrive.com/f/loader';
+    script.async = true;
+    document.body.appendChild(script);
+  }
+})();
+</script>
 

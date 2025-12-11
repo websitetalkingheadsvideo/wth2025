@@ -14,6 +14,7 @@
 <meta name="norton-safeweb-site-verification" content="iinbv24r-1ix20hgj5l94wz2rnn3aiwi0336hwysvvpiskquy6ijsh9wy12f3znbed-hz1ay8ppzhgqap-sicqtw6ui29d0wrfcpenudh1ml9xwjbej7u25xy9pnm6yr"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <?php include("../../includes/css-b4.php"); ?>
+<?php include("../../includes/csp-recaptcha.php"); ?>
 <link href="/css/pricing.css" rel="stylesheet" type="text/css"/>
 </head>
 

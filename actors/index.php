@@ -50,7 +50,7 @@
           <h3 class="card-header text-center text-white">Virtual Spokespeople</h3>
           <div class="card-img-top embed-responsive embed-responsive-16by9">
             <div class="embed-responsive-item">
-              <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/980936165?h=ac4c3a0ff7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Virtual Spokespeople"></iframe></div>
+              <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/980936165?h=ac4c3a0ff7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Virtual Spokespeople"></iframe></div>
             </div>
           </div>
           <div class="card-body">
@@ -69,7 +69,7 @@
       <h3 class="card-header text-center text-white">What is a Talking Head<sup>&reg;</sup></h3>
       <div class="card-img-top embed-responsive embed-responsive-16by9">
         <div class="embed-responsive-item">
-          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/980936165?h=ac4c3a0ff7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="What is a Talking Head"></iframe></div>
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/980936165?h=ac4c3a0ff7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="What is a Talking Head"></iframe></div>
         </div>
       </div>
       <div class="card-body">

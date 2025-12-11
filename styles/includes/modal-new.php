@@ -17,7 +17,6 @@
   </div>
 </div>
 <script>
-    console.log( "running" );
 	var holder = $("#talking-heads-video");
 	var video = holder[0];
 	var iframe = document.querySelector('iframe');
@@ -51,7 +50,6 @@
 		name = $(this).attr("data-video");
 		vimeo = $(this).attr("data-vimeo");
 		srcVideo = "https://player.vimeo.com/video/" + vimeo + "&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479";
-		console.log(srcVideo);
 		if (!$(this).attr("alt")) {
 			alt = "";
 		} else {
@@ -64,6 +62,5 @@
 		$('#videoModalLabel').text(name + alt);
         $('#mainModal').modal('show');
 		video.src = srcVideo;
-		console.log(srcVideo);
 	}
 </script>

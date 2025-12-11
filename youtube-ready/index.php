@@ -20,6 +20,7 @@
 <link href="backgrounds.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" type="text/css" href="../lightbox/js/lightbox/themes/default/jquery.lightbox.css"/>
 <?php include("../includes/css-b4.php"); ?>
+<?php include("../includes/csp-recaptcha.php"); ?>
 </head>
 
 <body>

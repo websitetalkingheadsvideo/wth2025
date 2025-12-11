@@ -417,9 +417,9 @@ function wthplayer() {
                     srcVid = thplayer,
                     buffer = outputCanvas.getContext("2d");
                 buffer.drawImage(srcVid, 0, 0);
-                var image = buffer.getImageData(0, 0, width, height),
+                var image = buffer.getImageData(0, 0, width, height, { willReadFrequently: true }),
                     imageData = image.data,
-                    alphaData = buffer.getImageData(0, height, width, height).data;
+                    alphaData = buffer.getImageData(0, height, width, height, { willReadFrequently: true }).data;
                 for (var i = 3, len = imageData.length; i < len; i = i + 4) {
                     imageData[i] = alphaData[i - 1];
                 }
