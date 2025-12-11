@@ -1,0 +1,12 @@
+@charset "utf-8";
+.vp-example-box{float:left;padding:0 6px}
+.vp-example-box img{-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.60);box-shadow:0 2px 4px rgba(0,0,0,0.60)}
+.vp-example-box a{opacity:1}
+.vp-example-box a:hover{opacity:.9}
+#vp-exampleboxtext{padding:2px;text-align:center;color:#000;font-size:90%;margin-bottom:12px;line-height:18px;height:36px}
+#vp-exampleboxtext a{color:#000;text-decoration:none;text-shadow:1px 1px 1px rgba(0,0,0,0.7)}
+#vp-exampleboxtext a:hover{text-shadow:1px 1px 0 rgba(0,0,0,0.4)}
+#background-name{padding:2px;text-align:center;color:#000;font-size:90%;margin-bottom:10px;margin-top:2px;font-weight:700}
+#background-name a{color:#000;text-decoration:none;text-shadow:1px 1px 1px rgba(0,0,0,0.7)}
+#background-name a:hover{text-shadow:1px 1px 0 rgba(0,0,0,0.4)}
+.background-examples{max-width:910px;padding-bottom:10px}

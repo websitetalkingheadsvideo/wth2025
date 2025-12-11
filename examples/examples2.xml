@@ -1,0 +1,105 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<data>
+	<example>
+		<image>garads.png</image>
+		<name>'Garads'</name>
+		<target>https://www.garads.com/index.php</target>
+	</example>
+	<example>
+		<image>weddingsprings.jpg</image>
+		<name>'Wedding Springs'</name>
+		<target>https://www.weddingsprings.com/</target>
+	</example>
+	<example>
+		<image>bosson.jpg</image>
+		<name>'The Bosson Group'</name>
+		<target>https://thebossongroup.com/</target>
+	</example>
+	<example>
+		<image>athleticgirlapparel.png</image>
+		<name>'Athletic Girls Apparel'</name>
+		<target>https://athleticgirlapparel.com/</target>
+	</example>
+	<example>
+		<image>stevesfrozenchillers.png</image>
+		<name>'Steve's Frozen Chillers'</name>
+		<target>https://www.stevesfrozenchillers.com/</target>
+	</example>
+	<example>
+		<image>manmadelabdiamonds.png</image>
+		<name>'Man Made Lab Diamonds'</name>
+		<target>https://www.manmadelabdiamonds.com/</target>
+	</example>
+	<example>
+		<image>Steve Magdziak Insurance.png</image>
+		<name>'Steve Magdziak Insurance'</name>
+		<target>https://www.steveinsurance.com</target>
+	</example>
+	<example>
+		<image>temptooth.jpg</image>
+		<name>'Temp Tooth'</name>
+		<target>https://www.temptooth.com/</target>
+	</example>
+	<example>
+		<image>NY-Inspect.png</image>
+		<name>'NY Inspect'</name>
+		<target>https://nyc-homeinspection.com/virtualhome.html</target>
+	</example>
+	<example>
+		<image>TexasMedigap.png</image>
+		<name>'Texas Medigap'</name>
+		<target>https://www.texasmedigapselect.com/</target>
+	</example>
+	<example>
+		<image>UberProducts.png</image>
+		<name>'Uber Products'</name>
+		<target>https://www.uberproductsusa.com/</target>
+	</example>
+	<example>
+		<image>resolutionchoices.png</image>
+		<name>'Resolution Choices'</name>
+		<target>https://resolutionchoices.com/</target>
+	</example>
+		<example>
+		<image>MostFor.png</image>
+		<name>'Most For'</name>
+		<target>https://www.mostfor.com/</target>
+	</example>
+	<example>
+		<image>pushmyweb.png</image>
+		<name>'Push My Web'</name>
+		<target>https://pushmyweb.com/</target>
+	</example>
+	<example>
+		<image>electricitypricing.png</image>
+		<name>'Electricity Pricing'</name>
+		<target>https://electricitypricing.com/</target>
+	</example>
+	<example>
+		<image>1st Choice Bail Bonds.png</image>
+		<name>'1st Choice Bail Bonds'</name>
+		<target>https://www.1stchoicebail.com/resources/video-library/</target>
+	</example>
+	<example>
+		<image>RootAndroid.png</image>
+		<name>'Root Pros'</name>
+		<target>https://rootpros.com/</target>
+	</example>
+	<example>
+		<image>BayAreaCarpetCleaners.png</image>
+		<name>'Bay Area Carpet'</name>
+		<target>https://bayareacarpetcleaners.net/</target>
+	</example>
+	<example>
+		<image>Benchmark Auto Protection.png</image>
+		<name>'Benchmark Auto Protection'</name>
+		<target>https://benchauto.com/</target>
+	</example>
+	<example>
+		<image>EduNet.png</image>
+		<name>'EduNet'</name>
+		<target>https://edunetllc.com/</target>
+	</example>
+	
+
+</data>

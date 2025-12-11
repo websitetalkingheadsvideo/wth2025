@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+.faqContainer{
+	width: 915px;
+	margin: 0 auto;
+	padding:0;
+	font-size:16px;
+}
+.faqBox{
+	margin-top:10px;
+	height:304px;
+	width:900px;
+	margin-left:5px;
+	padding:0px;
+}
+#MyPlayer{
+	float:left;
+	width:302px;
+	padding:0px;
+	margin:0px;
+}
+#videoBox{
+	z-index:1;
+}
+video{
+	z-index:1;
+}
+.PlayerBar{
+	z-index:999;
+	margin-top:-2px;
+	padding-left:40px;
+	padding-right:20px;
+}	
+.PlayerBar a:hover{
+	opacity:.8;
+}
+	
+.PlayerBar a {
+	opacity:1;
+}
+#Volume{
+	float:left;
+}
+
+#PlayPause{
+	float:left;
+	padding-left:50px;
+}
+#restartHolder{
+	float:right;
+	margin-right:50px;
+}
+.qaArea{
+	height:inherit;
+	padding:10px;
+	margin-left:300px;
+	background-image:url(http://www.websitetalkingheads.com/faq-html5/images/faq_bg.png);
+	background-repeat:no-repeat;
+}
+#faqHeader{
+	font-size:200%;
+	text-shadow: 1px 1px 2px rgba(0,0,255,0.8);
+	padding-bottom:12px;
+	font-weight:bold;
+}
+#question{
+	font-size: 130%;
+	color: #333;
+	text-shadow: 1px 1px 1px rgba(0,0,30,0.8);
+	margin-left: 15px;
+	padding-bottom: 8px;
+	-webkit-transition: all .5s ease-in 0s;
+	-moz-transition: all .5s ease-in 0s;
+	-ms-transition: all .5s ease-in 0s;
+	-o-transition: all .5s ease-in 0s;
+	transition: all .5s ease-in 0s;
+}
+
+#faqlist{
+	margin-left: 40px;
+	margin-top:10px;
+	list-style-type: decimal;
+	line-height: 20px;
+	color: #000;
+	font-weight:100;
+ 	list-style-type: none;
+    }
+#faqlist a{
+	color: #000;
+	font-weight: 100;
+	text-decoration: none;
+	-webkit-transition: all .5s ease-in-out .1s;
+	-moz-transition: all .5s ease-in-out .1s;
+	-ms-transition: all .5s ease-in-out .1s;
+	-o-transition: all .5s ease-in-out .1s;
+	transition: all .5s ease-in-out .1s;
+}
+
+#faqlist li
+ {
+	 background-image: url(http://websitetalkingheads.com/faq-html5/images/bullet.png);
+	 background-repeat: no-repeat;
+	 background-position: 0px 2px; 
+	 padding-left: 20px;
+	 padding-bottom:4px;
+ }
+#answer {
+	padding-left:10px;
+	-webkit-transition: all .5s ease-in-out 0s;
+	-moz-transition: all .5s ease-in-out 0s;
+	-ms-transition: all .5s ease-in-out 0s;
+	-o-transition: all .5s ease-in-out 0s;
+	transition: all .5s ease-in-out 0s;
+}
+#answer:hover {
+	text-shadow: 0px 0px 1px rgba(0,0,5,0.8);
+}
+#question:hover {
+	text-shadow: 1px 2px 0px rgba(0,0,30,0.8);
+}
+#faqlist a:hover {
+	text-shadow: 1px 1px 0px #000;
+}

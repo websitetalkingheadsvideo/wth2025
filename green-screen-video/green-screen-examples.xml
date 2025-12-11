@@ -1,0 +1,29 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<data>
+	
+	<example>
+		<name>'Half Body'</name>
+		<target>Green-Screen-Half-Body</target>
+	</example>
+	<example>
+		<name>'Full Body'</name>
+		<target>Green-Screen-Full-Body</target>
+	</example>
+	<example>
+		<name>'Close Up'</name>
+		<target>Green-Screen-CloseUp</target>
+	</example>
+	<example>
+		<name>'Three Quarter'</name>
+		<target>Three-Quarter-Body</target>
+	</example>
+	<example>
+		<name>'Close Up'</name>
+		<target>Green-Screen-Close-Up</target>
+	</example>
+	<example>
+		<name>'Half Body'</name>
+		<target>Half-Body</target>
+	</example>
+
+</data>

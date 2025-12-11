@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Examples Page|Talking Heads&reg;</title>
+<meta name="keywords" content="Example Videos, HTML5 video, whiteboard, animation, web video, online spokesperson, video spokesperson, website talking heads">
+<meta name="description" content="Here are examples of the many types of videos Website Talking Heads&reg creates. Use a Website Spokesperson to greet visitors to your site. If you are a professional video developer you can use one of our Professional Spokespeople in your next internet video project. Use a Custom Video Presentation to demonstrate your product. Use a whiteboard or animation video to show your process or service.">
+<meta name="robots" CONTENT="index, follow">
+<!-- (Robot commands: All, None, Index, No Index, Follow, No Follow) -->
+<meta name="revisit-after" CONTENT="30 days">
+<meta name="distribution" CONTENT="global">
+<meta name="rating" CONTENT="general">
+<meta name="Content-Language" CONTENT="english">
+<meta name="verify-v1" content="YNESpqoAwK51PmBV7/PFKLG0agx7AQPKhXXcYAXGGF8="/>
+<meta name="norton-safeweb-site-verification" content="iinbv24r-1ix20hgj5l94wz2rnn3aiwi0336hwysvvpiskquy6ijsh9wy12f3znbed-hz1ay8ppzhgqap-sicqtw6ui29d0wrfcpenudh1ml9xwjbej7u25xy9pnm6yr"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<?php include("../includes/css-b4.php"); ?>
+</head>
+
+<body>
+<?php include ('../includes/header19.php'); ?>
+<section class="container-fluid">
+  <h1 class="display-4 wow bounceInUp">Examples</h1>
+</section>
+<section class="alert alert-info">
+  <h2 class="text-center"><a href="../website-spokesperson/"> Website Spokesperson </a></h2>
+  <div class="row">
+    <div class="col-lg-4 p-1">
+      <div class="example-list">
+        <ul>
+          <li>For Your Website</li>
+          <li>Includes Our Player</li>
+          <li>HTML5 Compatible</li>
+          <li>Mobile Friendly</li>
+        </ul>
+        <div class="container">
+          <p>Have a <a href="../website-spokesperson/">Website Spokesperson</a> will greet visitors, help them feel more comfortable at your website, and give your business a professional face.</p>
+          <p> You also recieve our propriatory <a href="../features/index.php">video player</a> which is extremely customizable and comes with all the features you will need to make your Spokesperson work for you. You can also choose from our <a href="../specialty-players/index.php">specialty players</a>.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 center-block">
+      <?php include ('examples-spokesperson-short.php'); ?>
+    </div>
+  </div>
+  <div class="text-right font-weight-bold">
+    <a href="../website-spokesperson/index.php">More...</a>
+  </div>
+</section>
+<section class="alert alert-white">
+  <h2 class="wow heartBeat"><a href="../green-screen-video/index.php">Green Screen Examples</a></h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <ul>
+          <li>Perfect for Video Production</li>
+          <li>High Definition</li>
+          <li>For all Video Editors</li>
+        </ul>
+      </div>
+      <div class="col-md-7">
+        <p class="basic-video-description">With Talking Heads'<sup>&reg;</sup> <em>Green Screen video</em> we will provide you with a HD video of your chosen spokesperson. Then you can add your own background, muisic and motion graphics to complete your video.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <?php include ('../green-screen-video/green-screen-examples.php'); ?>
+  </div>
+  <div class="text-right font-weight-bold">
+    <a href="../green-screen-video/">More...</a>
+  </div>
+</section>
+<section class="alert bg-gradient-info">
+  <h2 class="wow jackInTheBox"><a class="text-white" href="../videopresentations/custom-presentations.php">Video Presentation</a></h2>
+  <div class="row">
+    <div class="col-lg-4 p-1">
+      <div class="example-list">
+        <ul>
+          <li>Planning Session</li>
+          <li>Spokesperson</li>
+          <li>Motion Graphics</li>
+          <li>Images, Text, Video</li>
+        </ul>
+        <div class="container">
+          <p>When you choose one of our <a class="text-white" href="../videopresentations/custom-presentations.php">Custom Video Presentations</a> we enable you to deliver a direct, confident and clear message.</p>
+          <p>We put it all together and provide you a Full HD 1920X1080 video in MP4 format suitable to upload to YouTube, Facebook, or whatever video service you like.</p>
+          <p>You can also add a <a class="text-white" href="../logo_reveals/">Logo Reveal</a> to Dynamically show off your logo.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 center-block">
+      <?php $type = "Presentation";$show = 4;$rand = false;$columns =2; include("../styles/includes/showPortfolio.php");?>
+    </div>
+  </div>
+  <div class="text-right font-weight-bold">
+    <a class="text-white" href="../videopresentations/custompresentations.php">More...</a>
+  </div>
+</section>
+<section class="alert alert-white">
+<div class="">
+<h2><a href="../whiteboard/index.php">Whiteboard Video</a></h2>
+<div class="row">
+  <div class="col-lg-4 p-1">
+    <div class="example-list">
+      <ul>
+        <li>Planning Session</li>
+        <li>Explain your Product/Service</li>
+        <li>Fast Paced</li>
+      </ul>
+      <div class="container">
+        <p>Not surprisingly, not all whiteboard videos are identical, so, we help you to create the most effective whiteboard video for a company.</p>
+        <p>Your company offers a solution to your clients, but sometimes that solution or product needs some explaining.</p>
+        <p>A <a href="../whiteboard/">Whiteboard Video</a> from Talking Heads<sup>&reg;</sup> helps savvy online marketers or companies to get their message across in a powerful and convincing way.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-8 center-block">
+    <?php $type = "whiteboard";$show = 4;$rand = false;$columns =2; include("../styles/includes/showPortfolio.php");?>
+  </div>
+</div>
+<div class="text-right font-weight-bold">
+  <a href="../whiteboard/">More...</a>
+</div>
+</section>
+<section class="alert bg-gradient-info">
+  <h2 class="wow jackInTheBox"><a class="text-white" href="../product-demonstrations/">Product Demo</a></h2>
+  <div class="row">
+    <div class="col-lg-4 p-1">
+      <div class="example-list">
+        <ul>
+          <li>Spokesperson</li>
+          <li>Background</li>
+          <li>Your Logo/Branding</li>
+          <li>Your Product</li>
+        </ul>
+        <div class="container">
+          <p>Sometimes when you produce a brand-new product the most challenging part is ways to reveal it to the masses. How is your company going to make an impression for a brand-new product?</p>
+          <p>Use Talking Heads'<sup>&reg;</sup> <a class="text-white" href="../product-demonstrations/">Product Demonstration Video</a> to deliver an impactful demonstration of your product.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 center-block">
+      <?php $type = "product";$show = 4;$rand = false;$columns =2; include("../styles/includes/showPortfolio.php");?>
+    </div>
+  </div>
+  <div class="text-right font-weight-bold">
+    <a class="text-white" href="../product-demonstrations/">More...</a>
+  </div>
+</section>
+<section class="alert alert-white">
+  <h2 class="wow jackInTheBox"><a href="../styles/motion-design/">Motion Design</a></h2>
+  <div class="row">
+    <div class="col-lg-4 p-1">
+      <div class="example-list">
+        <ul class="list-group list-group-flush list-style">
+          <li class="list-style-item">Collaborative Scripting</li>
+          <li class="list-style-item">Custom Animation</li>
+          <li class="list-style-item">Professional Voice Over</li>
+          <li class="list-style-item">Music</li>
+        </ul>
+        <div class="container">
+          <p>Our <a href="../styles/motion-design/">Motion Design</a> is a discipline that applies graphic design principles to video production using animation and effects.</p>
+          <p>We create visually stunning videos using this new media. We shoot high-quality video. Then edit and composite with animations, 3d, typography, and special effects. We add narrative and energy to your script.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 center-block">
+      <?php $type = "Motion";$show = 4;$rand = false;$columns =2; include("../styles/includes/showPortfolio.php");?>
+    </div>
+  </div>
+</section>
+<section class="alert bg-gradient-info">
+  <h2 class="wow jackInTheBox"><a class="text-white" href="../styles/3d/">3d Animation</a></h2>
+  <div class="row">
+    <div class="col-lg-4 p-1">
+      <div class="example-list">
+        <ul>
+          <li>Quality 3d Animation</li>
+          <li>Professional Voiceover</li>
+          <li>Script Consultation</li>
+        </ul>
+        <div class="container">
+          <p><a class="text-white" href="../styles/3d/">3D animation</a> has many benefits that make it an excellent choice for marketing purposes. It helps companies to be more creative, produce high quality content, increase customer engagement and build relationships with customers.</p>
+          <p>3D Explainer videos are another way that 3D animation can be used to educate audiences about products and services. Explain what your company does by showing its products in action.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 center-block">
+      <?php $type = "product_demos";$show = 4;$rand = false;$columns =2; include("../styles/includes/showPortfolio.php");?>
+    </div>
+    <div class="text-right font-weight-bold">
+      <a href="../styles/3d/">More...</a>
+    </div>
+  </div>
+  <div class="text-right font-weight-bold">
+    <a class="text-white" href="../styles/motion-design/">More...</a>
+  </div>
+</section>
+<section class="alert alert-white">
+  <h2 class="wow jackInTheBox"><a href="../styles/typography/">Kinetic Typography</a></h2>
+  <div class="row">
+    <div class="col-lg-4 p-1">
+      <div class="example-list">
+        <ul>
+          <li>Script Consultation</li>
+          <li>Professional Voice Over</li>
+          <li>Custom Animation</li>
+        </ul>
+        <div class="container">
+          <p>Our <a href="../styles/typography/">Kinetic Typography</a> enhances the expressive power of words. They cause a more immediate, automatic reaction in the reader.</p>
+          <p>Capture the attention of your target audience with a Typography video. Kinetic typography is the animation technique that mixes motion and text. This makes the message very compelling.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 center-block">
+      <?php $type = "specialty";$show = 4;$rand = false;$columns =2; include("../styles/includes/showPortfolio.php");?>
+    </div>
+  </div>
+  <div class="text-right font-weight-bold">
+    <a href="../styles/typography/">More...</a>
+  </div>
+</section>
+<section class="alert bg-gradient-info">
+  <h2 class="wow jackInTheBox"><a class="text-white" href="../videopresentations/animation.php">Animation Video</a></h2>
+  <div class="row">
+    <div class="col-lg-4 p-1">
+      <div class="example-list">
+        <ul>
+          <li>Planning Session</li>
+          <li>Tutorials</li>
+          <li>Instructional Videos</li>
+        </ul>
+        <div class="container">
+          <p><a class="text-white" href="../videopresentations/animation.php">Animation</a> is a powerful technique that is able to easily explain things step-by-step, and it keeps the attention of the user!</p>
+          <p>Talking Heads® will explain your product, service or procedure within a Animated Explainer Movie! Our Animated Explainer Video tutorials powerfully explain your product in a step-by-step manner, and it will continue to grab your viewers' attention throughout! </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 center-block">
+      <?php $type = "animation";$show = 4;$rand = false;$columns =2; include("../styles/includes/showPortfolio.php");?>
+    </div>
+  </div>
+  <div class="text-right font-weight-bold">
+    <a href="../videopresentations/animation.php">More...</a>
+  </div>
+</section>
+<section class="alert alert-white">
+  <h2 class="wow jackInTheBox"><a href="../videopresentations/specialty-videos.php">Specialty Videos</a></h2>
+  <div class="row">
+    <div class="col-lg-4 p-1">
+      <div class="example-list">
+        <ul>
+          <li>Script Consultation</li>
+          <li>Custom Animation</li>
+          <li>MP4 Delivered to You</li>
+        </ul>
+        <div class="container">
+          <p>Our <a href="../videopresentations/specialty-videos.php">Specialty Videos</a> eye-catching and attention grabbing. Not everyone can make videos like these. Check out our Claymation and Pencil Drawn videos. Our personalized process is precisely what sets us above the competition. You consult with our Creative Director who has produced 1000's of videos for companies around the world!</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 center-block">
+      <?php $type = "Specialty";$show = 4;$rand = false;$columns =2; include("../styles/includes/showPortfolio.php");?>
+    </div>
+  </div>
+  <div class="text-right font-weight-bold">
+    <a href="../videopresentations/specialty-videos.php">More...</a>
+  </div>
+</section>
+<section class="alert bg-gradient-info">
+<?php include ("../includes/productionAward.php");?>
+</section>
+<section class="container">
+  <h3><a href="https://www.websitetalkingheads.com/landing-pages/" title="More Video types">Some of our different styles of video</a></h3>
+</section>
+<?php include("../includes/call-contact.php"); ?>
+<?php include("../includes/footer_b4.php"); ?>
+</body>
+</html>

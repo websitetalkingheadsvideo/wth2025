@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<data>
+	<example>
+		<image>RallyUp.jpg</image>
+		<name>'Rally Up'</name>
+		<target>https://www.youtube.com/embed/S_duUrjSwZ0</target>
+	</example>
+	<example>
+		<image>NYInspect.jpg</image>
+		<name>'NY Inspect'</name>
+		<target>https://www.youtube.com/embed/kH_-sTNfkJU</target>
+	</example>
+	<example>
+		<image>BenifitTogether.jpg</image>
+		<name>'Benifit Together'</name>
+		<target>https://www.youtube.com/embed/NJOedbmLnwc</target>
+	</example>
+<example>
+	<image>Mobanu.jpg</image>
+	<name>'Mobanu'</name>
+	<target>https://www.youtube.com/embed/pcrR2R58RUw</target>
+</example>
+<example>
+	<image>SignatureBank.jpg</image>
+	<name>'Signature Bank'</name>
+	<target>https://www.youtube.com/embed/vR5LtgfXmGg</target>
+</example>
+<example>
+	<image>PhotoPogs.jpg</image>
+	<name>'Photo Pogs'</name>
+	<target>https://www.youtube.com/embed/mBNSPFYbm_A</target>
+</example>
+<example>
+	<image>HVAC.jpg</image>
+	<name>'HVAC Servide Forms'</name>
+	<target>https://www.youtube.com/embed/RUzHYC2hJ2E</target>
+</example>
+<example>
+	<image>SkinIt.jpg</image>
+	<name>'SkinIT'</name>
+	<target>https://www.youtube.com/embed/5eYRKrdJYmY</target>
+</example>
+<example>
+	<image>LuckyVegas.jpg</image>
+	<name>'Lucy Vegas'</name>
+	<target>https://www.youtube.com/embed/r3jEtt411k0</target>
+</example>
+</data>

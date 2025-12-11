@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faq background="wthvideo/bg02.jpg" title="Questions Answered" glowColor1="0xFFFFFF" glowColor2="0xFFFFFF" playbutton_x="848" playbutton_y="250" video_x="616" video_y="10" video_width="272" video_height="272" message_toptext="Call us now" message_bottomtext="801-748-2281" message_email="info@websitetalkingheads.com">
+	<textInfo>
+		<!-- Setup Font Styles and textbox sizes-->
+		<title font="Arial" size="32" color="0x000000" sy="-100" x="40" y="-4" w="400" h="50" italic="true"/>
+		<question font="Arial" size="24" color="0x000009" sx="-680" x="45" y="80" w="590" h="26"/>
+		<answer font="Arial" size="16" color="0x0C14F9" sx="-680" x="45" w="590" h="100"/> <!-- no y pos as it positions based on question _y and height-->
+		<!-- message formats have no starting values-->
+		<messagetitle font="Arial Bold" size="24" color="0x0C14F9"/>
+		<messagecontent font="Arial Black" size="32" color="0x0C14F9" />
+		<messagecontent font="Arial" size="16" color="0x0C14F9"/>
+	</textInfo>
+	<questions>
+
+		<item video="wthvideo/jedfaq0777.flv">
+			<question twolines="true">
+				<![CDATA[Welcome to our Frequently Asked Questions center.]]>
+			</question>
+			<answer>
+				<![CDATA[Welcome to the FAQ Player.  We know you have some questions about a Video FAQ so we will use it to show you the benefits and answers some common questions.  Simply click on the question below and I will answer it for you.]]>
+			</answer>
+		</item>
+
+		<item video="wthvideo/jedfaq0780.flv">
+			<question twolines="true">
+				<![CDATA[1. How many words can be used in the FAQ system?]]>
+			</question>
+			<answer>
+				<![CDATA[The basic FAQ can use a total of 400 words.  Those words can be spread however you want throughout the questions.]]>
+			</answer>
+		</item>
+
+		<item video="wthvideo/jedfaq0782.flv">
+			<question twolines="true">
+				<![CDATA[2. Can I add more than the standard included number of words?]]>
+			</question>
+			<answer>
+				<![CDATA[Yes, you can add as many words as you need.  Please give us a call for pricing of additional words.]]>
+			</answer>
+		</item>
+
+		<item video="wthvideo/jedfaq0784.flv">
+			<question twolines="true">
+				<![CDATA[3. How many questions does the standard FAQ player include?]]>
+			</question>
+			<answer>
+				<![CDATA[The standard player includes up to 10 questions.  So, you can create anywhere between 2 and 10 questions with the standard player.]]>
+			</answer>
+		</item>
+
+		<item video="wthvideo/jedfaq0786.flv">
+			<question twolines="true">
+				<![CDATA[4. What if I have more questions than the standard included amount?]]>
+			</question>
+			<answer>
+				<![CDATA[We are fully capable of adding additional questions.  If you know how many questions (and words) your FAQ will have, give us a call and we can discuss your options and additional fees.]]>
+			</answer>
+		</item>
+
+
+		<item video="wthvideo/jedfaq0789.flv">
+			<question twolines="true">
+				<![CDATA[5. Can I use more than one actor for my FAQ?]]>
+			</question>
+			<answer>
+				<![CDATA[The Standard Player includes one actor.  However, if you need to have more than one actor there is a cost to hire each additional actor you want in the FAQ.  We recommend just using one unless there is a really strong reason.]]>
+			</answer>
+		</item>
+
+
+		<item video="wthvideo/jedfaq0792.flv">
+			<question twolines="true">
+				<![CDATA[6. Can I customize the Banner of the FAQ?]]>
+			</question>
+			<answer>
+				<![CDATA[Yes.  You can provide us with an image of the banner in jpg format only. 700x240pixel is the default size.  We can also customize that banner size to fit your website design.]]>
+			</answer>
+		</item>
+
+
+		<item video="wthvideo/jedfaq0794.flv">
+			<question twolines="true">
+				<![CDATA[7.  Can you custom design a video FAQ system for me?]]>
+			</question>
+			<answer>
+				<![CDATA[Yes.  We have custom design FAQ systems for many of our clients.  Additional design and Programming fees will apply.  Please call with your exact design idea for a quote.]]>
+			</answer>
+		</item>
+
+
+		<item video="wthvideo/jedfaq0796.flv">
+			<question twolines="true">
+				<![CDATA[8.  How will a video FAQ  benefit my website?]]>
+			</question>
+			<answer>
+				<![CDATA[People are more likely to watch a video than read text.  They are also more likely to remember what they has seen and heard than just read.  The FAQ player can help you save time and money by eliminate unnecessary customer service calls.]]>
+			</answer>
+		</item>
+
+	</questions>
+</faq>

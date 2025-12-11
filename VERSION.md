@@ -1,6 +1,21 @@
 # Version History
 
-## Current Version: 0.2.12
+## Current Version: 0.2.13
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.13
+- Site tier mapping report updates
+- Pricing page cleanup (removed 5000+ lines of legacy code)
+- Removed robots.txt and sitemap.xml from pricing directory
+- Documentation updates: UNUSED_CSS_JS_REPORT.md, swf_flv_removal_summary.md
+- ror.xml updates
+- Multiple new directories and files added (actors, examples, faq-html5, features, etc.)
+
+---
+
+## Version 0.2.12
 
 **Date:** January 15, 2025  
 **Type:** Patch Update
