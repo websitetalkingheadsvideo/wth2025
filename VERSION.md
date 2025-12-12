@@ -1,6 +1,16 @@
 # Version History
 
-## Current Version: 0.2.26
+## Current Version: 0.2.27
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.27
+- Enhanced portfolio.css with improved styling and responsive adjustments
+
+---
+
+## Version 0.2.26
 
 **Date:** January 15, 2025  
 **Type:** Patch Update
