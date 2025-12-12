@@ -1,6 +1,19 @@
 # Version History
 
-## Current Version: 0.2.18
+## Current Version: 0.2.19
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.19
+- CSS updates: header.css, mobile.css, wth.css improvements
+- Updated includes/css-b4.php, footer25.php, header25.php
+- Updated index.php
+- Documentation updates: UNUSED_CSS_JS_REPORT.md, swf_flv_removal_summary.md
+
+---
+
+## Version 0.2.18
 
 **Date:** January 15, 2025  
 **Type:** Patch Update

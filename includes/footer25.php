@@ -62,10 +62,11 @@
   <div class="notification"><i class="far fa-copyright"></i> <span id="year"> <?php echo date("Y")?> </span> Talking Heads. All rights reserved.</div>
 </footer>
 <!-----------------------------Java Script-----------------------------> 
-<!-- Bootstrap 5.3.8 JS - No jQuery dependency, Popper included (CDN) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-<!-- jQuery (kept for other site functionality) -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> 
+<!-- jQuery (required for Bootstrap 4) -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<!-- Bootstrap 4.1.3 JS (requires jQuery and Popper.js) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
 <script src="https://www.websitetalkingheads.com/js/wow.js"></script> 
 <script src="https://www.websitetalkingheads.com/js/izeetak.js"></script> 
 <script src="https://www.websitetalkingheads.com/js/site.js"></script> 

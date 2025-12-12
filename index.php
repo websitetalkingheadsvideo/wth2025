@@ -17,7 +17,8 @@
 <body>
 <?php include ('includes/header25.php'); ?>
 <section class="jumbotron">
-  <div class="row" id="ht">
+  <div class="container">
+    <div class="row" id="ht">
     <div class="col-xl-8" id="video">
         <div class="embed-responsive embed-responsive-16by9">
           <iframe src="https://player.vimeo.com/video/980927975?h=abbe1e2c28&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Talking Heads Promo"></iframe>
@@ -31,6 +32,7 @@
           <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/6WfFZtxIYlaDFR4wTsVVlsIHtzxSXXyZyYRL3Dszh0VTEFZRPJOThyDuWpXMrwOaYP"><script src="https://webforms.pipedrive.com/f/loader"></script></div>
         </div>
       </div>
+    </div>
     </div>
   </div>
   <div id="awards">
