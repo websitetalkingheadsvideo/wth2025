@@ -1,0 +1,195 @@
+/* Portfolio Grid Styles
+ * Used by styles/includes/showPortfolio.php
+ */
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem 0;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* Override grid-template-columns when inline style is set */
+.portfolio[style*="grid-template-columns"] {
+    display: grid !important;
+}
+
+.portfolio .item {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background: #000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio .item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.portfolio .item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+.portfolio .item:hover img {
+    opacity: 0.8;
+}
+
+/* Play Button Overlay */
+.portfolio .item .smallPlayBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.portfolio .item:hover .smallPlayBtn {
+    color: #fff;
+    font-size: 4.5rem;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+/* Info Overlay */
+.portfolio .item .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.7) 70%, transparent 100%);
+    padding: 1.5rem 1rem 1rem;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.portfolio .item:hover .info {
+    transform: translateY(0);
+}
+
+.portfolio .item .info-title {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio .item .info p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.4;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Modal Video Fix - Override wth.css embed-responsive rules that break video display */
+/* Force modal to size to content, not 100% height - works even if iframe has vp-center */
+#mainModal.modal {
+    padding: 0.5rem !important;
+}
+
+#mainModal .modal-dialog {
+    max-width: 900px;
+    margin: 0.5rem auto !important;
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    display: block !important;
+    position: relative !important;
+    align-items: flex-start !important;
+}
+
+#mainModal .modal-dialog.modal-dialog-centered {
+    align-items: flex-start !important;
+    min-height: auto !important;
+}
+
+#mainModal .modal-content {
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    display: block !important;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+}
+
+#mainModal .modal-header {
+    padding: 0.5rem 1rem !important;
+    margin: 0 !important;
+    border-bottom: 1px solid #dee2e6;
+}
+
+#mainModal .modal-footer {
+    padding: 0.5rem 1rem !important;
+    margin: 0 !important;
+    border-top: 1px solid #dee2e6;
+}
+
+#mainModal .embed-responsive {
+    position: relative !important;
+    display: block !important;
+    width: 100% !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    padding-bottom: 56.25% !important; /* 16:9 aspect ratio - CRITICAL for video visibility */
+    margin-bottom: 0 !important;
+    line-height: 1 !important;
+    background: #000 !important;
+}
+
+#mainModal .embed-responsive::before {
+    display: block !important;
+    content: "" !important;
+    padding-top: 56.25% !important;
+}
+
+#mainModal .embed-responsive::after {
+    display: none !important;
+}
+
+#mainModal .embed-responsive iframe,
+#mainModal .embed-responsive .embed-responsive-item {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    border: 0 !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+    vertical-align: top !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 1 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .portfolio {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .portfolio .item .smallPlayBtn {
+        font-size: 3rem;
+    }
+    
+    .portfolio .item:hover .smallPlayBtn {
+        font-size: 3.5rem;
+    }
+}
+

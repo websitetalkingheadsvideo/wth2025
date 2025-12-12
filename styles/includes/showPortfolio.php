@@ -112,7 +112,7 @@ if ( $result->num_rows > 0 ) {
 	';
   while ( $row = $result->fetch_assoc() ) {
     $altNum = array_rand( $keyword, 1 );
-    $alt = $altNum[ $keyword ];
+    $alt = $keyword[ $altNum ];
     $name = $row[ "Name" ];
     $description = $row[ "description" ];
     $p = strpos( $row[ "vimeo" ], "/" ) + 1;

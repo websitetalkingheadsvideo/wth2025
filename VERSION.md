@@ -1,6 +1,19 @@
 # Version History
 
-## Current Version: 0.2.25
+## Current Version: 0.2.26
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.26
+- Added portfolio.css with grid layout and modal video display fixes
+- Enhanced modal.php with improved video display functionality
+- Updated css-b4.php to include portfolio stylesheet
+- Updated showPortfolio.php structure
+
+---
+
+## Version 0.2.25
 
 **Date:** January 15, 2025  
 **Type:** Patch Update
