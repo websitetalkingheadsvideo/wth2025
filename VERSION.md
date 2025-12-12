@@ -1,6 +1,20 @@
 # Version History
 
-## Current Version: 0.2.29
+## Current Version: 0.2.30
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.30
+- Updated green-screen-video page jumbotron to match custom-presentations layout
+- Restructured green-screen-video page with icon-based feature cards
+- Added Font Awesome icons to Green Screen Examples section (video production, HD quality, video editors, compositing)
+- Enhanced "3 Easy Steps" section with paper-plane icon for script submission
+- Improved layout with all icons in single row and descriptive text below
+
+---
+
+## Version 0.2.29
 
 **Date:** January 15, 2025  
 **Type:** Patch Update

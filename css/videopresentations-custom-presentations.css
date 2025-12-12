@@ -11,3 +11,9 @@
     min-height: 24rem;
 }
 
+/* Modal video padding */
+#mainModal .modal-video-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+

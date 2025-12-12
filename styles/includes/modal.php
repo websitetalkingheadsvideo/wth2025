@@ -5,8 +5,10 @@
         <div class="modal-title" id="videoModalLabel"></div>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
       </div>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe id="talking-heads-video" class="embed-responsive-item" src="" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="talking-heads-video"></iframe>
+      <div class="modal-video-wrapper">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe id="talking-heads-video" class="embed-responsive-item" src="" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="talking-heads-video"></iframe>
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

@@ -18,25 +18,28 @@
 <?php include('../includes/header25.php'); ?>
 
 <section class="jumbotron">
-  <div class="container-fluid">
-    <h1 class="text-center">Green Screen Video Files</h1>
-    <h3 class="text-center">Professional Green Screen Footage for Video Editors</h3>
-    <div class="row align-items-center">
-      <div class="col-lg-8">
+  <div class="row" id="ht">
+    <div class="col-xl-8" id="video">
         <div class="embed-responsive embed-responsive-16by9">
           <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=Green Screen Demo&autostart=no&controls=show"></iframe>
         </div>
+    </div>
+    <div class="col-xl-4">
+      <div class="card card-contact-lg">
+        <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase">Contact Us</h5>
+        <div class="card-body">
+          <?php include("../forms/contact2022.php");?>
+        </div>
       </div>
-      <div class="col-lg-4">
-        <?php include("../forms/contact2022.php");?>
-        <?php include("../includes/awards_b4.php"); ?>
-      </div>
+      <?php include("../includes/awards_b4.php"); ?>
     </div>
   </div>
 </section>
 
 <section class="container-fluid py-4">
   <div class="container">
+    <h1 class="text-center mb-4">Green Screen Video Files</h1>
+    <h3 class="text-center mb-4">Professional Green Screen Footage for Video Editors</h3>
     <div class="card mb-4">
       <div class="card-header bg-gradient-mine text-white">
         <h3 class="card-title text-center">Attention Marketing and Ad Agencies, Professional Editors and Compositors</h3>
@@ -60,7 +63,7 @@
             <p>All of our Video Spokespeople are professional actors and actresses with years of experience. <a href="../actors/">View them here.</a></p>
           </div>
           <div class="col-md-4 text-center mb-3">
-            <i class="fas fa-file-text fa-4x text-primary mb-3"></i>
+            <i class="fas fa-paper-plane fa-4x text-primary mb-3"></i>
             <h5>Send Your Script</h5>
             <p>No one knows your business better than you. Once you have sent us your script, we will film your video and then send it to you.</p>
           </div>
@@ -77,15 +80,25 @@
       <h2 class="text-center">Green Screen Examples</h2>
       <div class="container">
         <div class="row mb-3">
-          <div class="col-md-6">
-            <ul class="list-group">
-              <li class="list-group-item">Perfect for Video Production</li>
-              <li class="list-group-item">High Definition Quality</li>
-              <li class="list-group-item">For all Video Editors</li>
-              <li class="list-group-item">Easy to Key and Composite</li>
-            </ul>
+          <div class="col-md-3 text-center mb-3">
+            <i class="fas fa-film fa-4x text-primary mb-3"></i>
+            <h5>Perfect for Video Production</h5>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-3 text-center mb-3">
+            <i class="fas fa-video fa-4x text-primary mb-3"></i>
+            <h5>High Definition Quality</h5>
+          </div>
+          <div class="col-md-3 text-center mb-3">
+            <i class="fas fa-edit fa-4x text-primary mb-3"></i>
+            <h5>For all Video Editors</h5>
+          </div>
+          <div class="col-md-3 text-center mb-3">
+            <i class="fas fa-layer-group fa-4x text-primary mb-3"></i>
+            <h5>Easy to Key and Composite</h5>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-12">
             <p>With Talking Heads<sup>&reg;</sup> Green Screen video we will provide you with a HD video of your chosen spokesperson. Then you can add your own background, music and motion graphics to complete your video.</p>
           </div>
         </div>

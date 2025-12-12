@@ -120,7 +120,8 @@
     max-height: calc(100vh - 3.5rem) !important;
     display: flex !important;
     flex-direction: column !important;
-    overflow: visible !important;
+    overflow: hidden !important;
+    border-radius: 0.5rem !important;
 }
 
 #mainModal .modal-header {
@@ -139,16 +140,20 @@
 #mainModal .modal-header {
     padding: 0.5rem 1rem !important;
     margin: 0 !important;
-    border-bottom: 1px solid #dee2e6;
+    border-bottom: none !important;
+    border-radius: 0.5rem 0.5rem 0 0 !important;
 }
 
 #mainModal .modal-footer {
     padding: 0.75rem 1rem !important;
     align-items: center !important;
+    border-top: none !important;
+    border-radius: 0 0 0.5rem 0.5rem !important;
 }
 
 #mainModal .modal-footer .btn {
     margin: 0 !important;
+    padding: 0.25rem 0.5rem !important;
 }
 
 #mainModal .embed-responsive {
@@ -162,9 +167,10 @@
     margin-top: 0 !important;
     margin-bottom: 0 !important;
     line-height: 0 !important;
-    background: #000 !important;
+    background: #fff !important;
     height: 0 !important;
     min-height: 0 !important;
+    border-radius: 0.5rem !important;
 }
 
 #mainModal .embed-responsive::before {
