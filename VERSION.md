@@ -1,5 +1,6 @@
 # Version History
 
+<<<<<<< HEAD
 ## Current Version: 0.2.15
 
 **Date:** January 15, 2025  
@@ -24,6 +25,9 @@
 ---
 
 ## Version 0.2.13
+=======
+## Current Version: 0.2.13
+>>>>>>> parent of 449660cd (chore: bump version to 0.2.14 and cleanup legacy ivideo files)
 
 **Date:** January 15, 2025  
 **Type:** Patch Update
