@@ -8,7 +8,6 @@
       <div class="embed-responsive embed-responsive-16by9">
         <iframe id="talking-heads-video" class="embed-responsive-item" src="" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="talking-heads-video"></iframe>
       </div>
-      <div class="d-none bg-transparent" id="form"> </div>
       <div class="modal-footer" style="padding: .5rem">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
@@ -51,7 +50,7 @@
 			}
 		}
 
-		// Initialize Vimeo player
+		// Initialize Vimeo player (only create if it doesn't exist)
 		function initVimeoPlayer() {
 			if (!iframe) {
 				console.error('Iframe not found');
@@ -60,17 +59,10 @@
 			
 			waitForVimeo(function() {
 				try {
-					// Destroy existing player if it exists
-					if (player) {
-						try {
-							player.destroy().catch(function() {});
-						} catch (e) {
-							// Ignore destroy errors
-						}
+					// Only create player if it doesn't exist
+					if (!player) {
+						player = new Vimeo.Player(iframe);
 					}
-					
-					// Create new player
-					player = new Vimeo.Player(iframe);
 					
 					// Try to play when ready
 					player.ready().then(function() {
@@ -87,8 +79,23 @@
 			});
 		}
 
+		// Properly manage aria-hidden for accessibility
+		$('#mainModal').on('show.bs.modal', function () {
+			// Remove aria-hidden before modal is shown to prevent accessibility issues
+			// This ensures focused elements inside the modal are not hidden from assistive technology
+			$(this).removeAttr('aria-hidden');
+		});
+
 		// Pause video when modal is hidden
 		$('#mainModal').on('hidden.bs.modal', function () {
+			// Set aria-hidden back when modal is hidden
+			$(this).attr('aria-hidden', 'true');
+			
+			// Clear iframe src to stop video playback
+			if (iframe) {
+				iframe.src = '';
+			}
+			
 			if (player) {
 				try {
 					player.pause().catch(function() {
@@ -102,10 +109,18 @@
 
 		// Initialize player when modal is shown
 		$('#mainModal').on('shown.bs.modal', function () {
-			// Wait a bit for iframe to load
-			setTimeout(function() {
-				initVimeoPlayer();
-			}, 300);
+			// Ensure aria-hidden is removed (Bootstrap should do this, but ensure it)
+			$(this).removeAttr('aria-hidden');
+			
+			// Verify iframe has src before initializing player
+			if (iframe && iframe.src) {
+				// Wait a bit for iframe to load
+				setTimeout(function() {
+					initVimeoPlayer();
+				}, 300);
+			} else {
+				console.error('Iframe src not set when modal was shown');
+			}
 		});
 
 		// Handle actor clicks
@@ -162,26 +177,26 @@
 				return;
 			}
 			
+			if (!iframe) {
+				console.error('Iframe element not found');
+				return;
+			}
+			
 			// Update modal title
 			$('#videoModalLabel').text(name + alt);
 			
-			// Destroy existing player before changing src
-			if (player) {
-				try {
-					player.destroy().catch(function() {});
-				} catch (e) {
-					// Ignore errors
+			// Clear iframe src first
+			iframe.src = '';
+			
+			// Set new src and show modal
+			setTimeout(function() {
+				if (iframe && srcVideo) {
+					iframe.src = srcVideo;
+					$('#mainModal').modal('show');
+				} else {
+					console.error('Failed to set iframe src');
 				}
-				player = null;
-			}
-			
-			// Update iframe src
-			if (iframe && srcVideo) {
-				iframe.src = srcVideo;
-			}
-			
-			// Show modal
-			$('#mainModal').modal('show');
+			}, 10);
 		}
 	});
 })();

@@ -1,6 +1,19 @@
 # Version History
 
-## Current Version: 0.2.27
+## Current Version: 0.2.28
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.28
+- Fixed modal video playback issue where second video wouldn't play after closing modal
+- Removed player destruction logic that was preventing video playback
+- Fixed aria-hidden accessibility warning on modal focus elements
+- Removed unused form div from modal structure
+
+---
+
+## Version 0.2.27
 
 **Date:** January 15, 2025  
 **Type:** Patch Update
