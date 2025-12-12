@@ -1,6 +1,18 @@
 # Version History
 
-## Current Version: 0.2.22
+## Current Version: 0.2.23
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.23
+- Fixed video playback in Website Spokesperson Specials modal
+- Fixed jQuery loading issue in spokesperson-specials.php
+- Updated index.php and CSS files
+
+---
+
+## Version 0.2.22
 
 **Date:** January 15, 2025  
 **Type:** Patch Update

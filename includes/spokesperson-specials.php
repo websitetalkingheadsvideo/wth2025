@@ -100,24 +100,44 @@
 	</div>
 </div>
 <script>
-$(document).ready(function() {
-	$('.modal-spokesperson').on('show.bs.modal', function (event) {
-		var button = $(event.relatedTarget);
-		var videoName = button.data('video');
-		var modal = $(this);
-		var video = modal.find('#talking-heads-video');
-		var source = video.find('source');
+(function() {
+	function initModalVideo() {
+		if (typeof jQuery === 'undefined') {
+			setTimeout(initModalVideo, 50);
+			return;
+		}
 		
-		modal.find('#videoModalLabel').text(videoName);
-		source.attr('src', 'https://www.websitetalkingheads.com/videos/' + videoName + '.mp4');
-		video[0].load();
-	});
-	
-	$('.modal-spokesperson').on('hidden.bs.modal', function () {
-		var video = $(this).find('#talking-heads-video');
-		video[0].pause();
-		video[0].currentTime = 0;
-	});
-});
+		jQuery(document).ready(function($) {
+			$('.modal-spokesperson').on('show.bs.modal', function (event) {
+				var button = $(event.relatedTarget);
+				var videoName = button.data('video');
+				var modal = $(this);
+				var video = modal.find('#talking-heads-video');
+				var source = video.find('source');
+				
+				modal.find('#videoModalLabel').text(videoName);
+				source.attr('src', 'https://www.websitetalkingheads.com/videos/' + videoName + '.mp4');
+				video[0].load();
+			});
+			
+			$('.modal-spokesperson').on('shown.bs.modal', function () {
+				var video = $(this).find('#talking-heads-video');
+				var playPromise = video[0].play();
+				if (playPromise !== undefined) {
+					playPromise.catch(function(error) {
+						console.log('Video autoplay prevented:', error);
+					});
+				}
+			});
+			
+			$('.modal-spokesperson').on('hidden.bs.modal', function () {
+				var video = $(this).find('#talking-heads-video');
+				video[0].pause();
+				video[0].currentTime = 0;
+			});
+		});
+	}
+	initModalVideo();
+})();
 </script>
 <?php } ?>

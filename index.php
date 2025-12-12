@@ -47,6 +47,7 @@
       </div>
       <div class="card-body">
         <p class="card-text">Stack the odds in your favor with accurate and clearly defined messaging. If you want to get the most out of your website and marketing efforts, you need a website spokesperson.</p>
+        <p class="card-text">Whether you're promoting a product, explaining a service, or simply giving your brand a face, our website spokespersons help turn visitors into customers. Each video is fully customized to fit your script, style, and business goals.</p>
       </div>
       <div class="card-footer"> <small class="text-muted"><a href="spokespeople/">Our Spokespeople</a></small> </div>
     </div>
@@ -55,8 +56,9 @@
         <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=Website Demo&autostart=no&controls=show"></iframe>
       </div>
       <div class="card-body">
-        <h3 class="card-title"><a href="website-spokesperson/index.php">#1 Website Spokesperson</a></h3>
-        <p class="card-text">Add a Spokesperson to your website to welcome visitors and direct them to key areas. Increase conversion rates and boost leads. Uses <em>HTML5 Video</em> and Canvas for the Transparent effect. If the browser doesn't support this we use a regular MP4joi.</p>
+        <h3 class="card-title"><a href="website-spokesperson/index.php">🥇 #1 Website Spokesperson</a></h3>
+        <p class="card-text">Add a professional video spokesperson to your website to greet your visitors, deliver your message with personality, and guide users to your most important content. Our spokesperson videos provide a dynamic, human touch that builds trust, keeps users engaged longer, and drives them toward action — whether it's making a purchase, signing up, or contacting your team.</p>
+        <p class="card-text">Using advanced HTML5 video and canvas technology, our spokespersons appear with a transparent background, giving a polished, seamless integration with your webpage design. This unique effect creates the illusion that the person is truly “on” your website, not just part of a video box.</p>
       </div>
       <div class="card-footer"> <small class="text-muted"><a href="website-spokesperson/">Website Spokesperson</a></small> </div>
     </div>
@@ -65,8 +67,9 @@
         <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=Video with Logo&autostart=no&controls=show"></iframe>
       </div>
       <div class="card-body">
-        <h3 class="card-title"><a href="youtube-ready/index.php">#2 Logo Video</a></h3>
-        <p class="card-text"> You can choose a powerful YouTube and Facebook compatible sales video. Choose an actor, send your script and logo. We put it all together and provide you a HD 1920X1080 video in MP4 format. Upload it to YouTube, Facebook, Twitter, Instagram, etc...</p>
+        <h3 class="card-title"><a href="youtube-ready/index.php">🎬 Ready-to-Use Sales Videos for Social Media</a></h3>
+        <p class="card-text">Promote your brand with a high-impact video designed for YouTube, Facebook, and other major social platforms. Simply choose a professional actor from our talented spokesperson lineup, send us your script and logo, and we'll handle the rest. Our team will craft a polished, HD-quality video that delivers your message with clarity, personality, and professionalism.</p>
+        <p class="card-text">Each video is delivered in 1920x1080 Full HD resolution and MP4 format, optimized for fast loading and flawless playback across devices and social media channels.</p>
       </div>
       <div class="card-footer"> <small class="text-muted"><a href="youtube-ready/">Video with Logo</a></small> </div>
     </div>
@@ -76,8 +79,8 @@
       </div>
       <div class="card-body">
         <h3 class="card-title"><a href="green-screen-video/index.php">#3 Green Screen File</a></h3>
-        <p class="card-text">Attention Marketing and Ad Agencies, professional editors and compositiors:</p>
-        <p class="card-text">Save time and <strong>HUNDREDS</strong> of dollars. We will do the filming and provide you with a hi-res file to use in your online video project.</p>
+        <p class="card-text">Attention Marketing Agencies, Ad Creatives, and Video Editors: Don't spend time and money coordinating shoots, hiring actors, or managing production logistics. Let us handle the filming — you get broadcast-quality green screen footage of a professional spokesperson, ready to drop into your own video project.</p>
+        <p class="card-text">Save hundreds of dollars and streamline your workflow. We'll shoot your script using top-tier equipment in our green screen studio and deliver a high-resolution video file that you can edit and composite into your marketing campaigns, ads, explainer videos, or product demos.</p>
       </div>
       <div class="card-footer"> <small class="text-muted"><a href="green-screen-video/">Green Screen</a></small> </div>
     </div>
