@@ -1,6 +1,17 @@
 # Version History
 
-## Current Version: 0.2.21
+## Current Version: 0.2.22
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.22
+- Created site_links.md with clickable links from tier mapping report
+- Added page_errors.md documentation
+
+---
+
+## Version 0.2.21
 
 **Date:** January 15, 2025  
 **Type:** Patch Update
