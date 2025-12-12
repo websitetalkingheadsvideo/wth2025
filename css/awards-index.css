@@ -6,3 +6,16 @@
     max-width: 210px;
 }
 
+/* Ensure embed-responsive containers have height when used with d-flex */
+.col-lg-5 .embed-responsive,
+.col-lg-6 .embed-responsive {
+    min-height: 200px; /* Ensure minimum height for proper rendering */
+}
+
+/* Ensure Bootstrap's aspect ratio is maintained */
+.embed-responsive-16by9::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+

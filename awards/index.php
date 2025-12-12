@@ -22,7 +22,7 @@
           <script src="https://player.vimeo.com/api/player.js"></script> 
         </div>
       </div>
-      <div class="col-lg-5">
+      <div class="col-lg-5 text-center">
         <h2 class="h4">Talking Heads<span class="smaller">®</span> has earned many awards over the years.</h2>
         <h3 class="h4">These include Video Production, Our Video Spokespeople, Explainer Videos, and Video SEO.</h3>
         <h2><i class="fal fa-trophy-alt"></i></h2>

@@ -7,5 +7,19 @@
     padding: .5rem 1rem;
 }
 
+/* Ensure embed-responsive containers have height when used with d-flex or row */
+.col-lg-8 .embed-responsive,
+.col-lg-5 .embed-responsive,
+.col-lg-6 .embed-responsive {
+    min-height: 200px; /* Ensure minimum height for proper rendering */
+}
+
+/* Ensure Bootstrap's aspect ratio is maintained */
+.embed-responsive-16by9::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
 /* Note: Vimeo iframe inline style is third-party and documented as exception */
 
