@@ -77,3 +77,47 @@
         </div>
     </div>
 </section>
+<?php if (!isset($spokesperson_modal_included)) { $spokesperson_modal_included = true; ?>
+<div id="mainModal" class="modal fade modal-spokesperson" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="videoModalLabel"></h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="d-flex justify-content-center">
+				<video id="talking-heads-video" class="video-js" controls preload="auto" width="540" height="360" poster="" data-setup="{}">
+					<source src="" type='video/mp4'>
+					<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+				</video>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+$(document).ready(function() {
+	$('.modal-spokesperson').on('show.bs.modal', function (event) {
+		var button = $(event.relatedTarget);
+		var videoName = button.data('video');
+		var modal = $(this);
+		var video = modal.find('#talking-heads-video');
+		var source = video.find('source');
+		
+		modal.find('#videoModalLabel').text(videoName);
+		source.attr('src', 'https://www.websitetalkingheads.com/videos/' + videoName + '.mp4');
+		video[0].load();
+	});
+	
+	$('.modal-spokesperson').on('hidden.bs.modal', function () {
+		var video = $(this).find('#talking-heads-video');
+		video[0].pause();
+		video[0].currentTime = 0;
+	});
+});
+</script>
+<?php } ?>

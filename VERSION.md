@@ -1,11 +1,19 @@
 # Version History
 
-## Current Version: 0.2.20
+## Current Version: 0.2.21
 
 **Date:** January 15, 2025  
 **Type:** Patch Update
 
-### Changes in 0.2.20
+### Changes in 0.2.21
+- Updated multiple PHP pages with header/footer includes and styling improvements
+- Enhanced spokesperson-specials.php functionality
+- Updated Bootstrap migration plan documentation
+- Various page styling and structure updates across product demos, specials, and specialty players
+
+---
+
+## Version 0.2.20
 - Removed legacy Talking_Heads.php variants (v1-v5) and old index variations
 - Deleted deprecated Whiteboard.php and collaboration_vs_survey.php files
 - Updated spokesperson-specials.php with enhanced functionality

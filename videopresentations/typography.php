@@ -21,10 +21,7 @@
   <link href="http://websitetalkingheads.com/css/fluid.css" rel="stylesheet" type="text/css" />
   <link href="http://websitetalkingheads.com/css/style.css" rel="stylesheet" type="text/css" />
   <!-- InstanceBeginEditable name="head" -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="../css/examples.css" rel="stylesheet" type="text/css" />
   <script src="../js/jquery-1.7.2.min.js" type="text/javascript"></script>
   <!-- // <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script> -->
@@ -131,6 +128,9 @@ $i++;
   <?php include ('http://websitetalkingheads.com/forms/requestQuote.php'); ?>
   <?php include ('../includes/footer25.php'); ?>
   <?php include ('../includes/chatform.php'); ?>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbOW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <!-- InstanceEndEditable -->
 </body>
 <!-- InstanceEnd -->
