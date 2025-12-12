@@ -118,41 +118,51 @@
 
 ---
 
-### Batch 4: Talking Heads Variants (5 files)
+### Batch 4: Talking Heads Variants (5 files) 🗑️ DELETED
 **Priority:** Medium
 
-- [ ] `Talking_Heads.php`
-- [ ] `Talking_Heads_v2.php`
-- [ ] `Talking_Heads_v3.php`
-- [ ] `Talking_Heads_v4.php`
-- [ ] `Talking_Heads_v5.php`
+- [x] `Talking_Heads.php` - DELETED (not used/needed) 🗑️
+- [x] `Talking_Heads_v2.php` - DELETED (not used/needed) 🗑️
+- [x] `Talking_Heads_v3.php` - DELETED (not used/needed) 🗑️
+- [x] `Talking_Heads_v4.php` - DELETED (not used/needed) 🗑️
+- [x] `Talking_Heads_v5.php` - DELETED (not used/needed) 🗑️
 
-**Testing:** Test each variant page.
+**Status:** 🗑️ DELETED - All 5 files removed (not referenced or used anywhere)
+
+**Reason:** Files were not linked or embedded from any other pages. Determined to be unused/legacy files.
+
+**Testing:** N/A - Files deleted
 
 ---
 
-### Batch 5: IVideo Directory (6 files)
+### Batch 5: IVideo Directory (6 files) ⏭️ EXCLUDED
 **Priority:** Medium
 
-- [ ] `ivideo/Talking_Heads.php`
-- [ ] `ivideo/Talking_Heads_v4.php`
-- [ ] `ivideo/Talking_Heads_v5.php`
-- [ ] `ivideo/whiteboard_video_demonstration.php`
-- [ ] `ivideo/Whiteboard.php`
-- [ ] `ivideo/collaboration_vs_survey.php`
+- [x] `ivideo/Talking_Heads.php` - EXCLUDED per user request
+- [x] `ivideo/Talking_Heads_v4.php` - EXCLUDED per user request
+- [x] `ivideo/Talking_Heads_v5.php` - EXCLUDED per user request
+- [x] `ivideo/whiteboard_video_demonstration.php` - EXCLUDED per user request
+- [x] `ivideo/Whiteboard.php` - EXCLUDED per user request
+- [x] `ivideo/collaboration_vs_survey.php` - EXCLUDED per user request
 
-**Testing:** Test video functionality on each page.
+**Status:** ⏭️ EXCLUDED - Skipping ivideo directory per user request
+
+**Testing:** N/A - Batch excluded
 
 ---
 
-### Batch 6: Root-Level Video Pages (3 files)
+### Batch 6: Root-Level Video Pages (3 files) 🗑️ DELETED
 **Priority:** Medium
 
-- [ ] `collaboration_vs_survey.php`
-- [ ] `whiteboard_video_demonstration.php`
-- [ ] `Whiteboard.php`
+- [x] `collaboration_vs_survey.php` - DELETED (not used/needed) 🗑️
+- [x] `whiteboard_video_demonstration.php` - DELETED (not used/needed) 🗑️
+- [x] `Whiteboard.php` - DELETED (not used/needed) 🗑️
 
-**Testing:** Test video functionality.
+**Status:** 🗑️ DELETED - All 3 files removed (not referenced or used anywhere)
+
+**Reason:** Files were not linked or embedded from any other pages. Determined to be unused/legacy files.
+
+**Testing:** N/A - Files deleted
 
 ---
 
@@ -318,13 +328,16 @@ After migrating each file:
 
 **Total Files:** 41  
 **Completed:** 9  
-**Remaining:** 32
+**Deleted:** 8  
+**Remaining:** 24
 
 **Batch Progress:**
 - Batch 1 (Error Pages): 3/3 ✅
 - Batch 2 (4.0.0 Update): 1/1 ✅
 - Batch 3 (Examples): 5/5 ✅
-- Batch 4 (Talking Heads): 0/5
+- Batch 4 (Talking Heads): 5/5 🗑️ DELETED
+- Batch 5 (IVideo): EXCLUDED ⏭️
+- Batch 6 (Root Video): 3/3 🗑️ DELETED
 - Batch 5 (IVideo): 0/6
 - Batch 6 (Root Video): 0/3
 - Batch 7 (Specialty Players): 0/8
@@ -338,6 +351,8 @@ After migrating each file:
 ## Notes
 
 - **EXCLUDED:** `actors/includes/footer.php` and `actors/includes/actors-head.php` (added to `.cursorignore`)
+- **EXCLUDED:** `ivideo/` directory - All files in Batch 5 skipped per user request
+- **DELETED:** Batch 4 (5 files) and Batch 6 (3 files) - Removed unused/legacy files that were not referenced anywhere
 - Some files may have additional dependencies - check each file individually
 - After Phase 6, proceed to Phase 7 (Bootstrap 3 class migration) for HTML class updates
 - This migration only updates Bootstrap includes, not HTML classes (that's Phase 7)

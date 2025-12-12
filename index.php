@@ -123,14 +123,16 @@
 </section>
 <section class="alert alert-info">
   <h4>About Us</h4>
-  <div class="row">
-    <div class="col-lg-6">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
       <div id="about">
         <p>Since 2001 we have been passionately helping businesses improve their websites with video. We understand the business of Online Video and we specialize in web video using a <strong>Video Spokesperson</strong>. We pride ourselves on our talented, professional spokespeople and video artists.</p>
         <p>We shoot and build all our videos here at our studio to maintain quality and precision. We do not outsource our filming to any other studios. We film it all HERE!.</p>
       </div>
     </div>
-    <div class="col-lg-6">
+  </div>
+  <div class="row justify-content-center mt-4">
+    <div class="col-lg-8">
       <div id="about-video">
         <div class="embed-responsive embed-responsive-16by9">
           <iframe src="https://player.vimeo.com/video/980928274?h=75a684a5ff&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TalkingHeadsWebsite"></iframe>

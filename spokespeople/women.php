@@ -14,6 +14,32 @@
 <?php include("../includes/top-b4.php"); ?>
 <link href="../actors/css/spokespeople.css" rel="stylesheet" type="text/css">
 <link href="../actors/css/actors-grid.css?v=20251205m5" rel="stylesheet" type="text/css">
+<style>
+/* Fix header navigation styles overridden by actors-grid.css */
+.actors-page header .navbar-images .img-nav {
+    max-width: 100px !important;
+    min-width: 80px !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.actors-page header .navbar-images .caption {
+    color: #000 !important;
+    font-size: 0.9rem !important;
+    position: absolute !important;
+    left: 50% !important;
+    top: 40% !important;
+    transform: translate(-50%, -50%) !important;
+    pointer-events: none !important;
+    font-weight: 700 !important;
+    white-space: nowrap !important;
+}
+
+.actors-page header .navbar-images .nav-item {
+    position: relative !important;
+    display: inline-block !important;
+}
+</style>
 </head>
 
 <body class="actors-page">

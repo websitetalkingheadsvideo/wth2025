@@ -1,6 +1,37 @@
 # Version History
 
-## Current Version: 0.2.18
+## Current Version: 0.2.20
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.20
+- Removed legacy Talking_Heads.php variants (v1-v5) and old index variations
+- Deleted deprecated Whiteboard.php and collaboration_vs_survey.php files
+- Updated spokesperson-specials.php with enhanced functionality
+- Updated spokespeople/men.php and spokespeople/women.php
+- Updated mobile.css styling
+- Updated Bootstrap migration plan documentation
+- Updated index.php
+
+---
+
+## Version 0.2.19
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.19
+- Removed entire support directory (100+ legacy files including HTML5 story content, videos, and assets)
+- Updated multiple PHP pages (401.php, 403.php, base.php, examples pages, mst3k.php) with header/footer includes
+- Added MCP environment setup documentation and scripts (.cursor/MCP_ENV_SETUP.md, setup-mcp-env.ps1)
+- Added CSS refactor planning documentation (plan/css-*.md files)
+- Updated .cursorignore and .env.example
+- Enhanced footer.css with additional styling
+
+---
+
+## Version 0.2.18
 
 **Date:** January 15, 2025  
 **Type:** Patch Update
