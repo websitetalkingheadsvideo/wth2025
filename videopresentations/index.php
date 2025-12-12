@@ -58,7 +58,7 @@
   </div>
 </div>
 </header>
-<section class="container-fluid bg-black">
+<section class="container-fluid bg-primary">
   <div class="">
     <div class="text-white text-center">
       <h1 class="h2 py-3 wow bounceInDown"><span id="span-full">What Type of Video Does</span> <span>Your Company Need?</span></h1>

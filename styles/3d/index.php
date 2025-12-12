@@ -17,21 +17,24 @@
 
 <body>
 <?php include("../../includes/header25.php"); ?>
-<header class="header-video">
-  <div class="overlay"> </div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="https://www.websitetalkingheads.com/ivideo/videos/Thing-a-Ma-Bob.mp4" type="video/mp4">
-  </video>
-  <div class="container h-100">
-    <div class="d-flex h-100 text-center align-items-center mt-3">
-      <div class="video-holder text-white">
-        <h1 class="display-4 wow bounceInDown">3d Animation</h1>
-        <p class="lead mb-0 wow bounceInUp">Eye Catching Videos</p>
+<section class="jumbotron">
+  <div class="row" id="ht">
+    <div class="col-xl-8" id="video">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe src="https://player.vimeo.com/video/980927975?h=abbe1e2c28&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Talking Heads Promo" data-ready="true"></iframe>
+          <script src="https://player.vimeo.com/api/player.js"></script> 
+        </div>
+    </div>
+    <div class="col-xl-4">
+      <div class="card card-contact-lg">
+        <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase">Contact Us</h5>
+        <div class="card-body">
+          <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/6WfFZtxIYlaDFR4wTsVVlsIHtzxSXXyZyYRL3Dszh0VTEFZRPJOThyDuWpXMrwOaYP"><script src="https://webforms.pipedrive.com/f/loader"></script></div>
+        </div>
       </div>
-      <?php include("../../forms/contact-card.php")?>
     </div>
   </div>
-</header>
+</section>
 <section class="pb-5 bg-light">
   <h2 class="text-center pt-1">3d Animation Examples</h2>
   <?php $type = "3d";$show = 12;$rand =false;$columns = 3; include("../includes/showPortfolio.php");?>

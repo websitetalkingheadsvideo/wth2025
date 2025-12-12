@@ -1,6 +1,18 @@
 # Version History
 
-## Current Version: 0.2.24
+## Current Version: 0.2.25
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.25
+- Updated videopresentations pages with code formatting and structure improvements
+- Enhanced CSS styling for videopresentations section
+- Refactored multiple video presentation pages for consistency
+
+---
+
+## Version 0.2.24
 
 **Date:** January 15, 2025  
 **Type:** Patch Update

@@ -26,27 +26,24 @@
   </div>
 </div>
 <?php include("../includes/header25.php"); ?>
-<header class="header-video">
-<div class="overlay">
-</div>
-<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><!-- InstanceBeginEditable name="Hero Video" -->
-      <source src="https://www.websitetalkingheads.com/ivideo/videos/Why Talking Heads.mp4" type="video/mp4">
-  <!-- InstanceEndEditable --></video>
-<div class="container-fluid h-100">
-<div class="container-fluid" style="min-height: 24rem">
-  <div class="row text-center" style="min-height: 24rem">
-    <div class="text-white col-lg-9">
-      <!-- InstanceBeginEditable name="Page Title" -->
-        <h1 class="display-4 wow bounceInDown">Custom Specialty Videos</h1>
-        <p class="lead mb-0 wow bounceInUp">Results Driven Videos</p>
-      <!-- InstanceEndEditable -->
+<section class="jumbotron">
+  <div class="row" id="ht">
+    <div class="col-xl-8" id="video">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe src="https://player.vimeo.com/video/980927975?h=abbe1e2c28&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Talking Heads Promo" data-ready="true"></iframe>
+          <script src="https://player.vimeo.com/api/player.js"></script> 
+        </div>
     </div>
-    <div class="col-lg-3 my-auto">
-      <?php include("../forms/contact-card.php")?>
+    <div class="col-xl-4">
+      <div class="card card-contact-lg">
+        <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase">Contact Us</h5>
+        <div class="card-body">
+          <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/6WfFZtxIYlaDFR4wTsVVlsIHtzxSXXyZyYRL3Dszh0VTEFZRPJOThyDuWpXMrwOaYP"><script src="https://webforms.pipedrive.com/f/loader"></script></div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-</header>
+</section>
 <section class="pb-5 bg-light"> <!-- InstanceBeginEditable name="Examples" -->
     <h1 class="text-center pt-1">Specialty Examples</h1>
     <?php $type = "Specialty";$show = 12;$rand = false;$columns = 2; include("../styles/includes/showPortfolio.php");?>
