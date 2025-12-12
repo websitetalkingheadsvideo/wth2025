@@ -10,37 +10,78 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <?php include("../includes/css-b4.php"); ?>
 <link href="../css/awards-index.css" rel="stylesheet" type="text/css">
+<link href="../css/videopresentations-custom-presentations.css" rel="stylesheet" type="text/css">
 </head>
+<body>
+<div id="loading">
+  <div class="spinner-grow text-primary" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+</div>
 <?php include ('../includes/header25.php'); ?>
 <section class="jumbotron">
-  <div class="text-center">
-    <h1>Talking Heads Awards</h1>
-    <div class="d-flex align-items-center">
-      <div class="col-lg-5 offset-1">
+  <div class="row" id="ht">
+    <div class="col-xl-8" id="video">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe src="https://player.vimeo.com/video/980896915?h=717926640e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Our Awards"></iframe>
+          <iframe src="https://player.vimeo.com/video/980896915?h=717926640e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Our Awards" data-ready="true"></iframe>
           <script src="https://player.vimeo.com/api/player.js"></script> 
         </div>
-      </div>
-      <div class="col-lg-5 text-center">
-        <h2 class="h4">Talking Heads<span class="smaller">®</span> has earned many awards over the years.</h2>
-        <h3 class="h4">These include Video Production, Our Video Spokespeople, Explainer Videos, and Video SEO.</h3>
-        <h2><i class="fal fa-trophy-alt"></i></h2>
+    </div>
+    <div class="col-xl-4">
+      <div class="card card-contact-lg">
+        <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase">Contact Us</h5>
+        <div class="card-body">
+          <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/6WfFZtxIYlaDFR4wTsVVlsIHtzxSXXyZyYRL3Dszh0VTEFZRPJOThyDuWpXMrwOaYP"><script src="https://webforms.pipedrive.com/f/loader"></script></div>
+        </div>
       </div>
     </div>
   </div>
 </section>
-<?php include('awards-cards.php'); ?>
-<section class="container-fluid mb-3">
-  <div class="d-flex align-items-center">
-    <div class="col-lg-4 offset-1">
-      <?php include ('../ivideo/contact.php'); ?>
-    </div>
-    <div class="col-lg-6">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe src="https://player.vimeo.com/video/980463583?h=ace683e80d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Why Talking Heads"></iframe>
+<section class="pb-5 bg-light">
+    <h1 class="text-center pt-1">Talking Heads Awards</h1>
+    <p class="text-center">Talking Heads<span class="smaller">®</span> has earned many awards over the years. These include Video Production, Our Video Spokespeople, Explainer Videos, and Video SEO.</p>
+    <?php include('awards-cards.php'); ?>
+</section>
+<section class="container-fluid bg-light py-2">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <div class="card wow zoomIn">
+          <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase">Talking Heads <strong>Awards</strong> Recognition</h5>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-5">
+                <h6 class="card-title">Award Categories</h6>
+                <ul class="list-group">
+                  <li class="list-group-item">Video SEO</li>
+                  <li class="list-group-item">Video Spokesperson</li>
+                  <li class="list-group-item">Digital Marketing</li>
+                  <li class="list-group-item">Video Production</li>
+                  <li class="list-group-item">Explainer Videos</li>
+                </ul>
+              </div>
+              <div class="col-lg-7">
+                <h6 class="card-title">Recognition</h6>
+                <ul class="list-group">
+                  <li class="list-group-item">Best in Search #1 Video SEO</li>
+                  <li class="list-group-item">Best in Search #1 Video Spokesperson</li>
+                  <li class="list-group-item">Best in Search Digital Marketing</li>
+                  <li class="list-group-item">Winner Best Web Design Agencies - Video Production</li>
+                  <li class="list-group-item">Winner Best Web Design Agencies - Explainer Video</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
+</section>
+<section class="alert alert-info mt-4">
+  <div class="container">
+    <h2 class="text-capitalize text-center">Why Video?</h2>
+    <p>Nowadays, Video SEO plays a major role in the search engine results positioning of your site. It improves your business by increasing visibility to your websites on search engines like Yahoo, Bing, and Google. This results in increasing website site visitors and establishment with the brand. This helps in sustaining a loyal customer base.</p>
+    <p>Even if you know about search engine search optimization tactics, it is difficult to perform these strategies without any help. This is a technical job, which requires time, expertise, and the right tools. That is why it is imperative for SEO professionals to perform this task of search engine ranking for your online business.</p>
   </div>
 </section>
 <?php include("../includes/footer25.php"); ?>

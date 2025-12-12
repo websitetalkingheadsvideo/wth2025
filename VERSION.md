@@ -1,6 +1,20 @@
 # Version History
 
-## Current Version: 0.2.28
+## Current Version: 0.2.29
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.29
+- Restructured awards page to match custom-presentations layout
+- Added contact form in jumbotron section with video
+- Converted awards display to portfolio-style grid layout
+- Added matching background colors for corresponding rows in Award Categories and Recognition columns
+- Updated Awards Recognition section with improved column alignment and styling
+
+---
+
+## Version 0.2.28
 
 **Date:** January 15, 2025  
 **Type:** Patch Update

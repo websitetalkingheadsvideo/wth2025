@@ -7,8 +7,8 @@ if($number){
 $result = $conn->query( $sql );
 if ( $result->num_rows > 0 ) {
     echo PHP_EOL;
-    echo( '<section class="alert alert-info">
-			<div class="card-columns">' );
+    echo( '<div class="container-fluid px-4">
+			<div class="portfolio" style="grid-template-columns: auto auto auto">' );
     echo PHP_EOL;
     while ( $row = $result->fetch_assoc() ) {
         $name = $row[ "name" ];
@@ -38,7 +38,7 @@ if ( $result->num_rows > 0 ) {
         echo PHP_EOL;
     }
     echo( '</div>
-		</section>' );
+		</div>' );
 
 } else {
     echo "0 results";

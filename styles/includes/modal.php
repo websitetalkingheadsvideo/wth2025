@@ -8,7 +8,7 @@
       <div class="embed-responsive embed-responsive-16by9">
         <iframe id="talking-heads-video" class="embed-responsive-item" src="" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="talking-heads-video"></iframe>
       </div>
-      <div class="modal-footer" style="padding: .5rem">
+      <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>

@@ -2,8 +2,48 @@
  * Extracted <style> block from awards/index.php
  */
 
+.card-award {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-award:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-award .card-header {
+    padding: 1rem;
+    text-align: center;
+    background: #fff;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.card-award .card-image-top {
+    margin-bottom: 1rem;
+}
+
 .card-award img {
     max-width: 210px;
+    height: auto;
+}
+
+.card-award .card-title {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.card-award .card-body {
+    flex: 1;
+    padding: 1rem;
+    background: #f8f9fa;
 }
 
 /* Ensure embed-responsive containers have height when used with d-flex */
@@ -17,5 +57,39 @@
     content: "";
     display: block;
     padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+/* Awards grid uses portfolio grid styles */
+.portfolio .card-award {
+    margin: 0;
+}
+
+/* Align Award Categories and Recognition columns in Awards Recognition section */
+section.bg-light .card .card-body .row > div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.bg-light .card .card-body .card-title {
+    margin-bottom: 1rem;
+    min-height: 2.5rem;
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+section.bg-light .card .card-body .list-group {
+    flex: 1;
+    margin-top: 0;
+}
+
+/* Matching background colors for corresponding rows in both columns */
+section.bg-light .card .card-body .list-group-item:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+
+section.bg-light .card .card-body .list-group-item:nth-child(even) {
+    background-color: #ffffff;
 }
 

@@ -1,0 +1,1 @@
+document.querySelector('.item')?.click();
