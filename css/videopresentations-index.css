@@ -2,12 +2,37 @@
  * Extracted inline styles from videopresentations/index.php
  */
 
-/* Header video container minimum height */
-.videopresentations-header .container-fluid {
-    min-height: 24rem;
+/* Header video container - full width, no overflow */
+.header-video {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    position: relative;
 }
 
-.videopresentations-header .row {
-    min-height: 24rem;
+.header-video video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.header-video .container-fluid {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Header video container minimum height */
+
+/* Add padding below "Click for Examples" text */
+.more-title {
+    padding-bottom: 1rem;
+}
+
+/* How to Order section - background color to complement orange and white text */
+section.container-fluid.mb-4 {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    padding: 3rem 0;
+    border-radius: 0;
 }
 

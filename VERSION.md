@@ -1,6 +1,19 @@
 # Version History
 
-## Current Version: 0.2.23
+## Current Version: 0.2.24
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.24
+- Updated spokespeople pages (men.php, women.php) with enhanced functionality
+- Improved videopresentations/index.php structure and styling
+- Enhanced CSS files (common.css, mobile.css, videopresentations-index.css)
+- Updated .gitignore and documentation files
+
+---
+
+## Version 0.2.23
 
 **Date:** January 15, 2025  
 **Type:** Patch Update

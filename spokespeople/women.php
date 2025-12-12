@@ -11,7 +11,7 @@
 <meta name="rating" content="general"/>
 <meta name="Content-Language" content="english"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<?php include("../includes/top-b4.php"); ?>
+<?php include("../includes/css-b4.php"); ?>
 <link href="../actors/css/spokespeople.css" rel="stylesheet" type="text/css">
 <link href="../actors/css/actors-grid.css?v=20251205m5" rel="stylesheet" type="text/css">
 <style>
@@ -39,27 +39,81 @@
     position: relative !important;
     display: inline-block !important;
 }
+
+/* Fix phone number styling to match other pages */
+.actors-page header .navbar-text {
+    font-size: inherit !important;
+}
+
+.actors-page header .phone-header {
+    font-size: clamp(24px, 2.5vw, 48px) !important;
+    margin-bottom: 0 !important;
+    font-weight: 700 !important;
+    text-shadow: none !important;
+}
+
+.actors-page header .phone-header,
+.actors-page header .phone-header *,
+.actors-page header .phone-header li,
+.actors-page header .phone-header a {
+    font-size: clamp(24px, 2.5vw, 48px) !important;
+}
+
+.actors-page header .phone-header a {
+    color: #549BFF !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+@media (max-width: 991.98px) {
+    .actors-page header .phone-header {
+        margin-top: 12px !important;
+        margin-bottom: 8px !important;
+        text-align: center !important;
+        text-shadow: none !important;
+    }
+
+    .actors-page header .phone-header a {
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 14px 28px !important;
+        background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%) !important;
+        color: #fff !important;
+        border-radius: 50px !important;
+        font-size: 1.2rem !important;
+        box-shadow: 0 4px 15px rgba(40,167,69,0.4) !important;
+        text-shadow: none !important;
+    }
+
+    .actors-page header .phone-header a::before {
+        content: "\f095" !important;
+        font-family: "Font Awesome 5 Free" !important;
+        font-weight: 900 !important;
+        margin-right: 10px !important;
+    }
+}
 </style>
 </head>
 
 <body class="actors-page">
-<div class="actors-sticky-header">
-  <?php include('../includes/header25.php'); ?>
+<?php include('../includes/header25.php'); ?>
 
-  <section class="actors-header">
-    <h1>Talking Heads<sup>&reg;</sup> Spokespeople</h1>
-    <p>Professional video spokespeople for your website</p>
-  </section>
+<section class="actors-header">
+  <h1>Talking Heads<sup>&reg;</sup> Spokespeople</h1>
+  <p>Professional video spokespeople for your website</p>
+</section>
 
-  <nav class="navbar actors-nav">
-    <div class="navbar-nav container justify-content-center">
-      <ul class="nav justify-content-center">
-        <li class="nav-item"><a class="nav-link" id="men" href="men.php">Men</a></li>
-        <li class="nav-item"><a class="nav-link active" id="women" href="women.php">Women</a></li>
-      </ul>
-    </div>
-  </nav>
-</div>
+<nav class="navbar actors-nav">
+  <div class="navbar-nav container justify-content-center">
+    <ul class="nav justify-content-center">
+      <li class="nav-item"><a class="nav-link" id="men" href="men.php">Men</a></li>
+      <li class="nav-item"><a class="nav-link active" id="women" href="women.php">Women</a></li>
+    </ul>
+  </div>
+</nav>
 
 <section class="container-fluid">
   <?php $carousel = "female1"; include("includes/demo-grid.php"); ?>

@@ -14,7 +14,6 @@
 
 /* Shared header video container pattern - used across videopresentations and styles pages */
 .header-video-header .container-fluid,
-.videopresentations-header .container-fluid,
 .custom-presentations-header .container-fluid,
 .website-spokesperson-header .container-fluid,
 .viral-commercial-header .container-fluid,
@@ -24,13 +23,12 @@
 }
 
 .header-video-header .row,
-.videopresentations-header .row,
 .custom-presentations-header .row,
 .website-spokesperson-header .row,
 .viral-commercial-header .row,
 .whiteboard-styles-header .row,
 .choosing-spokesperson-header .row {
-    min-height: 24rem;
+    min-height: auto;
 }
 
 /* Exit popup background - used in base.php and specialty players */

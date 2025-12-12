@@ -35,11 +35,23 @@
 </video>
 <div class="container-fluid h-100">
 <div class="container-fluid videopresentations-header">
-  <div class="row text-center videopresentations-header">
-    <div class="text-white col-xl-8 col-lg-5">
-      <h1 class="display-4 wow bounceInDown">Choose from 6 Video Styles Below</h1>
+  <div class="row">
+    <div class="col-12 text-center mb-2">
+      <h2 class="h3 text-dark wow fadeIn">🎥 Bring Your Brand to Life with Custom Video Presentations</h2>
     </div>
-    <div class="col-xl-3 col-lg-6 my-auto pt-2" >
+  </div>
+  <div class="row align-items-start videopresentations-header">
+    <div class="text-dark col-xl-7 col-lg-7">
+      <div class="wow fadeIn">
+        <p class="mb-3">At Talking Heads® Video, we create more than just videos — we produce compelling visual stories that capture attention, explain your message, and move your audience to action.</p>
+        <p class="mb-3">Our wide range of video production services is designed to help businesses like yours stand out in a crowded digital space. Whether you're launching a product, explaining a service, or building brand awareness, we offer the perfect format to match your goals and your audience. Custom-tailored and brand-focused, our video presentations are ideal for websites, landing pages, and internal communications. Let a spokesperson explain your offer clearly, professionally, and with personality. Want to go viral? We create short-form commercials engineered for maximum impact on platforms like YouTube, Facebook, Instagram, and TikTok. Perfect for product launches and ad campaigns. Our whiteboard videos simplify complex ideas using hand-drawn visuals and clear narration. They're a favorite for explainer videos, educational content, and training modules. Need something more immersive? 3D animation adds depth and visual interest to your message. From character animation to product modeling, we bring ideas to life with cinematic flair. Showcase your product in action. Our product demo videos highlight features, benefits, and use cases in a way that builds trust and drives conversions. These videos combine motion graphics, voiceover, and storytelling to break down complex topics and make your message easy to understand — and impossible to ignore.</p>
+        <h3 class="h5 mb-2">🚀 Let's Create Something Amazing</h3>
+        <p class="mb-3">Ready to start your project? Whether you're looking to educate, persuade, or entertain, Talking Heads® Video has the experience and creativity to deliver results.</p>
+        <p class="mb-4"><strong>📞 Get in touch today!</strong> Fill out the contact form to schedule a free consultation and let's talk about how video can power up your marketing strategy.</p>
+        <h1 class="display-4 wow bounceInDown mb-0">Choose from 6 Video Styles Below</h1>
+      </div>
+    </div>
+    <div class="col-xl-5 col-lg-5 pt-2" >
       <?php include("../forms/contact-card.php")?>
       <?php include("../includes/awards_b4.php"); ?>
     </div>
@@ -56,11 +68,6 @@
         <div class="col-lg-6">
           <div class="wow fadeInLeft">
             <a class="text-orange" href="custom-presentations.php"><img src="../ivideo/videos/Silver Sky.jpg" alt="Video Presentation - Silver Sky" width="1920" height="1080"  class="img-fluid fade-mine" title="Video Presentation"/>
-            <div class="more">
-              <div class="more-title">
-                Click for Examples
-              </div>
-            </div>
             </a>
           </div>
           <div class="text-center wow fadeIn">
@@ -71,11 +78,6 @@
         <div class="col-lg-6">
           <div class="wow fadeInRight">
             <a class="text-orange" href="viral-commercials.php"><img src="../ivideo/videos/Blue Bow.jpg" alt="Viral Commercial - Blue Bow" width="1920" height="1080"  class="img-fluid fade-mine" title="Viral Commercials"/>
-            <div class="more">
-              <div class="more-title">
-                Click for Examples
-              </div>
-            </div>
             </a>
           </div>
           <div class="text-center wow fadeIn">
@@ -88,11 +90,6 @@
         <div class="col-lg-6">
           <div class="wow fadeInLeft">
             <a href="../whiteboard/index.php"><img src="../ivideo/videos/Amerilife.jpg" alt="Whiteboard Video - Amerilife" width="1920" height="1080"  class="img-fluid fade-mine" title="Whiteboard Videos"/>
-            <div class="more">
-              <div class="more-title">
-                Click for Examples
-              </div>
-            </div>
             </a>
           </div>
           <div class="text-center wow fadeIn">
@@ -102,11 +99,6 @@
         </div><div class="col-lg-6">
           <div class="wow fadeInUp">
             <a href="https://www.websitetalkingheads.com/styles/3d/"><img src="../ivideo/videos/BeyondHIE-Sarah.jpg" alt="3d Animation" width="1920" height="1080"  class="img-fluid fade-mine" title="3d Animation"/>
-            <div class="more">
-              <div class="more-title">
-                Click for Examples
-              </div>
-            </div>
             </a>
           </div>
           <div class="text-center wow fadeIn">
@@ -119,11 +111,6 @@
         <div class="col-lg-6">
           <div class="wow fadeInUp">
             <a href="../product-demonstrations/"><img  class="img-fluid fade-mine" src="../ivideo/videos/Cosmetics Demo.jpg" width="1920" height="1080" alt="Product Demonstrations - Cosmetics"/>
-            <div class="more">
-              <div class="more-title">
-                Click for Examples
-              </div>
-            </div>
             </a>
           </div>
           <div class="text-center wow fadeIn">
@@ -134,11 +121,6 @@
         <div class="col-lg-6">
           <div class="wow fadeInRight">
             <a href="animation.php"><img src="../ivideo/videos/Fuzook.jpg" alt="Animation Explainers - Fuzook" width="1920" height="1080"  class="img-fluid fade-mine" title="Animated Explainers"/>
-            <div class="more">
-              <div class="more-title">
-                Click for Examples
-              </div>
-            </div>
             </a>
           </div>
           <div class="text-center wow fadeIn">
@@ -182,7 +164,6 @@
     </div>
   </div>
 </section>
-<?php include("../includes/call-contact.php"); ?>
 <?php include("../includes/footer25.php"); ?>
 <?php include("../styles/includes/modal.php");?>
 </body>
