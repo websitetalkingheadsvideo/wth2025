@@ -2,21 +2,13 @@
 session_start();
 
 // Configuration
-define('RECAPTCHA_SITE_KEY', '6LcmdSATAAAAAGWw734vGo0AXQwuxJS7RmDZA_Fe');
-define('RECAPTCHA_SECRET_KEY', '6LcymSYsAAAAAO08FaRR3HDJC2M9xug5Lt0Ma91p');
+define('RECAPTCHA_SITE_KEY', '6LcYMiosAAAAAIHSQ6T8faGc6smlu56rZpAI8o9j');
+define('RECAPTCHA_SECRET_KEY', '6LcYMiosAAAAAFPjg2BMzgScENJXQIsHKxJxAUtz');
 define('EMAIL_TO', 'sales@websitetalkingheads.com,andy@websitetalkingheads.com');
 define('EMAIL_FROM', 'noreply@websitetalkingheads.com');
-define('EMAIL_SUBJECT', 'Order Submitted from WebsiteTalkingHeads');
+define('EMAIL_SUBJECT', 'Video Sale');
 
-// Load reCAPTCHA library using autoloader
-$autoloadPath = __DIR__ . '/../forms/vender/autoload.php';
-if (file_exists($autoloadPath)) {
-    require_once $autoloadPath;
-} else {
-    // Fallback: try direct require if autoloader not found
-    require_once __DIR__ . '/../forms/ReCaptcha/ReCaptcha.php';
-    require_once __DIR__ . '/../forms/ReCaptcha/RequestMethod/Post.php';
-}
+// reCAPTCHA verification will be done via direct API call
 
 // Initialize errors array
 $errors = [];
@@ -74,53 +66,80 @@ if (!empty($_POST['phone'])) {
 }
 
 // Validate optional website URL
-if (!empty($_POST['cf_1150'])) {
-    $website = trim($_POST['cf_1150']);
+if (!empty($_POST['website'])) {
+    $website = trim($_POST['website']);
+    // Add http:// if no protocol is provided
+    if (!empty($website) && !preg_match('/^https?:\/\//i', $website)) {
+        $website = 'https://' . $website;
+    }
     if (!validateUrl($website)) {
-        $errors['cf_1150'] = 'Please enter a valid website URL';
+        $errors['website'] = 'Please enter a valid website URL';
     } else {
         $formData['website'] = $website;
     }
 }
 
 // Sanitize other optional fields
-$formData['account_id'] = !empty($_POST['account_id']) ? sanitizeInput($_POST['account_id']) : '';
-$formData['spokesperson'] = !empty($_POST['cf_contacts_spokesperson']) ? sanitizeInput($_POST['cf_contacts_spokesperson']) : '';
-$formData['wardrobe'] = !empty($_POST['cf_contacts_wardrobe']) ? sanitizeInput($_POST['cf_contacts_wardrobe']) : '';
-$formData['length'] = !empty($_POST['cf_contacts_length']) ? sanitizeInput($_POST['cf_contacts_length']) : '';
-$formData['videotype'] = !empty($_POST['cf_contacts_videotype']) ? sanitizeInput($_POST['cf_contacts_videotype']) : '';
-$formData['crop'] = !empty($_POST['cf_contacts_crop']) ? sanitizeInput($_POST['cf_contacts_crop']) : '';
-$formData['positioning'] = !empty($_POST['cf_contacts_positioning']) ? sanitizeInput($_POST['cf_contacts_positioning']) : '';
-$formData['start'] = !empty($_POST['cf_contacts_start']) ? sanitizeInput($_POST['cf_contacts_start']) : '';
-$formData['session'] = !empty($_POST['cf_contacts_session']) ? sanitizeInput($_POST['cf_contacts_session']) : '';
-$formData['script'] = !empty($_POST['cf_contacts_script']) ? sanitizeInput($_POST['cf_contacts_script']) : '';
-$formData['comments'] = !empty($_POST['cf_contacts_comments']) ? sanitizeInput($_POST['cf_contacts_comments']) : '';
+$formData['organization'] = !empty($_POST['organization']) ? sanitizeInput($_POST['organization']) : '';
+$formData['spokesperson'] = !empty($_POST['spokesperson']) ? sanitizeInput($_POST['spokesperson']) : '';
+$formData['wardrobe'] = !empty($_POST['wardrobe']) ? sanitizeInput($_POST['wardrobe']) : '';
+$formData['length'] = !empty($_POST['length']) ? sanitizeInput($_POST['length']) : '';
+$formData['videotype'] = !empty($_POST['videotype']) ? sanitizeInput($_POST['videotype']) : '';
+$formData['frame'] = !empty($_POST['frame']) ? sanitizeInput($_POST['frame']) : '';
+$formData['positioning'] = !empty($_POST['positioning']) ? sanitizeInput($_POST['positioning']) : '';
+$formData['autostart'] = !empty($_POST['autostart']) ? sanitizeInput($_POST['autostart']) : '';
+$formData['session'] = !empty($_POST['session']) ? sanitizeInput($_POST['session']) : '';
+$formData['script'] = !empty($_POST['script']) ? sanitizeInput($_POST['script']) : '';
+$formData['comments'] = !empty($_POST['comments']) ? sanitizeInput($_POST['comments']) : '';
 
 // Validate reCAPTCHA
 if (empty(RECAPTCHA_SECRET_KEY)) {
     $errors['recaptcha'] = 'reCAPTCHA is not configured. Please contact the administrator.';
 } else {
-    $recaptchaResponse = isset($_POST['g-recaptcha-response']) ? $_POST['g-recaptcha-response'] : '';
+    $recaptchaResponse = isset($_POST['g-recaptcha-response']) ? trim($_POST['g-recaptcha-response']) : '';
     
     if (empty($recaptchaResponse)) {
         $errors['recaptcha'] = 'Please complete the reCAPTCHA verification';
     } else {
-        try {
-            $recaptcha = new \ReCaptcha\ReCaptcha(RECAPTCHA_SECRET_KEY);
-            $resp = $recaptcha->verify($recaptchaResponse, $clientIp);
+        // Verify reCAPTCHA with Google's API
+        $verifyUrl = 'https://www.google.com/recaptcha/api/siteverify';
+        $postData = [
+            'secret' => RECAPTCHA_SECRET_KEY,
+            'response' => $recaptchaResponse,
+            'remoteip' => $clientIp
+        ];
+        
+        // Use file_get_contents to make POST request to Google's API
+        $context = stream_context_create([
+            'http' => [
+                'method' => 'POST',
+                'header' => 'Content-Type: application/x-www-form-urlencoded',
+                'content' => http_build_query($postData),
+                'timeout' => 10
+            ]
+        ]);
+        
+        $response = @file_get_contents($verifyUrl, false, $context);
+        
+        if ($response === false) {
+            $errors['recaptcha'] = 'reCAPTCHA verification connection error. Please try again.';
+        } else {
+            $responseData = json_decode($response, true);
             
-            if (!$resp->isSuccess()) {
-                $errors['recaptcha'] = 'reCAPTCHA verification failed. Please try again.';
+            if (json_last_error() !== JSON_ERROR_NONE) {
+                $errors['recaptcha'] = 'reCAPTCHA verification response error. Please try again.';
+            } elseif (!isset($responseData['success']) || $responseData['success'] !== true) {
+                // Check error codes for details
+                $errorCodes = isset($responseData['error-codes']) ? implode(', ', $responseData['error-codes']) : 'unknown error';
+                $errors['recaptcha'] = 'reCAPTCHA verification failed: ' . $errorCodes . '. Please try again.';
             }
-        } catch (Exception $e) {
-            $errors['recaptcha'] = 'reCAPTCHA verification error. Please try again.';
         }
     }
 }
 
 // If there are errors, store them in session and redirect back
 if (!empty($errors)) {
-    $_SESSION['form_errors'] = $errors;
+    $_SESSION['form_errors'] = array_values($errors); // Convert to indexed array
     $_SESSION['form_data'] = $formData;
     header('Location: index.php');
     exit;
@@ -138,8 +157,8 @@ if (!empty($formData['email'])) {
 if (!empty($formData['phone'])) {
     $emailBody .= "Phone: " . $formData['phone'] . "\n";
 }
-if (!empty($formData['account_id'])) {
-    $emailBody .= "Organization Name: " . $formData['account_id'] . "\n";
+if (!empty($formData['organization'])) {
+    $emailBody .= "Organization Name: " . $formData['organization'] . "\n";
 }
 if (!empty($formData['website'])) {
     $emailBody .= "Website: " . $formData['website'] . "\n";
@@ -158,14 +177,14 @@ if (!empty($formData['length'])) {
 if (!empty($formData['videotype'])) {
     $emailBody .= "Video Type: " . $formData['videotype'] . "\n";
 }
-if (!empty($formData['crop'])) {
-    $emailBody .= "Frame: " . $formData['crop'] . "\n";
+if (!empty($formData['frame'])) {
+    $emailBody .= "Frame: " . $formData['frame'] . "\n";
 }
 if (!empty($formData['positioning'])) {
     $emailBody .= "Positioning: " . $formData['positioning'] . "\n";
 }
-if (!empty($formData['start'])) {
-    $emailBody .= "Autostart: " . $formData['start'] . "\n";
+if (!empty($formData['autostart'])) {
+    $emailBody .= "Autostart: " . $formData['autostart'] . "\n";
 }
 if (!empty($formData['session'])) {
     $emailBody .= "Session: " . $formData['session'] . "\n";
@@ -196,10 +215,11 @@ $mailSent = @mail(EMAIL_TO, EMAIL_SUBJECT, $emailBody, $headers);
 // Clear any previous form data
 unset($_SESSION['form_errors']);
 unset($_SESSION['form_data']);
-unset($_SESSION['form_success']);
 
-// Always redirect to thank you page
-// (Email delivery is handled by server, even if mail() returns false)
-header('Location: thank-you.php');
+// Set success message
+$_SESSION['form_success'] = 'Thank you! Your order has been submitted successfully. We will contact you shortly.';
+
+// Redirect back to form with success message
+header('Location: index.php');
 exit;
 

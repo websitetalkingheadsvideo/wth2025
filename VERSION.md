@@ -1,6 +1,22 @@
 # Version History
 
-## Current Version: 0.2.32
+## Current Version: 0.2.33
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.33
+- Converted order form from vTiger dependency to standalone PHP form
+- Updated reCAPTCHA integration from v2 to v3 with matching site/secret keys
+- Fixed Content Security Policy to allow all necessary external resources (Bootstrap, Google Analytics, Clixtell, etc.)
+- Improved form submission handling with session-based error/success messages
+- Enhanced form validation and email sending to sales@websitetalkingheads.com and andy@websitetalkingheads.com
+- Fixed phone field width consistency with other form fields
+- Updated form styling with centered layout, white background, and border radius
+
+---
+
+## Version 0.2.32
 
 **Date:** January 15, 2025  
 **Type:** Patch Update

@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 
 <head>
@@ -14,7 +17,7 @@
 <meta name="verify-v1" content="YNESpqoAwK51PmBV7/PFKLG0agx7AQPKhXXcYAXGGF8="/>
 <meta name="norton-safeweb-site-verification" content="iinbv24r-1ix20hgj5l94wz2rnn3aiwi0336hwysvvpiskquy6ijsh9wy12f3znbed-hz1ay8ppzhgqap-sicqtw6ui29d0wrfcpenudh1ml9xwjbej7u25xy9pnm6yr"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com https://www.gstatic.com https://www.googletagmanager.com https://www.google-analytics.com https://cdn.jsdelivr.net https://code.jquery.com https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com https://webforms.pipedrive.com https://cdn.was-1.pipedriveassets.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com https://use.typekit.net https://p.typekit.net; frame-src 'self' https://www.google.com https://webforms.pipedrive.com https://player.vimeo.com https://www.googletagmanager.com; worker-src 'self' https://www.gstatic.com; connect-src 'self' https://www.google.com https://www.google-analytics.com https://www.gstatic.com https://webforms.pipedrive.com https://cdn.was-1.pipedriveassets.com https://cdnjs.cloudflare.com https://use.typekit.net https://p.typekit.net; img-src 'self' data: https:; font-src 'self' data: https://use.typekit.net https://p.typekit.net https://cdnjs.cloudflare.com;">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com https://www.gstatic.com https://www.googletagmanager.com https://www.google-analytics.com https://cdn.jsdelivr.net https://code.jquery.com https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com https://webforms.pipedrive.com https://cdn.was-1.pipedriveassets.com https://ssl.google-analytics.com https://googleads.g.doubleclick.net https://www.googleadservices.com https://scripts.clixtell.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com https://use.typekit.net https://p.typekit.net; frame-src 'self' https://www.google.com https://webforms.pipedrive.com https://player.vimeo.com https://www.googletagmanager.com; worker-src 'self' https://www.gstatic.com; connect-src 'self' https://www.google.com https://www.google-analytics.com https://analytics.google.com https://www.gstatic.com https://webforms.pipedrive.com https://cdn.was-1.pipedriveassets.com https://cdnjs.cloudflare.com https://use.typekit.net https://p.typekit.net https://stackpath.bootstrapcdn.com https://tracker.clixtell.com; img-src 'self' data: https:; font-src 'self' data: https://use.typekit.net https://p.typekit.net https://cdnjs.cloudflare.com;">
 <?php include("../includes/css-b4.php"); ?>
 <link href="https://www.websitetalkingheads.com/css/orderform.css" rel="stylesheet" type="text/css">
 </head>
@@ -29,8 +32,30 @@
     <div class="row justify-content-center">
       <div class="col-lg-9 border p-4 bg-white" style="border-radius: 1rem;">
         <h2 class="mb-4 text-center">Spokesperson Video Order Form</h2>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.min.css">
-    <form class="my-form" id="spokespersonOrderForm" name="Spokesperson Video Order Form" action="process-order.php" method="post" accept-charset="utf-8">
+        
+        <?php
+        // Display error messages if any
+        if (isset($_SESSION['form_errors']) && !empty($_SESSION['form_errors'])) {
+            echo '<div class="alert alert-danger" role="alert">';
+            echo '<strong>Please correct the following errors:</strong><ul class="mb-0">';
+            foreach ($_SESSION['form_errors'] as $error) {
+                echo '<li>' . htmlspecialchars($error) . '</li>';
+            }
+            echo '</ul></div>';
+            unset($_SESSION['form_errors']);
+        }
+        
+        // Display success message if redirected from thank you
+        if (isset($_SESSION['form_success'])) {
+            echo '<div class="alert alert-success" role="alert">';
+            echo htmlspecialchars($_SESSION['form_success']);
+            echo '</div>';
+            unset($_SESSION['form_success']);
+        }
+        ?>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.min.css">
+        <form class="my-form" id="spokespersonOrderForm" name="Spokesperson Video Order Form" action="process-order.php" method="post" accept-charset="utf-8">
       <div class="row">
         <div class="col-md-6">
           <table>
@@ -38,7 +63,7 @@
               <tr>
                 <td><label> Full Name
                     * </label></td>
-                <td><input type="text" name="fullname" maxlength="80" value="" required></td>
+                <td><input type="text" name="lastname" maxlength="80" value="" required></td>
               </tr>
               <tr>
                 <td><label> Email </label></td>
@@ -54,7 +79,7 @@
               </tr>
               <tr>
                 <td><label> Website </label></td>
-                <td><input type="url" name="website" maxlength="255" value=""></td>
+                <td><input type="text" name="website" maxlength="255" placeholder="https://www.example.com" value=""></td>
               </tr>
               <tr>
                 <td><label> Spokesperson </label></td>
@@ -75,11 +100,11 @@
                   </select></td>
               </tr>
               <tr>
-                <td><label  data-toggle="tooltip" data-placement="top" title="Does the video have a image, color, or transparent background"> Video Type* </label></td>
+                <td><label  data-toggle="tooltip" data-placement="top" title="Select the background type for your spokesperson video"> Video Type* </label></td>
                 <td><select id="type" name="videotype">
-                    <option value="Image"> Image </option>
-                    <option value="Color"> Color </option>
-                    <option value="Transparent"> Transparent </option>
+                    <option value="Transparent" selected title="Spokesperson appears with a transparent background (most common)"> Transparent - Spokesperson appears with a transparent background (most common) </option>
+                    <option value="Image" title="Spokesperson appears over a static background image"> Image - Spokesperson appears over a static background image </option>
+                    <option value="Color" title="Spokesperson appears over a solid color background"> Color - Spokesperson appears over a solid color background </option>
                   </select></td>
               </tr>
               <tr>
@@ -142,8 +167,8 @@
           </table>
         </div>
       </div>
-      <script src="https://www.google.com/recaptcha/api.js"></script>
-      <div class="g-recaptcha" data-sitekey="6LcmdSATAAAAAGWw734vGo0AXQwuxJS7RmDZA_Fe"></div>
+      <script src="https://www.google.com/recaptcha/api.js?render=6LcYMiosAAAAAIHSQ6T8faGc6smlu56rZpAI8o9j"></script>
+      <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
       <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js"></script>
       <script>
@@ -186,19 +211,31 @@
     </form>
     <script>
       window.addEventListener("load", function() {
-        // Form validation with reCAPTCHA
+        // reCAPTCHA v3 - execute on form submit
         var form = document.getElementById("spokespersonOrderForm");
         var submitBtn = document.getElementById("submitBtn");
-        if (form && submitBtn) {
+        var recaptchaInput = document.getElementById("g-recaptcha-response");
+        
+        if (form && submitBtn && recaptchaInput && typeof grecaptcha !== 'undefined') {
           form.addEventListener("submit", function(event) {
-            var recaptchaResponse = document.querySelector('.g-recaptcha-response');
-            if (!recaptchaResponse || !recaptchaResponse.value) {
-              event.preventDefault();
-              alert("Please complete the reCAPTCHA verification.");
-              return false;
-            }
+            event.preventDefault();
+            
             submitBtn.disabled = true;
             submitBtn.value = "Submitting...";
+            
+            // Execute reCAPTCHA v3
+            grecaptcha.ready(function() {
+              grecaptcha.execute('6LcYMiosAAAAAIHSQ6T8faGc6smlu56rZpAI8o9j', {action: 'submit'})
+                .then(function(token) {
+                  recaptchaInput.value = token;
+                  form.submit();
+                })
+                .catch(function(error) {
+                  submitBtn.disabled = false;
+                  submitBtn.value = "Submit";
+                  alert("reCAPTCHA verification failed. Please try again.");
+                });
+            });
           });
         }
       });
