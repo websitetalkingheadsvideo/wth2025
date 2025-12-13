@@ -26,6 +26,15 @@
     <div class="col-lg-10 offset-lg-1">
       <p class="lead">Green screen video production has transformed how brands connect with audiences online. Whether you're a startup or an established company, integrating a green screen spokesperson on your website can dramatically increase engagement and credibility.</p>
       
+      <div class="row mb-5 mt-4">
+        <div class="col-lg-10 offset-lg-1">
+          <video width="100%" height="auto" style="max-width: 100%; display: block;" playsinline="playsinline" controls>
+            <source src="https://www.websitetalkingheads.com/ivideo/videos/Greenbox Studio.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      
       <h2>🎥 Why Use Green Screen in Business Videos?</h2>
       <p>Green screen (also known as chroma key) allows for versatile backgrounds that match your brand's style, whether it's a sleek office look or a vibrant animation. This flexibility keeps your videos visually consistent and professionally branded, no matter where they appear on your site.</p>
       

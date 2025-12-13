@@ -71,3 +71,53 @@ body.specials .col-lg-3 .embed-responsive {
     min-height: 200px; /* Ensure minimum height for proper rendering */
 }
 
+/* Video Thumbnail Styling - Using Women's page CSS from actors-grid.css and spokespeople.css */
+/* Removed conflicting styles - let Women's page CSS handle actor-card and video styling */
+
+/* Modal Styling - Matching Spokespeople Page */
+#specialsVideoModal .modal-content {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#specialsVideoModal .modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+#specialsVideoModal .modal-title {
+    font-weight: 600;
+    color: #333;
+}
+
+#specialsVideoModal .modal-body {
+    background-color: #000;
+    padding: 0 !important;
+}
+
+#specialsVideoModal .embed-responsive {
+    background-color: #000;
+}
+
+/* Modal video container - explicit dimensions to prevent 0px height */
+#specialsVideoModal .modal-video-container {
+    background-color: #000;
+    width: 100%;
+}
+
+#specialsVideoModal .modal-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .btn-play-overlay {
+        font-size: 3rem;
+    }
+    
+    .poster.spokesperson-specials {
+        border-radius: 4px;
+    }
+}
+

@@ -1,6 +1,20 @@
 # Version History
 
-## Current Version: 0.2.30
+## Current Version: 0.2.31
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.31
+- Enhanced specials page with modal video functionality
+- Added specials-modal.js for improved video embedding
+- Updated specials-index.css with enhanced styling
+- Fixed video embedding issues in specials page
+- Added diagnostic documentation for specials page
+
+---
+
+## Version 0.2.30
 
 **Date:** January 15, 2025  
 **Type:** Patch Update

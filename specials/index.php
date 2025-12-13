@@ -13,6 +13,8 @@
 <meta name="rating" content="general">
 <meta name="content-language" content="english">
 <?php include("../includes/css-b4.php"); ?>
+<link href="../actors/css/spokespeople.css" rel="stylesheet" type="text/css">
+<link href="../actors/css/actors-grid.css?v=20251205m5" rel="stylesheet" type="text/css">
 <link href="../css/specials-index.css" rel="stylesheet" type="text/css">
 </head>
 <?php
@@ -34,38 +36,83 @@ $newdate = "THESE OFFERS EXPIRE Friday, " . $newdateBase;
   </h3>
 </section>
 <section class="container-fluid ph-4 clearfix">
-  <div class="row">
-    <div class="col-lg-5">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=<?=$male?>&autostart=no&controls=mouse&actor=true" allow="autoplay; fullscreen; picture-in-picture"></iframe>
+<div class="row">
+  <!-- LEFT ACTOR CARD: MALE -->
+  <div class="col-lg-5">
+    <?php $actor = $male; ?>
+    <div class="actor-card visible"
+         data-toggle="modal"
+         data-target=".modal-spokesperson"
+         data-video="<?= $actor ?>"
+         data-alt="<?= $actor ?> - Video Spokesperson"
+         style="--text-glow-intensity: 0; --actor-scale: 1;">
+
+      <div class="actor-card-thumbnail">
+        <video autoplay
+               loop
+               muted
+               playsinline
+               poster="https://www.websitetalkingheads.com/spokespeople/posters/<?= $actor ?>.jpg">
+          <source src="https://talkingheads.com/wp-content/uploads/videos/<?= $actor ?>.webm"
+                  type="video/webm">
+        </video>
+        <div class="actor-card-play"></div>
       </div>
-      <h3 id="male">
-        <?=$male?>
-      </h3>
-    </div>
-    <div class="col-lg-2 align-self-center specials-no">
-      <div>
-        NO HIDDEN FEES
+
+      <div class="actor-card-info">
+        <h3 class="actor-card-name">
+          <?php foreach (str_split($actor) as $letter): ?>
+            <span class="letter" style="transform: scale(1);">
+              <?= $letter ?>
+            </span>
+          <?php endforeach; ?>
+        </h3>
       </div>
-      <div>
-        NO ANNUAL FEES
-      </div>
-      <div>
-        NO HOSTING FEES
-      </div>
-      <div class="text-primary">
-        This is it!
-      </div>
-    </div>
-    <div class="col-lg-5">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=<?=$female?>&autostart=no&controls=mouse&actor=true" allow="autoplay; fullscreen; picture-in-picture"></iframe>
-      </div>
-      <h3 id="female">
-        <?=$female?>
-      </h3>
     </div>
   </div>
+
+  <!-- MIDDLE TEXT BLOCK -->
+  <div class="col-lg-2 align-self-center specials-no text-center">
+    <div>NO HIDDEN FEES</div>
+    <div>NO ANNUAL FEES</div>
+    <div>NO HOSTING FEES</div>
+    <div class="text-primary">This is it!</div>
+  </div>
+
+  <!-- RIGHT ACTOR CARD: FEMALE -->
+  <div class="col-lg-5">
+    <?php $actor = $female; ?>
+    <div class="actor-card visible"
+         data-toggle="modal"
+         data-target=".modal-spokesperson"
+         data-video="<?= $actor ?>"
+         data-alt="<?= $actor ?> - Video Spokesperson"
+         style="--text-glow-intensity: 0; --actor-scale: 1;">
+
+      <div class="actor-card-thumbnail">
+        <video autoplay
+               loop
+               muted
+               playsinline
+               poster="https://www.websitetalkingheads.com/spokespeople/posters/<?= $actor ?>.jpg">
+          <source src="https://talkingheads.com/wp-content/uploads/videos/<?= $actor ?>.webm"
+                  type="video/webm">
+        </video>
+        <div class="actor-card-play"></div>
+      </div>
+
+      <div class="actor-card-info">
+        <h3 class="actor-card-name">
+          <?php foreach (str_split($actor) as $letter): ?>
+            <span class="letter" style="transform: scale(1);">
+              <?= $letter ?>
+            </span>
+          <?php endforeach; ?>
+        </h3>
+      </div>
+    </div>
+  </div>
+</div>
 </section>
 <section class="alert alert-info text-center">
   <div class="special-holder">
@@ -134,5 +181,9 @@ $newdate = "THESE OFFERS EXPIRE Friday, " . $newdateBase;
   </div>
 </section>
 <?php include ('../includes/footer25.php'); ?>
+<?php include("../spokespeople/includes/modal.php"); ?>
+<!-- Vimeo Player API script - loaded for potential future use with Vimeo Player API features -->
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script src="js/spokesperson-grid.js?v=20251205m3"></script>
 </body>
 </html>
