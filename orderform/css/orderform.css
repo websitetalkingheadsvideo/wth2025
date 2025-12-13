@@ -216,6 +216,18 @@
   position: relative;
 }
 
+/* Ensure phone input container spans full width like other inputs */
+.my-form table td .iti {
+  width: 100%;
+  display: block;
+}
+
+/* Make sure phone input itself matches other input widths */
+.my-form table td input[data-type="phone"] {
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
 .my-form .iti__flag-container {
   position: absolute;
   top: 0;
@@ -245,6 +257,17 @@
   padding-left: 60px !important;
   width: 100% !important;
   position: relative;
+  box-sizing: border-box;
+}
+
+/* Ensure all inputs in table cells have consistent width */
+.my-form table td input[type="text"],
+.my-form table td input[type="email"],
+.my-form table td input[type="url"],
+.my-form table td select,
+.my-form table td textarea {
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* Adjust for separate dial code mode */

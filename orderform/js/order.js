@@ -13,8 +13,13 @@
 
   // Initialize when DOM is ready
   domReady(function() {
-    // Initialize Bootstrap 4 tooltips (jQuery)
-    $('[data-toggle="tooltip"]').tooltip();
+    // Initialize Bootstrap tooltips (Bootstrap 5 uses data-bs-toggle)
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      if (typeof bootstrap !== 'undefined' && bootstrap.Tooltip) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      }
+    });
 
     // Word count for script field
     var scriptField = document.getElementById('script');

@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Whiteboard Video, Animation, Explainer Video, Video Scribe, Hand Drawing Video, Chalkboard Video, Online Spokesperson, Video Spokesperson, Website Talking Heads, Website Actor, Website Video, Virtual Spokesperson, Spokesperson, Video Presenter, Website Presenter, Website Spokesperson">
+<meta name="description" content="Talking Heads can create a Whiteboard Video, Animation, Explainer Video, Video Scribe, Hand Drawing Video, Chalkboard Video.  Here you watch examples of these kinds of videos.  Contact us for more information">
+<META NAME="robots" CONTENT="index, follow">
+<title>talkingheads</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../explanationvideo/css/style.css" />
+<link rel="stylesheet" type="text/css" href="../explanationvideo/fancybox/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<link href="../explainer-video/css/example-vp.css" rel="stylesheet" type="text/css" />
+<link href="../css/examples.css" rel="stylesheet" type="text/css" />
+<!-- // <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script> -->
+<!-- // <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.1.0.js"></script>  -->
+<link rel="stylesheet" type="text/css" href="../lightbox/js/lightbox/themes/default/jquery.lightbox.css" />
+<link href="../explanationvideo/css/fluid.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+  <link rel="stylesheet" type="text/css" href="js/lightbox/themes/default/jquery.lightbox.ie6.css" />
+  <![endif]-->
+<script type="text/javascript" src="../lightbox/js/jquery.min.js"></script>
+<script type="text/javascript" src="../lightbox/js/lightbox/jquery.lightbox.min.js"></script>
+<!-- // <script type="text/javascript" src="src/jquery.lightbox.js"></script>   -->
+<script type="text/javascript">
+    jQuery(document).ready(function($){
+      $('.lightbox').lightbox();
+    });
+  </script>
+<?php include ('../includes/googleanalytics.php'); ?>
+</head>
+
+<body>
+<script type="text/javascript" src="http://websitetalkingheads.com/forms/js/validate.js"></script>
+<section class="wrap">
+    <div class="header">
+        <div class="logo"><a href="../videopresentations/index.php"></a></div>
+        <div class="header-right">
+            <div class="nav"><a href="../videopresentations/index.php">Home</a> | <a href="http://www.websitetalkingheads.com/videopresentations/animation.php">Animation</a> | <a href="../contact.php">Contact</a> </div>
+            <div class="phone"><a href="tel://801-748-2281" title="Give us a call.">1-801.748.2281</a></div>
+        </div>
+    </div>
+    </section>
+    <section class="whiteboard-demo">
+        <div class="row center-block">
+            <div class="col-md-7 center-block">
+                <div class="banner-text">Cool Explainer Videos, Whiteboard Sketch Videos, Spokesperson too!</div>
+                <div class="embed-responsive embed-responsive-16by9  banner-video">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hZylgJrhGEE?rel=0&autohide=2&showinfo=0" allowfullscreen>
+                    </iframe>
+</div>
+ </div>
+            <div class="get-a-quote col-md-5 center-block">
+                <h1>Get A Quote!</h1>
+                <div class="formbox">
+                    <form name="contactform" class="contactform center-block" action="http://www.websitetalkingheads.com/forms/getInfoSendMail.php" method="post" >
+                        <fieldset>
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <input name="name" class="form-control input-md" id="name" type="text" placeholder="Name">
+                                </div>
+                            </div>
+                            
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <input name="email" class="form-control input-md" id="emai" type="text" placeholder="Your email">
+                                </div>
+                            </div>
+                            
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <input name="phone" class="form-control input-md" id="phone" type="text" placeholder="Contact Phone">
+                                </div>
+                            </div>
+                            
+                            <!-- Textarea -->
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <textarea name="theMessage" class="form-control" id="theMessage"  placeholder="Your Message"></textarea>
+                                </div>
+                            </div>
+                            <!-- Button -->
+                            <div class="form-group">
+                                <div class="col-md-12 center-block">
+                                    <button name="submit" class="btn btn-custom" id="submit">
+                                    <h2 class="need-video">Learn More</h2>
+                                    </button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="c"></div>
+        </div>
+    </section>
+<section class="wrap">
+    <div class="content">
+        <div class="banner-bottom-text">Explanation Videos, Whiteboard Animation Videos, 3D videos <br />
+            and Spokesperson Video. </div>
+        <div class="content-text">We know all companies are not alike, so,we work with you to create the best solution for your company. Your company offers a solution to your clients, but sometimes that solution or product needs some explaining. That's where we come in. We create high impact, exciting VIDEOS that explain your product, service, software or business. </div>
+        <div class="examples">
+            <?php include ('http://www.websitetalkingheads.com/videopresentations/includes/examples-whiteboardFull.php'); ?>
+            <div class="c"></div>
+        </div>
+        <div class="c"></div>
+        <div id="exampleLine"></div>
+        <div class="examples">
+            <?php include ('http://www.websitetalkingheads.com/videopresentations/includes/examples-whiteboard-animations.php'); ?>
+            <div class="c"></div>
+        </div>
+        <div class="video-bottom"></div>
+        <div class="call-now center-block">
+            <h2>CALL NOW to Get Results!</h2>
+            <h3><a href="tel://801-748-2281" title="Give us a call.">801-748-2281</a></h3>
+        </div>
+        <div class="no-1">
+            <h1>#1 Video Production</h1>
+            <img src="../images/video-production-seal.png" /> We use fast-paced, brain stimulated imagery and content to ignite your customers build their interest in your solution and <span>ignite their buying habits</span>.<br />
+            <br />
+            You need a professional video to help customers understand your service and then be motivated to buy.  We get that! Our videos <span>focus on results</span>.<br />
+            <br />
+            After making over 15,000 videos we understand that certain styles of video work better for different companies.  Thats why we don't just make one style of video. We want to make sure you get the best results possible. </div>
+    </div>
+</div>
+<div class="footer-wrap">
+    <div class="footer">© 2013, <a href="http://websitetalkingheads.com" target="_blank">WebsiteTalkingHeads.com</a>. All Rights Reserved.</div>
+</div>
+</section>
+<?php include ('../includes/googlescripts.php'); ?>
+<script type="text/javascript" src="http://www.websitetalkingheads.com/whiteboard/wthvideo/wthvideo.js"></script> 
+<!-- Google Code for Previous Visitors --> 
+<!-- Remarketing tags may not be associated with personally identifiable 
+information or placed on pages related to sensitive categories. For 
+instructions on adding this tag and more information on the above 
+requirements, read the setup guide: google.com/ads/remarketingsetup --> 
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1058129782;
+var google_conversion_label = "-jOyCO6ZkAIQ9o7H-AM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script> 
+<script type="text/javascript" 
+src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;"> <img height="1" width="1" style="border-style:none;" alt="" 
+src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1058129782/?value=0&amp;label=-jOyCO6ZkAIQ9o7H-AM&amp;guid=ON&amp;script=0"/> </div>
+</noscript>
+<script type="text/javascript">if (typeof hmtracker == 'undefined') {var hmt_script = document.createElement('script'),hmt_purl = encodeURIComponent(location.href).replace('.', '~');hmt_script.type = "text/javascript";hmt_script.src = "https://www.websitetalkingheads.com/heatmap/?hmtrackerjs=WTH&uid=370cf24c7a34e7a3f696452761f30d5bcab302a6&purl="+hmt_purl;document.getElementsByTagName('head')[0].appendChild(hmt_script);}</script>
+</body>
+</html>

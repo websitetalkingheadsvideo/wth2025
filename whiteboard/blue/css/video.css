@@ -1,0 +1,129 @@
+.video-js { font-size: 14px; color: #fff;}
+.vjs-big-play-button { font-size: 3em; line-height: 1.5em; height: 1.5em; width: 3em; border: 0.06666em solid #fff; border-radius: 0.3em; left: 50%!important; top: 50%!important; margin-left: -1.5em; margin-top: -0.75em; }
+.video-js .vjs-control-bar, .video-js .vjs-big-play-button, .video-js .vjs-menu-button .vjs-menu-content { background-color: #3D9CEB; background-color: rgba(61, 156, 235, 0.7); }
+.video-js .vjs-slider { background-color: #FFEDCC; background-color: rgba(214, 234, 251, 0.2); }
+.video-js .vjs-volume-level, .video-js .vjs-play-progress, .video-js .vjs-slider-bar { background: #fff; }
+.video-js .vjs-load-progress { background: white; background: rgba(214, 234, 251, 0.5); }
+.video-js .vjs-load-progress div { background: white; background: rgba(214, 234, 251, 0.75); }
+.modal-header, .modal-footer { padding: 0.1rem 1rem; }
+.modal-header .btn, .modal-footer .btn { font-size: .8rem }
+#form { top: 60px; background: white; max-width: 100%; min-width: 420px; margin: 0 auto; position: absolute }
+.poster { padding: 1px; opacity: 0.95; -webkit-transition: opacity .5s; transition: opacity .5s; position: relative; cursor: pointer; background-color: #333 }
+.poster:hover { opacity: 1 }
+.poster img { display: block; width: 100%; height: auto; cursor: pointer; }
+.poster .btn-play, .poster .btn-play-small, .poster .btn-play-md { position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); background-color: #0072FF; color: white; border: 2px solid white; cursor: pointer; border-radius: 50%; opacity: 0.8; }
+.poster .btn-play:hover, .poster .btn-play-small:hover, .poster .btn-play-md:hover  { background-color: #6BCEFF; border-color: #0072FF; opacity: 0.9 }
+.vjs-poster{background-color: transparent}
+.btn-play::before, .btn-play-small::before, .btn-play-md::before { position: absolute; top: 50%; left: 53%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); font-family: "Font Awesome 5 Free"; font-weight: 600; content: "\f04b"; color: white; }
+.btn-play::before { font-size: 72px; }
+.poster .btn-play { height: 132px; width: 132px; }
+.btn-play-small::before { font-size: 22px; }
+.poster .btn-play-small { height: 48px; width: 48px; }
+.btn-play-md::before{ font-size: 42px; }
+.poster .btn-play-md { height: 72px; width: 72px; }
+.poster-title{color: #E5F0FF;font-weight: 600;margin-bottom: .5rem}
+.spokesperson,.spokesperson img{width: 160px;height: 180px}
+.text-orange a{color: #FFAE19}
+.modal-spokesperson .modal-dialog{width:  542px}
+.modal-open .modal{overflow: hidden}
+/*----------------------------*/
+#bgVideo, #ytVideo, .video-overlay { position: fixed; top: 0px; left: 0px; min-width: 100%; min-height: 50%; width: auto; height: auto; z-index: -1000; overflow: hidden; }
+.video-overlay { z-index: -100; }
+.transparent { background: transparent }
+.opacity .poster img{opacity: 70%}
+.btn-video{padding: 2rem;color: white;background-color: hsl(201, 0%, 30%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7f7f7f", endColorstr="#4c4c4c");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#7f7f7f), to(#4c4c4c));
+  background-image: -moz-linear-gradient(top, #7f7f7f, #4c4c4c);
+  background-image: -ms-linear-gradient(top, #7f7f7f, #4c4c4c);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7f7f7f), color-stop(100%, #4c4c4c));
+  background-image: -webkit-linear-gradient(top, #7f7f7f, #4c4c4c);
+  background-image: -o-linear-gradient(top, #7f7f7f, #4c4c4c);
+  background-image: linear-gradient(#7f7f7f, #4c4c4c);
+  border-color: #4c4c4c #4c4c4c hsl(201, 0%, 25%);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;}
+.btn-video:hover {
+  background-color: hsl(201, 0%, 70%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c6c6c6", endColorstr="#b2b2b2");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#c6c6c6), to(#b2b2b2));
+  background-image: -moz-linear-gradient(top, #c6c6c6, #b2b2b2);
+  background-image: -ms-linear-gradient(top, #c6c6c6, #b2b2b2);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c6c6c6), color-stop(100%, #b2b2b2));
+  background-image: -webkit-linear-gradient(top, #c6c6c6, #b2b2b2);
+  background-image: -o-linear-gradient(top, #c6c6c6, #b2b2b2);
+  background-image: linear-gradient(#c6c6c6, #b2b2b2);
+  border-color: #b2b2b2 #b2b2b2 hsl(201, 0%, 68%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.13);
+  -webkit-font-smoothing: antialiased;}
+.btn-contact {
+  background-color: hsl(213, 84%, 51%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e7f1fc", endColorstr="#1977eb");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#e7f1fc), to(#1977eb));
+  background-image: -moz-linear-gradient(top, #e7f1fc, #1977eb);
+  background-image: -ms-linear-gradient(top, #e7f1fc, #1977eb);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e7f1fc), color-stop(100%, #1977eb));
+  background-image: -webkit-linear-gradient(top, #e7f1fc, #1977eb);
+  background-image: -o-linear-gradient(top, #e7f1fc, #1977eb);
+  background-image: linear-gradient(#e7f1fc, #1977eb);
+  border-color: #1977eb #1977eb hsl(213, 84%, 40%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.72);
+  -webkit-font-smoothing: antialiased;
+}
+.btn-contact:hover {
+  background-color: hsl(213, 84%, 70%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8ebcf5", endColorstr="#72acf2");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#8ebcf5), to(#72acf2));
+  background-image: -moz-linear-gradient(top, #8ebcf5, #72acf2);
+  background-image: -ms-linear-gradient(top, #8ebcf5, #72acf2);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8ebcf5), color-stop(100%, #72acf2));
+  background-image: -webkit-linear-gradient(top, #8ebcf5, #72acf2);
+  background-image: -o-linear-gradient(top, #8ebcf5, #72acf2);
+  background-image: linear-gradient(#8ebcf5, #72acf2);
+  border-color: #72acf2 #72acf2 hsl(213, 84%, 68.5%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.09);
+  -webkit-font-smoothing: antialiased;
+}
+#bigPlayBtn {
+    height: 76px;
+    width: 160px;
+    display: block;
+    position: absolute;
+    padding: 0;
+    cursor: pointer;
+    opacity: .9;
+    left: calc(50% - (160px/2));
+    top: calc(50% - (76px/2));
+    margin: auto;
+    border-radius: 16px;
+    border: 3px solid rgba(0,163,255,.7);
+    background-color: rgba(25,71,127,.7);
+    transition: background-color .5s ease;
+    transition: border-color .5s ease;
+	color: white;
+}
+#bigPlayBtn:before {
+    position: absolute;
+    content: url(https://www.websitetalkingheads.com/ivideo/BigPlayBtn.gif);
+    left: calc(50% - (128px/2));
+    top: calc(50% - (64px/2));
+}
+/*----------------------------*/
+@media screen and (max-width:1000px) {
+.poster:nth-child(1n + 3) { display: none }
+}
+
+@media screen and (max-width:768px) {
+.poster:nth-child(1n + 4) { display: block }
+}
+
+@media screen and (max-width:576px) {
+.poster:nth-child(1n + 6) { display: none }
+}

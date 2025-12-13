@@ -1,0 +1,8 @@
+User-agent  : Googlebot
+Disallow    : /nogooglebot/
+
+User-agent  : *
+Allow       : /
+
+Sitemap     :https://www.websitetalkingheads.com/green-screen-video//sitemap.xml
+Sitemap     :https://www.websitetalkingheads.com/green-screen-video//en-en/sitemap.xml

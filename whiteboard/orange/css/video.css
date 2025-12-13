@@ -1,0 +1,32 @@
+.video-js { font-size: 14px; color: #fff; }
+.vjs-big-play-button { font-size: 3em; line-height: 1.5em; height: 1.5em; width: 3em; border: 0.06666em solid #fff; border-radius: 0.3em; left: 50%!important; top: 50%!important; margin-left: -1.5em; margin-top: -0.75em; }
+.video-js .vjs-control-bar, .video-js .vjs-big-play-button, .video-js .vjs-menu-button .vjs-menu-content { background-color: #3D9CEB; background-color: rgba(61, 156, 235, 0.7); }
+.video-js .vjs-slider { background-color: #FFEDCC; background-color: rgba(214, 234, 251, 0.2); }
+.video-js .vjs-volume-level, .video-js .vjs-play-progress, .video-js .vjs-slider-bar { background: #fff; }
+.video-js .vjs-load-progress { background: white; background: rgba(214, 234, 251, 0.5); }
+.video-js .vjs-load-progress div { background: white; background: rgba(214, 234, 251, 0.75); }
+.modal-header, .modal-footer { padding: 0.1rem 1rem; }
+.modal-header .btn, .modal-footer .btn { font-size: .8rem }
+#form { top: 60px; background: white; max-width: 100%; min-width: 420px; margin: 0 auto; position: absolute }
+.poster { padding-bottom: 1px; opacity: 0.95; -webkit-transition: opacity .5s; transition: opacity .5s; position: relative; cursor: pointer }
+.poster:hover { opacity: 1 }
+.poster img { display: block; width: 100%; height: auto; cursor: pointer; }
+.poster .btn-play, .poster .btn-play-small { position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); background-color: #0072FF; color: white; border: 2px solid white; cursor: pointer; border-radius: 50%; opacity: 0.8; }
+.poster .btn-play:hover, .poster .btn-play-small:hover { background-color: #6BCEFF;border-color: #0072FF;opacity: 0.9 }
+.btn-play::before,.btn-play-small::before { position: absolute; top: 50%; left: 53%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); font-family: "Font Awesome 5 Free"; font-weight: 600; content: "\f04b"; color: white;  }
+.btn-play::before{font-size:72px;}
+.poster .btn-play{height: 132px; width: 132px; }
+.btn-play-small::before{font-size:22px;}
+.poster .btn-play-small{height: 48px; width: 48px; }
+
+@media screen and (max-width:1000px) {
+.poster:nth-child(1n + 3) { display: none }
+}
+
+@media screen and (max-width:768px) {
+.poster:nth-child(1n + 4) { display: block }
+}
+
+@media screen and (max-width:576px) {
+.poster:nth-child(1n + 6) { display: none }
+}

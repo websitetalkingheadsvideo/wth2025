@@ -1,0 +1,37 @@
+.video-js { font-size: 14px; color: #fff; }
+.vjs-big-play-button { font-size: 3em; line-height: 1.5em; height: 1.5em; width: 3em; border: 0.06666em solid #fff; border-radius: 0.3em; left: 50%!important; top: 50%!important; margin-left: -1.5em; margin-top: -0.75em; }
+.video-js .vjs-control-bar, .video-js .vjs-big-play-button, .video-js .vjs-menu-button .vjs-menu-content { background-color: #3D9CEB; background-color: rgba(61, 156, 235, 0.7); }
+.video-js .vjs-slider { background-color: #d6eafb; background-color: rgba(214, 234, 251, 0.2); }
+.video-js .vjs-volume-level, .video-js .vjs-play-progress, .video-js .vjs-slider-bar { background: #fff; }
+.video-js .vjs-load-progress { background: white; background: rgba(214, 234, 251, 0.5); }
+.video-js .vjs-load-progress div { background: white; background: rgba(214, 234, 251, 0.75); }
+.modal-header, .modal-footer { padding: 0.1rem 1rem; }
+.modal-header .btn, .modal-footer .btn { font-size: .8rem }
+#form { top: 60px; background: white; max-width: 100%; min-width: 420px; margin: 0 auto; position: absolute }
+.poster { padding-bottom: .5rem; }
+.poster { opacity: 0.95; -webkit-transition: opacity .5s; transition: opacity .5s; position: relative; cursor: pointer; }
+.poster:hover { opacity: 1 }
+.poster img, .poster-large img { display: block; width: 100%; height: auto; }
+.poster-title { }
+.poster-button { position: absolute; top: 50%; height: 72px; width: 72px; left: 50%; margin-left: -36px; margin-top: -36px; transition: .5s ease; opacity: 1;border-radius: 50% }
+.poster-button::before { position: absolute; left: 4px; top: auto; bottom: -12px; right: auto; content: "\f144"; color: white; font-size: 64px;font-family: "Font Awesome 5 Free"; font-weight: 600; }
+.poster-button:hover { opacity: 0.7 }
+.poster-button-small { opacity: 1; position: absolute; top: 50%; height: 36px; width: 36px; left: 50%; margin-left: -18px; margin-top: -18px; transition: .5s ease; border-radius: 50% }
+.poster-button-small:hover { opacity: .5 }
+.poster-button-small::before { position: absolute; left: 2px; top: -6px; bottom: auto; right: auto; font-family: "Font Awesome 5 Free"; font-weight: 600; content: "\f144"; color: white; font-size: 32px; }
+textarea { width: 100% }
+.bd-blue { border: medium solid #549BFF; padding: .5rem; border-radius: .5rem }
+.bg-grey { background: #888888 }
+input, textarea { background: #D5EEFF }
+
+@media screen and (max-width:1000px) {
+.poster:nth-child(1n + 3) { display: none }
+}
+
+@media screen and (max-width:768px) {
+.poster:nth-child(1n + 4) { display: block }
+}
+
+@media screen and (max-width:576px) {
+.poster:nth-child(1n + 6) { display: none }
+}

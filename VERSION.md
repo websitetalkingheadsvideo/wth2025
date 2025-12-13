@@ -1,6 +1,24 @@
 # Version History
 
-## Current Version: 0.2.31
+## Current Version: 0.2.32
+
+**Date:** January 15, 2025  
+**Type:** Patch Update
+
+### Changes in 0.2.32
+- Enhanced order form with improved styling and functionality
+- Updated orderform/index.php with better structure and form handling
+- Updated orderform CSS and JavaScript for better user experience
+- Updated specialty players (Postal-Exit-Intent, exit-intent, keep-em-here) with header/footer improvements
+- Updated contact forms across specialty players
+- Video file updates in keep-em-here directory
+- Documentation updates (UNUSED_CSS_JS_REPORT.md, swf_flv_removal_summary.md)
+- Added whiteboard directory with new files and structure
+- Added spokespeople directory enhancements (green-screen-video, includes, posters)
+
+---
+
+## Version 0.2.31
 
 **Date:** January 15, 2025  
 **Type:** Patch Update
